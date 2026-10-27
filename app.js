@@ -196,7 +196,7 @@ function renderHome() {
   const today = progress.activities.filter(activity => dayKey(activity.at) === dayKey(Date.now()));
   const total = progress.activities.length;
   const correct = progress.activities.filter(activity => activity.correct).length;
-  main.append(heading('yyw，今天也进步一点。', '从一道题开始，把知识慢慢变成自己的。'), bankNotice(), el('div', { class: 'stats-grid' },
+  main.append(heading('yeyezi，今天也进步一点。', '从一道题开始，把知识慢慢变成自己的。'), bankNotice(), el('div', { class: 'stats-grid' },
     stat(bankKind === 'demo' ? '示例题目' : '题库题目', bank.questions.length, '道', `${new Set(bank.questions.map(question => question.chapter)).size} 个章节，逐步掌握`, '▤'),
     stat('今日已练', today.length, '题', today.length ? '每一道认真思考，都算数' : '第一道题，等你开始', '◷'),
     stat('累计正确率', total ? percentage(correct, total) : '—', total ? '%' : '', total ? `已累计提交 ${total} 次作答` : '开始练习后，记录会出现在这里', '↗')));
