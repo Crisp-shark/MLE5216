@@ -1,0 +1,1157 @@
+{
+  "file": "SEM",
+  "totalPdfPages": 50,
+  "pageNumbering": "All numeric references use 1-based PDF ordinal pages. PDF p44 footer says48/50; PDF pp45–48 footers say44–47/50.",
+  "questionCount": 28,
+  "questionStyle": "Four independent English statements, select all correct, no number-of-correct-options hint; plausible mechanism or scope misconceptions.",
+  "curation": "28 principle- and application-led English questions. Numerical recall, case-value memorization and arithmetic are removed; Chinese explanations include per-option judgments, key English vocabulary and an explicit causal chain.",
+  "coverageMethod": "Each inventory item names an actually tested proposition. testedBy stores exact option text, so it remains valid after publication rearranges option letters. A false proposition tests the corresponding misconception, corrected in its explanation.",
+  "topics": [
+    {
+      "topic": "Focused-electron scanning; comparison with scanning confocal microscopy",
+      "pages": [
+        17
+      ],
+      "questionIds": [
+        "SEM-001"
+      ],
+      "testedBy": [
+        {
+          "questionId": "SEM-001",
+          "optionText": "SEM replaces the focused light beam of a scanning optical microscope with a focused electron beam."
+        }
+      ]
+    },
+    {
+      "topic": "High resolution, large depth of field and three-dimensional morphology; qualified performance claims",
+      "pages": [
+        17,
+        18,
+        49
+      ],
+      "questionIds": [
+        "SEM-001"
+      ],
+      "testedBy": [
+        {
+          "questionId": "SEM-001",
+          "optionText": "Its spatial resolution and large depth of field are useful for studying rough surface morphology."
+        },
+        {
+          "questionId": "SEM-001",
+          "optionText": "A surface image by itself determines both the topography and the complete elemental composition."
+        }
+      ]
+    },
+    {
+      "topic": "Morphology versus local chemical information and spectroscopy",
+      "pages": [
+        18,
+        49
+      ],
+      "questionIds": [
+        "SEM-001"
+      ],
+      "testedBy": [
+        {
+          "questionId": "SEM-001",
+          "optionText": "A BSE image provides the same quantitative chemical information as an elemental spectrum."
+        }
+      ]
+    },
+    {
+      "topic": "Electron acceleration, qualitative energy–wavelength relation",
+      "pages": [
+        20
+      ],
+      "questionIds": [
+        "SEM-002"
+      ],
+      "testedBy": [
+        {
+          "questionId": "SEM-002",
+          "optionText": "Raising beam energy shortens the electron wavelength and improves the diffraction-only expectation."
+        },
+        {
+          "questionId": "SEM-002",
+          "optionText": "The detector assigns every detected electron to the same physical point where it was generated, so lateral spreading cannot blur an image."
+        }
+      ]
+    },
+    {
+      "topic": "Rayleigh wavelength/NA dependence and qualitative trend versus practical resolution",
+      "pages": [
+        20,
+        36,
+        37
+      ],
+      "questionIds": [
+        "SEM-002"
+      ],
+      "testedBy": [
+        {
+          "questionId": "SEM-002",
+          "optionText": "Raising beam energy shortens the electron wavelength and improves the diffraction-only expectation."
+        },
+        {
+          "questionId": "SEM-002",
+          "optionText": "In a bulk specimen, higher-energy electrons can spread farther sideways before generating the measured signal."
+        },
+        {
+          "questionId": "SEM-002",
+          "optionText": "A voltage setting must balance the wavelength benefit against the size of the signal-generating region."
+        }
+      ]
+    },
+    {
+      "topic": "SEM hardware roles: electron source, accelerator, condenser, objective, scan coils, detectors and readout",
+      "pages": [
+        21,
+        22
+      ],
+      "questionIds": [
+        "SEM-003"
+      ],
+      "testedBy": [
+        {
+          "questionId": "SEM-003",
+          "optionText": "Electron gun: supplies electrons; accelerator: sets beam energy and influences interaction depth."
+        },
+        {
+          "questionId": "SEM-003",
+          "optionText": "Condenser lenses: control electron illumination; objective lens: controls focus and influences resolution."
+        },
+        {
+          "questionId": "SEM-003",
+          "optionText": "Scan coils: control beam position and scanned area, thereby affecting magnification."
+        },
+        {
+          "questionId": "SEM-003",
+          "optionText": "Detectors and readout: associate measured signal intensity with raster positions to construct the image."
+        }
+      ]
+    },
+    {
+      "topic": "Raster dwell, serial pixel acquisition, scan direction versus flyback and scan-speed/SNR trade-off",
+      "pages": [
+        22
+      ],
+      "questionIds": [
+        "SEM-004"
+      ],
+      "testedBy": [
+        {
+          "questionId": "SEM-004",
+          "optionText": "The frame is assembled serially, although raster acquisition can still be fast."
+        },
+        {
+          "questionId": "SEM-004",
+          "optionText": "A slower scan can improve signal-to-noise ratio by allowing more signal collection at each position."
+        },
+        {
+          "questionId": "SEM-004",
+          "optionText": "In the illustrated raster, flyback contributes image data in the same way as the forward scan."
+        },
+        {
+          "questionId": "SEM-004",
+          "optionText": "All raster positions must be exposed simultaneously before any pixel intensity is recorded."
+        }
+      ]
+    },
+    {
+      "topic": "Large-area exploration and navigation compared with SPM; scan-area magnification versus resolution",
+      "pages": [
+        18,
+        21,
+        22,
+        36
+      ],
+      "questionIds": [
+        "SEM-005"
+      ],
+      "testedBy": [
+        {
+          "questionId": "SEM-005",
+          "optionText": "Reducing the scanned specimen area at fixed display size increases magnification, without itself guaranteeing newly resolved detail."
+        },
+        {
+          "questionId": "SEM-005",
+          "optionText": "SEM navigation is restricted to the same small fixed field in the way described for scanning-probe exploration."
+        },
+        {
+          "questionId": "SEM-005",
+          "optionText": "Changing the scan area necessarily changes the kinetic energy of every electron."
+        },
+        {
+          "questionId": "SEM-005",
+          "optionText": "Increasing displayed magnification alone removes the specimen interaction-volume limit."
+        }
+      ]
+    },
+    {
+      "topic": "Tutorial 4: beam current as electron delivery rate versus beam energy as kinetic energy",
+      "pages": [
+        50
+      ],
+      "questionIds": [
+        "SEM-006"
+      ],
+      "testedBy": [
+        {
+          "questionId": "SEM-006",
+          "optionText": "Increasing current at fixed energy increases the electron arrival rate without changing what energy per electron means."
+        },
+        {
+          "questionId": "SEM-006",
+          "optionText": "Beam energy concerns individual-electron kinetic energy; changing it can affect wavelength and surface sensitivity."
+        },
+        {
+          "questionId": "SEM-006",
+          "optionText": "Increasing current and increasing accelerating voltage are interchangeable ways of shortening the wavelength."
+        }
+      ]
+    },
+    {
+      "topic": "Current–noise–damage trade-off; energy-dependent surface sensitivity",
+      "pages": [
+        42,
+        44,
+        50
+      ],
+      "questionIds": [
+        "SEM-006"
+      ],
+      "testedBy": [
+        {
+          "questionId": "SEM-006",
+          "optionText": "Beam energy concerns individual-electron kinetic energy; changing it can affect wavelength and surface sensitivity."
+        },
+        {
+          "questionId": "SEM-006",
+          "optionText": "Reducing current can reduce beam damage but may make the image noisier."
+        }
+      ]
+    },
+    {
+      "topic": "Tutorial 2: resolution balance between wavelength and lateral spreading in thick specimens",
+      "pages": [
+        36,
+        37
+      ],
+      "questionIds": [
+        "SEM-007"
+      ],
+      "testedBy": [
+        {
+          "questionId": "SEM-007",
+          "optionText": "For the same bulk material, increasing beam energy can increase penetration and lateral spreading."
+        },
+        {
+          "questionId": "SEM-007",
+          "optionText": "The smallest interaction volume is the only factor that determines the final SEM resolution."
+        }
+      ]
+    },
+    {
+      "topic": "Interaction-volume depth/lateral spread versus beam energy and nuclear charge; qualitative energy-series chart",
+      "pages": [
+        37
+      ],
+      "questionIds": [
+        "SEM-007"
+      ],
+      "testedBy": [
+        {
+          "questionId": "SEM-007",
+          "optionText": "For the same bulk material, increasing beam energy can increase penetration and lateral spreading."
+        },
+        {
+          "questionId": "SEM-007",
+          "optionText": "A larger nuclear charge can deflect electrons more strongly and give a smaller interaction volume."
+        },
+        {
+          "questionId": "SEM-007",
+          "optionText": "Changing specimen composition cannot change electron trajectories if the accelerating voltage is fixed."
+        }
+      ]
+    },
+    {
+      "topic": "SE source, excitation from specimen states, low energy, shallow escape and positive detector",
+      "pages": [
+        38,
+        39
+      ],
+      "questionIds": [
+        "SEM-008"
+      ],
+      "testedBy": [
+        {
+          "questionId": "SEM-008",
+          "optionText": "SE are low-energy specimen electrons that mainly escape from a shallow region near the surface."
+        },
+        {
+          "questionId": "SEM-008",
+          "optionText": "SE are incident beam electrons elastically turned back near sample nuclei."
+        },
+        {
+          "questionId": "SEM-008",
+          "optionText": "SE retain energies comparable to the primary beam and therefore directly sample the same deeper region as BSE."
+        },
+        {
+          "questionId": "SEM-008",
+          "optionText": "The positive charge of the SE detector pushes secondary electrons away from it."
+        }
+      ]
+    },
+    {
+      "topic": "Tutorial 1: SE edge brightness from free-surface geometry; topography versus chemistry",
+      "pages": [
+        39,
+        50
+      ],
+      "questionIds": [
+        "SEM-009"
+      ],
+      "testedBy": [
+        {
+          "questionId": "SEM-009",
+          "optionText": "A larger fraction of the interaction region is close to an accessible free surface at an edge."
+        },
+        {
+          "questionId": "SEM-009",
+          "optionText": "More low-energy SE can escape and reach the detector, producing topographic contrast."
+        },
+        {
+          "questionId": "SEM-009",
+          "optionText": "The brightness proves that the edges must contain heavier elements than the flat regions."
+        },
+        {
+          "questionId": "SEM-009",
+          "optionText": "Edge enhancement requires SE to escape directly from every point throughout the full primary-beam interaction volume."
+        }
+      ]
+    },
+    {
+      "topic": "BSE beam origin, nuclear electrostatic/elastic scattering, high energy and deeper source region",
+      "pages": [
+        38,
+        40
+      ],
+      "questionIds": [
+        "SEM-010"
+      ],
+      "testedBy": [
+        {
+          "questionId": "SEM-010",
+          "optionText": "BSE originate in the incident beam and can be turned back by strong interaction near specimen nuclei."
+        },
+        {
+          "questionId": "SEM-010",
+          "optionText": "Their relatively high energies allow a deeper sampling region than the low-energy SE signal."
+        },
+        {
+          "questionId": "SEM-010",
+          "optionText": "BSE are newly emitted valence electrons rather than incident electrons."
+        },
+        {
+          "questionId": "SEM-010",
+          "optionText": "The nuclear backscattering process taught here requires almost all electron kinetic energy to be lost."
+        }
+      ]
+    },
+    {
+      "topic": "Tutorial 5: proton-number dependence of BSE chemical contrast; spectroscopy limitation",
+      "pages": [
+        40,
+        49,
+        50
+      ],
+      "questionIds": [
+        "SEM-011"
+      ],
+      "testedBy": [
+        {
+          "questionId": "SEM-011",
+          "optionText": "A larger nuclear proton number can increase backscattering and produce composition-dependent intensity."
+        },
+        {
+          "questionId": "SEM-011",
+          "optionText": "A single BSE grey value uniquely identifies an element without additional chemical information."
+        },
+        {
+          "questionId": "SEM-011",
+          "optionText": "BSE contrast is chemical because the detected BSE are emitted from the core levels of sample atoms."
+        }
+      ]
+    },
+    {
+      "topic": "Same-region SE/BSE examples: Pt/ceramic and Ag/Au in SiO₂; complementary contrast",
+      "pages": [
+        41
+      ],
+      "questionIds": [
+        "SEM-011"
+      ],
+      "testedBy": [
+        {
+          "questionId": "SEM-011",
+          "optionText": "SE and BSE images of the same region can emphasize different properties: surface shape and composition."
+        }
+      ]
+    },
+    {
+      "topic": "Beam-energy-dependent SE contrast and vanadium-oxide nanotube example; interaction versus escape depth",
+      "pages": [
+        38,
+        39,
+        42
+      ],
+      "questionIds": [
+        "SEM-012"
+      ],
+      "testedBy": [
+        {
+          "questionId": "SEM-012",
+          "optionText": "Changing beam energy can change SE contrast without proving that the specimen topography changed."
+        },
+        {
+          "questionId": "SEM-012",
+          "optionText": "Because SE directly escape only from a shallow layer, their image contrast cannot depend on the deeper interaction-volume changes caused by beam energy."
+        }
+      ]
+    },
+    {
+      "topic": "Depth of field versus aperture/convergence angle; distinction from penetration and lateral resolution",
+      "pages": [
+        43
+      ],
+      "questionIds": [
+        "SEM-012"
+      ],
+      "testedBy": [
+        {
+          "questionId": "SEM-012",
+          "optionText": "A smaller aperture and convergence angle can increase depth of field."
+        },
+        {
+          "questionId": "SEM-012",
+          "optionText": "Depth of field is defined by the deepest penetration point of the primary beam."
+        }
+      ]
+    },
+    {
+      "topic": "Grounding and conductive contact materials; carbon-tape powder support",
+      "pages": [
+        23
+      ],
+      "questionIds": [
+        "SEM-013"
+      ],
+      "testedBy": [
+        {
+          "questionId": "SEM-013",
+          "optionText": "A grounded conductive base, connected using silver paint, graphite paint or carbon tape, can drain charge; carbon tape can also support powders."
+        }
+      ]
+    },
+    {
+      "topic": "Non-conducting bulk coating, carbon/metals and sputtering versus heavy-metal contrast staining",
+      "pages": [
+        24
+      ],
+      "questionIds": [
+        "SEM-013"
+      ],
+      "testedBy": [
+        {
+          "questionId": "SEM-013",
+          "optionText": "Non-conductive bulk specimens often need a thin carbon or metal coating, commonly applied by sputter coating."
+        },
+        {
+          "questionId": "SEM-013",
+          "optionText": "Polymer or biological specimens may require heavy-metal staining for useful contrast."
+        }
+      ]
+    },
+    {
+      "topic": "Dry/bulk/powder specimen forms and preventive height check",
+      "pages": [
+        24
+      ],
+      "questionIds": [
+        "SEM-013"
+      ],
+      "testedBy": [
+        {
+          "questionId": "SEM-013",
+          "optionText": "Dry bulk and powder samples are usable, but specimen height should still be checked to avoid instrument damage."
+        }
+      ]
+    },
+    {
+      "topic": "Venting, gloves and vacuum cleanliness; chamber camera and rotating/moving stage",
+      "pages": [
+        25,
+        26,
+        34
+      ],
+      "questionIds": [
+        "SEM-014"
+      ],
+      "testedBy": [
+        {
+          "questionId": "SEM-014",
+          "optionText": "Vent for specimen exchange and use gloves to help keep the vacuum environment clean."
+        },
+        {
+          "questionId": "SEM-014",
+          "optionText": "Use the chamber camera and stage to position the sample relative to the objective, then pump down before imaging."
+        }
+      ]
+    },
+    {
+      "topic": "Vacuum to reduce electron–air scattering; low-magnification navigation and main alignment sequence",
+      "pages": [
+        27,
+        34
+      ],
+      "questionIds": [
+        "SEM-014"
+      ],
+      "testedBy": [
+        {
+          "questionId": "SEM-014",
+          "optionText": "Use the chamber camera and stage to position the sample relative to the objective, then pump down before imaging."
+        },
+        {
+          "questionId": "SEM-014",
+          "optionText": "Begin with a low-magnification overview, center the region of interest, and perform voltage, focus, aperture and astigmatism adjustments."
+        },
+        {
+          "questionId": "SEM-014",
+          "optionText": "A high-magnification image should replace the initial overview, because magnification alone guarantees safe specimen positioning."
+        }
+      ]
+    },
+    {
+      "topic": "Aperture alignment: rigid image shift through focus",
+      "pages": [
+        28
+      ],
+      "questionIds": [
+        "SEM-015"
+      ],
+      "testedBy": [
+        {
+          "questionId": "SEM-015",
+          "optionText": "Rigid focus-dependent image shift calls for checking aperture centering."
+        },
+        {
+          "questionId": "SEM-015",
+          "optionText": "The two symptoms establish the same fault, so aperture centering always replaces stigmator adjustment."
+        },
+        {
+          "questionId": "SEM-015",
+          "optionText": "Ordinary refocusing alone removes the cause of both symptoms without any alignment change."
+        }
+      ]
+    },
+    {
+      "topic": "Astigmatism: perpendicular elongation; multipole stigmator and oval-to-circular beam correction",
+      "pages": [
+        29
+      ],
+      "questionIds": [
+        "SEM-015"
+      ],
+      "testedBy": [
+        {
+          "questionId": "SEM-015",
+          "optionText": "Perpendicular elongations call for the stigmator, a multipole adjustment that reshapes an oval beam toward a circular beam."
+        },
+        {
+          "questionId": "SEM-015",
+          "optionText": "The two symptoms establish the same fault, so aperture centering always replaces stigmator adjustment."
+        },
+        {
+          "questionId": "SEM-015",
+          "optionText": "Ordinary refocusing alone removes the cause of both symptoms without any alignment change."
+        }
+      ]
+    },
+    {
+      "topic": "Butterfly case: optical survey, SEM finer detail and top/side-view three-dimensional light-diffusing structure",
+      "pages": [
+        31,
+        32,
+        35
+      ],
+      "questionIds": [
+        "SEM-016"
+      ],
+      "testedBy": [
+        {
+          "questionId": "SEM-016",
+          "optionText": "Reflection light microscopy can provide an initial survey, while SEM reveals finer surface structure."
+        },
+        {
+          "questionId": "SEM-016",
+          "optionText": "Views of fine three-dimensional structure can help investigate an optical function without directly identifying a pigment."
+        }
+      ]
+    },
+    {
+      "topic": "Butterfly case: carbon mounting, sputtered gold and charging-induced flicker",
+      "pages": [
+        33,
+        34
+      ],
+      "questionIds": [
+        "SEM-016"
+      ],
+      "testedBy": [
+        {
+          "questionId": "SEM-016",
+          "optionText": "A conductive contact and an appropriate thin coating can help charge leave a non-conductive specimen."
+        },
+        {
+          "questionId": "SEM-016",
+          "optionText": "Accumulated negative charge attracts and stabilizes the negative electron beam."
+        }
+      ]
+    },
+    {
+      "topic": "Beam damage mechanisms: polymer deformation, heating and etching; lower-current remedy",
+      "pages": [
+        44
+      ],
+      "questionIds": [
+        "SEM-017"
+      ],
+      "testedBy": [
+        {
+          "questionId": "SEM-017",
+          "optionText": "Polymer swelling or shrinkage, heating and etching can be beam damage; reducing beam current is the suggested remedy."
+        }
+      ]
+    },
+    {
+      "topic": "Hydrocarbon polymerization contamination, residue avoidance and distinguishing scanned-area artefacts",
+      "pages": [
+        44
+      ],
+      "questionIds": [
+        "SEM-017"
+      ],
+      "testedBy": [
+        {
+          "questionId": "SEM-017",
+          "optionText": "A hydrocarbon residue can polymerize under irradiation, so avoiding organic residue addresses contamination."
+        },
+        {
+          "questionId": "SEM-017",
+          "optionText": "A persistent dark patch does not by itself prove charging rather than contamination or physical damage."
+        },
+        {
+          "questionId": "SEM-017",
+          "optionText": "Conductive grounding alone removes the organic residue responsible for irradiation-induced contamination."
+        }
+      ]
+    },
+    {
+      "topic": "Charging mechanism, scan distortion/flicker, conductive drainage versus ESEM neutralization",
+      "pages": [
+        23,
+        24,
+        33,
+        44,
+        46
+      ],
+      "questionIds": [
+        "SEM-018"
+      ],
+      "testedBy": [
+        {
+          "questionId": "SEM-018",
+          "optionText": "Provide a path for accumulated electrons to leave, or use suitable ESEM charge neutralization when coating is unsuitable."
+        },
+        {
+          "questionId": "SEM-018",
+          "optionText": "Switch from SE to BSE detection and assume that unchanged specimen preparation can no longer charge."
+        },
+        {
+          "questionId": "SEM-018",
+          "optionText": "Treat the distortion as proof of aperture decentering, even if it is unrelated to changing focus."
+        },
+        {
+          "questionId": "SEM-018",
+          "optionText": "Use conductive coating only to improve focus, because charge accumulation cannot deflect a beam."
+        }
+      ]
+    },
+    {
+      "topic": "ESEM local gas/ambient-capable specimen environment, evacuated column, pressure-limiting apertures and differential pumping",
+      "pages": [
+        45
+      ],
+      "questionIds": [
+        "SEM-019"
+      ],
+      "testedBy": [
+        {
+          "questionId": "SEM-019",
+          "optionText": "Most of the column stays under vacuum, while pressure-limiting apertures and differential pumping allow gas near the sample."
+        },
+        {
+          "questionId": "SEM-019",
+          "optionText": "The electron gun, column and sample must all be at unrestricted ambient pressure."
+        },
+        {
+          "questionId": "SEM-019",
+          "optionText": "Pressure-limiting apertures actively pump away gas, so pumping between them is unnecessary."
+        },
+        {
+          "questionId": "SEM-019",
+          "optionText": "ESEM succeeds by eliminating every interaction between electrons and gas molecules."
+        }
+      ]
+    },
+    {
+      "topic": "ESEM charge-neutralization chain: gas ionization by SE/BSE, ion signs, sample attraction and detector repulsion",
+      "pages": [
+        46
+      ],
+      "questionIds": [
+        "SEM-020"
+      ],
+      "testedBy": [
+        {
+          "questionId": "SEM-020",
+          "optionText": "SE and BSE emitted from the specimen can ionize nearby gas and generate positive ions."
+        },
+        {
+          "questionId": "SEM-020",
+          "optionText": "The negatively charged specimen attracts the positive ions."
+        },
+        {
+          "questionId": "SEM-020",
+          "optionText": "The positive SE detector repels positive ions toward the specimen, helping them neutralize accumulated negative charge."
+        },
+        {
+          "questionId": "SEM-020",
+          "optionText": "Negative gas ions must add more negative charge to the specimen for neutralization to occur."
+        }
+      ]
+    },
+    {
+      "topic": "Tutorial 3: ESEM versus light microscopy for high-resolution wet, vacuum-sensitive or uncoatable specimens",
+      "pages": [
+        45,
+        47,
+        50
+      ],
+      "questionIds": [
+        "SEM-021"
+      ],
+      "testedBy": [
+        {
+          "questionId": "SEM-021",
+          "optionText": "In-situ observation of wet materials and real-time gas/liquid/solid interactions."
+        },
+        {
+          "questionId": "SEM-021",
+          "optionText": "Observing uncoatable archaeological material when finer spatial detail than optical microscopy is required."
+        },
+        {
+          "questionId": "SEM-021",
+          "optionText": "An insulating ceramic must always receive a metal coating even when effective ESEM ion neutralization is available."
+        }
+      ]
+    },
+    {
+      "topic": "ESEM applications: gas/liquid/solid dynamics, cement, archaeological samples, non-conducting ceramic and unstained copolymer",
+      "pages": [
+        47
+      ],
+      "questionIds": [
+        "SEM-021"
+      ],
+      "testedBy": [
+        {
+          "questionId": "SEM-021",
+          "optionText": "In-situ observation of wet materials and real-time gas/liquid/solid interactions."
+        },
+        {
+          "questionId": "SEM-021",
+          "optionText": "Observing uncoatable archaeological material when finer spatial detail than optical microscopy is required."
+        },
+        {
+          "questionId": "SEM-021",
+          "optionText": "Imaging a non-conducting ceramic or the illustrated unstained di-block copolymer without the usual charging preparation."
+        }
+      ]
+    },
+    {
+      "topic": "ESEM NaCl hydration: same-area time sequence and water-related dynamics",
+      "pages": [
+        48
+      ],
+      "questionIds": [
+        "SEM-022"
+      ],
+      "testedBy": [
+        {
+          "questionId": "SEM-022",
+          "optionText": "Repeated images of the same region can follow hydration or other gas–liquid–solid changes over time."
+        }
+      ]
+    },
+    {
+      "topic": "ESEM aqueous titania/AgNO₃ example: BSE sequence, beam-induced Ag reduction and measurement perturbation",
+      "pages": [
+        48
+      ],
+      "questionIds": [
+        "SEM-022"
+      ],
+      "testedBy": [
+        {
+          "questionId": "SEM-022",
+          "optionText": "Electron-beam-induced reduction can produce metal deposits, so the observation may alter the process being observed."
+        },
+        {
+          "questionId": "SEM-022",
+          "optionText": "Using ESEM ensures that an electron beam cannot cause a chemical transformation in liquid."
+        },
+        {
+          "questionId": "SEM-022",
+          "optionText": "A BSE image sequence directly gives calibrated concentrations of every dissolved species."
+        }
+      ]
+    },
+    {
+      "topic": "Sensitivity–resolution overview: spot size versus concentration range and non-universal capability boundaries",
+      "pages": [
+        15
+      ],
+      "questionIds": [
+        "SEM-023"
+      ],
+      "testedBy": [
+        {
+          "questionId": "SEM-023",
+          "optionText": "Analytical spot size and concentration detection range are separate performance dimensions; the smallest spot need not give the lowest detection limit."
+        },
+        {
+          "questionId": "SEM-023",
+          "optionText": "Every boundary in the overview chart is a guaranteed specification for all instruments and samples."
+        }
+      ]
+    },
+    {
+      "topic": "Technique selection by desired morphology/chemistry information rather than magnification alone",
+      "pages": [
+        18,
+        49
+      ],
+      "questionIds": [
+        "SEM-023"
+      ],
+      "testedBy": [
+        {
+          "questionId": "SEM-023",
+          "optionText": "The desired information—surface shape, local composition or a real chemical characterization—matters in addition to spatial resolution."
+        },
+        {
+          "questionId": "SEM-023",
+          "optionText": "The technique with the greatest displayed magnification must be optimal for every material and measurement."
+        }
+      ]
+    },
+    {
+      "topic": "Integrated interpretation: SE geometry, BSE chemistry, energy-dependent lateral blur and limits of intensity-only inference",
+      "pages": [
+        36,
+        37,
+        39,
+        40,
+        41,
+        42,
+        49
+      ],
+      "questionIds": [
+        "SEM-024"
+      ],
+      "testedBy": [
+        {
+          "questionId": "SEM-024",
+          "optionText": "Edge geometry can enhance SE escape even where composition is uniform."
+        },
+        {
+          "questionId": "SEM-024",
+          "optionText": "Composition-dependent backscattering can make an inclusion bright, but its exact identity still needs chemical evidence."
+        },
+        {
+          "questionId": "SEM-024",
+          "optionText": "A shorter wavelength at higher voltage prevents lateral spreading from reducing image detail."
+        },
+        {
+          "questionId": "SEM-024",
+          "optionText": "The different observations should be interpreted through their signal mechanisms rather than one universal brightness rule."
+        }
+      ]
+    },
+    {
+      "topic": "Method correlation: optical overview, SEM surface detail and large-area navigation versus scanning-probe exploration",
+      "pages": [
+        17,
+        18,
+        31,
+        32,
+        35
+      ],
+      "questionIds": [
+        "SEM-025"
+      ],
+      "testedBy": [
+        {
+          "questionId": "SEM-025",
+          "optionText": "Use a light-microscope overview to locate a region before investigating finer surface detail with SEM."
+        },
+        {
+          "questionId": "SEM-025",
+          "optionText": "Use SEM for large-area exploration with easy changes of position and magnification."
+        },
+        {
+          "questionId": "SEM-025",
+          "optionText": "Assume a scanning-probe instrument and SEM offer the same ease of surveying a large specimen."
+        },
+        {
+          "questionId": "SEM-025",
+          "optionText": "Choose the method with the largest displayed magnification without considering the required information."
+        }
+      ]
+    },
+    {
+      "topic": "Application: reducing current versus slower acquisition, useful signal and specimen damage",
+      "pages": [
+        22,
+        44,
+        50
+      ],
+      "questionIds": [
+        "SEM-026"
+      ],
+      "testedBy": [
+        {
+          "questionId": "SEM-026",
+          "optionText": "A slower scan can collect more signal per position and improve signal-to-noise ratio."
+        },
+        {
+          "questionId": "SEM-026",
+          "optionText": "Raising beam energy is identical to restoring the previous electron arrival rate."
+        },
+        {
+          "questionId": "SEM-026",
+          "optionText": "Reducing current can protect the specimen, while the acquisition settings must still provide enough useful signal."
+        },
+        {
+          "questionId": "SEM-026",
+          "optionText": "Increasing display magnification alone supplies the missing detected electrons."
+        }
+      ]
+    },
+    {
+      "topic": "Tutorial application: task-dependent ESEM versus light microscopy for wet, insulating and uncoatable samples",
+      "pages": [
+        45,
+        46,
+        47,
+        50
+      ],
+      "questionIds": [
+        "SEM-027"
+      ],
+      "testedBy": [
+        {
+          "questionId": "SEM-027",
+          "optionText": "The experiment needs spatial detail beyond light microscopy while preserving a suitable wet environment."
+        },
+        {
+          "questionId": "SEM-027",
+          "optionText": "Gas near the specimen can support charge neutralization of an insulating surface."
+        },
+        {
+          "questionId": "SEM-027",
+          "optionText": "The mere presence of water makes ESEM preferable even if an optical method already answers the question."
+        },
+        {
+          "questionId": "SEM-027",
+          "optionText": "Choosing ESEM removes the need to consider what information the detector actually measures."
+        }
+      ]
+    },
+    {
+      "topic": "Mechanism-based diagnosis: conductive treatment does not remove contamination or all beam damage",
+      "pages": [
+        23,
+        24,
+        33,
+        44
+      ],
+      "questionIds": [
+        "SEM-028"
+      ],
+      "testedBy": [
+        {
+          "questionId": "SEM-028",
+          "optionText": "Improved charge drainage can reduce flicker without preventing all beam damage."
+        },
+        {
+          "questionId": "SEM-028",
+          "optionText": "Hydrocarbon contamination can still polymerize under the beam, so cleanliness remains important."
+        },
+        {
+          "questionId": "SEM-028",
+          "optionText": "A stable image proves that the specimen remains physically and chemically unchanged."
+        },
+        {
+          "questionId": "SEM-028",
+          "optionText": "Charging, contamination and beam damage are different mechanisms and may need different remedies."
+        }
+      ]
+    }
+  ],
+  "excludedPages": [
+    {
+      "pages": [
+        1
+      ],
+      "reason": "封面，无独立教学知识点。"
+    },
+    {
+      "pages": [
+        2,
+        3
+      ],
+      "reason": "考试反馈开场与提问渠道。"
+    },
+    {
+      "pages": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "reason": "Part 1期中示例及讲解，仅参考老师多选题风格；不将未提供的Part 1内容编入SEM正式题库。"
+    },
+    {
+      "pages": [
+        14
+      ],
+      "reason": "课程时间表，无技术考点。"
+    },
+    {
+      "pages": [
+        16
+      ],
+      "reason": "SEM课程目录，具体条目均由后续教学内容覆盖。"
+    },
+    {
+      "pages": [
+        19
+      ],
+      "reason": "Canvas教学视频提示页；未取得视频本体，不从截图补造视频内容。"
+    },
+    {
+      "pages": [
+        30
+      ],
+      "reason": "课间休息与提问提示；背景图未作为独立考点。"
+    }
+  ],
+  "crossLectureSupport": [
+    {
+      "semPages": [
+        50
+      ],
+      "temPages": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "reason": "Explicit answers to the five SEM tutorials: edge brightness, resolution-energy balance, ESEM versus optical microscopy, current versus energy, and BSE chemical contrast."
+    }
+  ],
+  "tutorialCoverage": {
+    "1": [
+      "SEM-009"
+    ],
+    "2": [
+      "SEM-002"
+    ],
+    "3": [
+      "SEM-021"
+    ],
+    "4": [
+      "SEM-006"
+    ],
+    "5": [
+      "SEM-011"
+    ]
+  },
+  "caseAndFigureCoverage": {
+    "sensitivityResolutionChart": [
+      "SEM-023"
+    ],
+    "rasterAndFlyback": [
+      "SEM-004"
+    ],
+    "apertureFocusShift": [
+      "SEM-015"
+    ],
+    "astigmatismThroughFocus": [
+      "SEM-015"
+    ],
+    "butterflyCase": [
+      "SEM-016"
+    ],
+    "interactionVolumeEnergySeries": [
+      "SEM-007"
+    ],
+    "sameRegionSeBseComparisons": [
+      "SEM-011"
+    ],
+    "vanadiumOxideEnergySeries": [
+      "SEM-012"
+    ],
+    "depthOfFieldGeometry": [
+      "SEM-012"
+    ],
+    "scannedAreaArtefacts": [
+      "SEM-017",
+      "SEM-018"
+    ],
+    "esemDifferentialPumping": [
+      "SEM-019"
+    ],
+    "esemIonNeutralization": [
+      "SEM-020"
+    ],
+    "nonconductingCeramicAndCopolymer": [
+      "SEM-021"
+    ],
+    "saltHydrationAndAgDeposition": [
+      "SEM-022"
+    ]
+  },
+  "tutorialPriority": "Each of the five teacher SEM tutorials has one explicitly tagged conversion; applications revisit the same reasoning without numerical recall."
+}

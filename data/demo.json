@@ -1,0 +1,86 @@
+{
+  "version": 1,
+  "title": "操作示例 · 非 MLE5216 课程题目",
+  "questions": [
+    {
+      "id": "demo-001",
+      "chapter": "操作示例",
+      "type": "single",
+      "prompt": "这组操作示例题可以用来做什么？",
+      "options": [
+        { "id": "A", "text": "熟悉选择、提交答案和查看解析的流程" },
+        { "id": "B", "text": "预测 MLE5216 考试原题" },
+        { "id": "C", "text": "代替尚未上传的课程课件" },
+        { "id": "D", "text": "作为老师提供的标准题库" }
+      ],
+      "answers": ["A"],
+      "explanation": "操作示例仅用于体验练习程序。正式课程题目将在收到课件后整理，并附上课件来源与页码。",
+      "source": null,
+      "difficulty": "基础"
+    },
+    {
+      "id": "demo-002",
+      "chapter": "操作示例",
+      "type": "multiple",
+      "prompt": "一道多选题的正确答案是 A、C。哪些作答会被判为错误？",
+      "options": [
+        { "id": "A", "text": "只选 A，漏掉 C" },
+        { "id": "B", "text": "选择 A、C，并多选了 B" },
+        { "id": "C", "text": "完整选择 A、C，没有额外选项" },
+        { "id": "D", "text": "没有选择任何选项" }
+      ],
+      "answers": ["A", "B", "D"],
+      "explanation": "本程序按全对才得分的规则判定多选题：少选、多选或未作答都不算正确。题干中 A、C 是假设题目的答案，本题应选所有会判错的情形，即 A、B、D。",
+      "source": null,
+      "difficulty": "进阶"
+    },
+    {
+      "id": "demo-003",
+      "chapter": "操作示例",
+      "type": "single",
+      "prompt": "本程序的练习记录默认保存在哪里？",
+      "options": [
+        { "id": "A", "text": "GitHub 仓库的提交记录中" },
+        { "id": "B", "text": "当前设备、当前浏览器的本地存储中" },
+        { "id": "C", "text": "老师的课程管理系统中" },
+        { "id": "D", "text": "自动同步到所有设备的云端账号中" }
+      ],
+      "answers": ["B"],
+      "explanation": "练习进度保存在当前浏览器。更换设备或清除浏览器数据后，原设备的本地记录不会自动同步。",
+      "source": null,
+      "difficulty": "基础"
+    },
+    {
+      "id": "demo-004",
+      "chapter": "操作示例",
+      "type": "multiple",
+      "prompt": "收到课件后，一道适合复习的正式练习题应包含哪些内容？",
+      "options": [
+        { "id": "A", "text": "清楚的题干和选项" },
+        { "id": "B", "text": "可核对的正确答案与解析" },
+        { "id": "C", "text": "课件文件名和页码" },
+        { "id": "D", "text": "没有课件依据的考试押题保证" }
+      ],
+      "answers": ["A", "B", "C"],
+      "explanation": "正式题目会围绕课件组织，并提供解析与来源。程序不会把没有依据的内容当作课程考点或保证考试命中率。",
+      "source": null,
+      "difficulty": "基础"
+    },
+    {
+      "id": "demo-005",
+      "chapter": "操作示例",
+      "type": "single",
+      "prompt": "为什么练习后适合重新做一遍错题？",
+      "options": [
+        { "id": "A", "text": "可以检查自己是否真正理解了之前的错误" },
+        { "id": "B", "text": "只要看见答案就代表已经理解" },
+        { "id": "C", "text": "可以保证考试必然满分" },
+        { "id": "D", "text": "不需要再核对课件或解析" }
+      ],
+      "answers": ["A"],
+      "explanation": "重做错题可以帮助检查理解情况。如果仍有疑问，应结合解析和课件回看相关内容。",
+      "source": null,
+      "difficulty": "基础"
+    }
+  ]
+}

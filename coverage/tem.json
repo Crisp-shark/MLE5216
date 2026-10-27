@@ -1,0 +1,563 @@
+{
+  "lecture": "TEM",
+  "pdfPages": 55,
+  "questionCount": 30,
+  "questionStyle": "Teacher-style independent English statements; concept, causality, scope and application rather than numerical recall.",
+  "topics": [
+    {
+      "topic": "TEM应用：截面内部层厚/界面、尺寸形状、局部结构、导航与成本",
+      "pages": [
+        13,
+        15,
+        16,
+        54
+      ],
+      "questionIds": [
+        "TEM-001",
+        "TEM-024",
+        "TEM-028"
+      ]
+    },
+    {
+      "topic": "透射与反射几何、样品下方成像透镜/相机",
+      "pages": [
+        17,
+        18
+      ],
+      "questionIds": [
+        "TEM-002"
+      ]
+    },
+    {
+      "topic": "Tutorial Q3：薄样品减少横向展宽与高束能缩短波长",
+      "pages": [
+        19,
+        24,
+        55
+      ],
+      "questionIds": [
+        "TEM-002",
+        "TEM-026"
+      ]
+    },
+    {
+      "topic": "颗粒悬液滴涂、碳或SiNx支撑膜、电子透明性",
+      "pages": [
+        20
+      ],
+      "questionIds": [
+        "TEM-003"
+      ]
+    },
+    {
+      "topic": "支撑网、薄片及进入真空的样品杆",
+      "pages": [
+        22
+      ],
+      "questionIds": [
+        "TEM-003"
+      ]
+    },
+    {
+      "topic": "机械切磨、中心减薄及离子减薄的路径与成本",
+      "pages": [
+        20
+      ],
+      "questionIds": [
+        "TEM-004",
+        "TEM-005"
+      ]
+    },
+    {
+      "topic": "Tutorial Q4：FIB精确选点与器件失效小结构",
+      "pages": [
+        21,
+        55
+      ],
+      "questionIds": [
+        "TEM-004"
+      ]
+    },
+    {
+      "topic": "双束FIB的离子切削、电子观察、Pt连接和操纵针",
+      "pages": [
+        21
+      ],
+      "questionIds": [
+        "TEM-005"
+      ]
+    },
+    {
+      "topic": "FIB先固定再释放转移与最终电子透明减薄",
+      "pages": [
+        21
+      ],
+      "questionIds": [
+        "TEM-005"
+      ]
+    },
+    {
+      "topic": "钨丝热源、LaB6热源、钨场发射源的性能/成本逻辑",
+      "pages": [
+        23
+      ],
+      "questionIds": [
+        "TEM-006"
+      ]
+    },
+    {
+      "topic": "电子加速能量与波长，不把束流或显示倍率等同能量",
+      "pages": [
+        24
+      ],
+      "questionIds": [
+        "TEM-002",
+        "TEM-026"
+      ]
+    },
+    {
+      "topic": "空间相干性与小源尺寸、时间相干性与稳定能量",
+      "pages": [
+        24,
+        25,
+        26
+      ],
+      "questionIds": [
+        "TEM-007"
+      ]
+    },
+    {
+      "topic": "两种相干性独立变化及相位成像要求",
+      "pages": [
+        25,
+        26
+      ],
+      "questionIds": [
+        "TEM-007"
+      ]
+    },
+    {
+      "topic": "SEM幅度对比与TEM幅度/相位模式",
+      "pages": [
+        2,
+        27
+      ],
+      "questionIds": [
+        "TEM-008",
+        "TEM-025"
+      ]
+    },
+    {
+      "topic": "Tutorial Q5：DIC与HRTEM相位差转干涉强度的共同逻辑",
+      "pages": [
+        27,
+        55
+      ],
+      "questionIds": [
+        "TEM-008"
+      ]
+    },
+    {
+      "topic": "Huygens原子散射、直射和高阶方向的相长、中间方向相消",
+      "pages": [
+        28,
+        29,
+        30,
+        31
+      ],
+      "questionIds": [
+        "TEM-009"
+      ]
+    },
+    {
+      "topic": "Bragg间距-角度的反向关系及波长/偏转角的含义",
+      "pages": [
+        32,
+        36,
+        37
+      ],
+      "questionIds": [
+        "TEM-010",
+        "TEM-012"
+      ]
+    },
+    {
+      "topic": "单晶离散点、少晶稀疏点、多晶锥面与锐环",
+      "pages": [
+        33,
+        35
+      ],
+      "questionIds": [
+        "TEM-011"
+      ]
+    },
+    {
+      "topic": "beam stop保护相机，不是样品缺陷",
+      "pages": [
+        35
+      ],
+      "questionIds": [
+        "TEM-011"
+      ]
+    },
+    {
+      "topic": "相机长度与波长校准、环半径关联间距而非实物边界",
+      "pages": [
+        37,
+        38
+      ],
+      "questionIds": [
+        "TEM-011",
+        "TEM-012"
+      ]
+    },
+    {
+      "topic": "晶体结构参数精度与XRD比较，不等同局部空间分辨率",
+      "pages": [
+        37,
+        38
+      ],
+      "questionIds": [
+        "TEM-012"
+      ]
+    },
+    {
+      "topic": "晶面索引意义、立方等价面及不同晶系的允许反射关系",
+      "pages": [
+        39,
+        40
+      ],
+      "questionIds": [
+        "TEM-013",
+        "TEM-014"
+      ]
+    },
+    {
+      "topic": "多条反射一致性支持相识别，不靠单个间距或固定序列死记",
+      "pages": [
+        39,
+        40
+      ],
+      "questionIds": [
+        "TEM-013",
+        "TEM-014"
+      ]
+    },
+    {
+      "topic": "晶态锐斑/锐环与非晶弥散环、照射诱导变化",
+      "pages": [
+        41
+      ],
+      "questionIds": [
+        "TEM-015",
+        "TEM-030"
+      ]
+    },
+    {
+      "topic": "成像与衍射模式选择物理投影平面，中间镜作用",
+      "pages": [
+        42,
+        43
+      ],
+      "questionIds": [
+        "TEM-016"
+      ]
+    },
+    {
+      "topic": "SA光阑选实空间区域，物镜光阑选衍射方向",
+      "pages": [
+        42,
+        43,
+        44
+      ],
+      "questionIds": [
+        "TEM-017"
+      ]
+    },
+    {
+      "topic": "物理光阑为可移动金属孔，尺寸与位置影响接受范围",
+      "pages": [
+        44
+      ],
+      "questionIds": [
+        "TEM-017"
+      ]
+    },
+    {
+      "topic": "BF中心直射束选择，散射出光阑造成暗对比",
+      "pages": [
+        46,
+        47
+      ],
+      "questionIds": [
+        "TEM-018"
+      ]
+    },
+    {
+      "topic": "BF质量散射与厚度/密度/取向等因素，不唯一化暗区解释",
+      "pages": [
+        47,
+        48
+      ],
+      "questionIds": [
+        "TEM-018",
+        "TEM-029"
+      ]
+    },
+    {
+      "topic": "BF尺寸形状概览及真实分辨率与显示倍率的区别",
+      "pages": [
+        48,
+        54
+      ],
+      "questionIds": [
+        "TEM-019"
+      ]
+    },
+    {
+      "topic": "位错晶格畸变使电子偏离接受束，形成暗对比",
+      "pages": [
+        49
+      ],
+      "questionIds": [
+        "TEM-019",
+        "TEM-029"
+      ]
+    },
+    {
+      "topic": "DF偏心光阑/束倾斜选衍射束，直射束被挡",
+      "pages": [
+        46,
+        50
+      ],
+      "questionIds": [
+        "TEM-020"
+      ]
+    },
+    {
+      "topic": "DF取向选择、暗区不等于相缺失、与BF互补",
+      "pages": [
+        50,
+        51
+      ],
+      "questionIds": [
+        "TEM-020",
+        "TEM-021",
+        "TEM-029"
+      ]
+    },
+    {
+      "topic": "DF高对比与低计数/较慢采集的取舍",
+      "pages": [
+        51
+      ],
+      "questionIds": [
+        "TEM-021"
+      ]
+    },
+    {
+      "topic": "HRTEM直射及衍射束共同参与相干干涉",
+      "pages": [
+        46,
+        52
+      ],
+      "questionIds": [
+        "TEM-022"
+      ]
+    },
+    {
+      "topic": "HRTEM晶态周期图与非晶随机对比",
+      "pages": [
+        52
+      ],
+      "questionIds": [
+        "TEM-022"
+      ]
+    },
+    {
+      "topic": "HRTEM精细结构应用与离焦对比翻转/定位限制",
+      "pages": [
+        53,
+        54
+      ],
+      "questionIds": [
+        "TEM-023",
+        "TEM-024"
+      ]
+    },
+    {
+      "topic": "Tutorial Q1：埋藏层测厚先制薄截面，再选HRTEM/校正STEM",
+      "pages": [
+        15,
+        53,
+        55
+      ],
+      "questionIds": [
+        "TEM-024"
+      ]
+    },
+    {
+      "topic": "SEM复习：SE边缘几何与BSE核散射的不同信息",
+      "pages": [
+        3,
+        5,
+        9
+      ],
+      "questionIds": [
+        "TEM-025"
+      ]
+    },
+    {
+      "topic": "SEM复习：电流与束能区分，波长与横向作用体积的竞争",
+      "pages": [
+        6,
+        8
+      ],
+      "questionIds": [
+        "TEM-026"
+      ]
+    },
+    {
+      "topic": "SEM复习：ESEM相对光镜/常规SEM的湿态与充电适用范围",
+      "pages": [
+        7
+      ],
+      "questionIds": [
+        "TEM-027"
+      ]
+    },
+    {
+      "topic": "Tutorial Q2：衍射测间距、晶相及单晶多晶非晶状态",
+      "pages": [
+        32,
+        39,
+        40,
+        41,
+        55
+      ],
+      "questionIds": [
+        "TEM-028"
+      ]
+    },
+    {
+      "topic": "成像形状与衍射结构的互补信息，局部选区意义",
+      "pages": [
+        13,
+        15,
+        44,
+        54
+      ],
+      "questionIds": [
+        "TEM-001",
+        "TEM-017",
+        "TEM-028"
+      ]
+    },
+    {
+      "topic": "高强度不等于唯一元素指纹，需要互补模式约束解释",
+      "pages": [
+        47,
+        49,
+        50,
+        51,
+        53
+      ],
+      "questionIds": [
+        "TEM-025",
+        "TEM-029"
+      ]
+    },
+    {
+      "topic": "专用样品杆支持受控加热/电应力原位动态",
+      "pages": [
+        15,
+        22
+      ],
+      "questionIds": [
+        "TEM-001",
+        "TEM-030"
+      ]
+    },
+    {
+      "topic": "原位变化与离焦/照射影响的区分",
+      "pages": [
+        41,
+        53,
+        54
+      ],
+      "questionIds": [
+        "TEM-015",
+        "TEM-023",
+        "TEM-030"
+      ]
+    }
+  ],
+  "tutorialCoverage": [
+    {
+      "tutorial": "TEM Tutorial Q1",
+      "questionId": "TEM-024",
+      "questionPage": 55,
+      "answerSource": "Electron Spectroscopy PDF p.7",
+      "coreLogic": "埋藏层厚度 → 薄截面 → 足够分辨力的透射模式"
+    },
+    {
+      "tutorial": "TEM Tutorial Q2",
+      "questionId": "TEM-028",
+      "questionPage": 55,
+      "answerSource": "Electron Spectroscopy PDF p.8",
+      "coreLogic": "衍射位置与形态 → 间距/晶相/结晶状态"
+    },
+    {
+      "tutorial": "TEM Tutorial Q3",
+      "questionId": "TEM-002",
+      "questionPage": 55,
+      "answerSource": "Electron Spectroscopy PDF p.9",
+      "coreLogic": "薄样品减横展 + 高束能短波长 → 更高分辨"
+    },
+    {
+      "tutorial": "TEM Tutorial Q4",
+      "questionId": "TEM-004",
+      "questionPage": 55,
+      "answerSource": "Electron Spectroscopy PDF p.10",
+      "coreLogic": "目标局部小结构 → 位点特异 → FIB"
+    },
+    {
+      "tutorial": "TEM Tutorial Q5",
+      "questionId": "TEM-008",
+      "questionPage": 55,
+      "answerSource": "Electron Spectroscopy PDF p.11",
+      "coreLogic": "相位差 → 干涉 → 强度对比"
+    }
+  ],
+  "excludedPages": [
+    {
+      "pages": [
+        1,
+        4,
+        10,
+        11,
+        34,
+        45
+      ],
+      "reason": "封面、提问入口、课表、考场、休息和未提供的外部视频提示，不作为独立科学考点。"
+    },
+    {
+      "pages": [
+        12
+      ],
+      "reason": "目录，由后续教学点覆盖。"
+    },
+    {
+      "pages": [
+        14
+      ],
+      "reason": "历史背景，不考人物年份；不以历史数值替代原理应用。"
+    }
+  ],
+  "reviewNotes": [
+    "重写为30题，不考精确尺寸、电压、波长、角度、采集时间、fcc/bcc序列或代数计算。",
+    "保留Bragg、相机几何、晶面索引的物理逻辑，覆盖定量页中的核心概念。",
+    "每题中文逐项解释，另附重点词和逻辑链；五个老师Tutorial各有唯一重点标记。",
+    "TEM Tutorial Q2原文要求衍射可测的两项结构性质；答案明确为间距、晶相及结晶状态，不窄化为只有取向。"
+  ]
+}

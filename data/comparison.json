@@ -1,0 +1,697 @@
+{
+  "version": 1,
+  "title": "跨设备比较 · 原理、关联与应用",
+  "questions": [
+    {
+      "id": "CMP-001",
+      "chapter": "综合比较 · Choosing a workflow",
+      "type": "multiple",
+      "prompt": "Which technique–constraint matches are supported by the lectures?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Local elemental identity rather than only heavy/light contrast — acquire suitable spectroscopy."
+        },
+        {
+          "id": "B",
+          "text": "Wet, uncoatable insulation requiring finer detail than light microscopy — consider ESEM."
+        },
+        {
+          "id": "C",
+          "text": "Off-site elemental analysis of an electron-beam-sensitive object — consider EDXRF rather than electron-beam EDS."
+        },
+        {
+          "id": "D",
+          "text": "A selected buried device feature — consider a site-specific FIB lamella for transmission analysis."
+        }
+      ],
+      "answers": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explanation": "A：正确。BSE或ADF的成分相关明暗不能在任意样品中唯一鉴定所有元素，应配合EDS/EELS等。\nB：正确。ESEM可兼顾样品附近气体/湿态和电荷中和。选择基于环境与分辨需求，不表示任何样品都不会受电子束影响。\nC：正确。STEM教程给出便携、无法用所需真空及电子束敏感等采用EDXRF的理由。\nD：正确。选点和透射是两项要求：FIB确保薄片包含目标，后续还须薄到能透电子。\n\n重点词：information requirement（信息需求）；specimen constraint（样品限制）；technique selection（技术选择）\n逻辑链：先确定要测形貌、元素还是内部结构 → 再检查真空、透射、制样和损伤限制 → 选择有相应信号且样品能接受的方法。",
+      "source": {
+        "file": "跨课件比较",
+        "page": "SEM PDF pp.45–47; TEM PDF p.21; STEM PDF p.8; Spectroscopy PDF p.14"
+      },
+      "difficulty": "进阶"
+    },
+    {
+      "id": "CMP-002",
+      "chapter": "综合比较 · Choosing a workflow",
+      "type": "multiple",
+      "prompt": "A rough ceramic contains metal-rich nanoparticles. Which proposed workflow gives information appropriate to each question?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Use a higher display magnification to convert an SE image into an atomic elemental map."
+        },
+        {
+          "id": "B",
+          "text": "Use SE for surface morphology and EDS to identify the elemental distribution."
+        },
+        {
+          "id": "C",
+          "text": "Treat every bright BSE pixel as a unique crystal-lattice index."
+        },
+        {
+          "id": "D",
+          "text": "Use a suitable thin specimen and diffraction to determine lattice spacing or crystal phase."
+        }
+      ],
+      "answers": [
+        "B",
+        "D"
+      ],
+      "explanation": "A：错误。显示放大不会产生原子级探针或逐点元素能谱；原子分辨谱像需合适STEM及谱学信号。\nB：正确。SE几何对比与EDS特征X射线分别回答形貌和元素身份，可在同一区域互补而不是相互替代。\nC：错误。BSE主要由核散射形成成分相关对比，不能从一个亮度值直接索引晶面。\nD：正确。TEM衍射提供晶体学信息；化学分布与晶体结构不是同一问题，准备薄样品仍是前提。\n\n重点词：topography（形貌）；elemental distribution（元素分布）；diffraction（衍射）\n逻辑链：不同物理信号承载不同信息 → SE看形貌、能谱辨元素、衍射看晶体结构 → 同一样品可用互补方法回答不同问题。",
+      "source": {
+        "file": "跨课件比较",
+        "page": "SEM PDF p.39; TEM PDF pp.39,54; Spectroscopy PDF pp.14,17"
+      },
+      "difficulty": "进阶"
+    },
+    {
+      "id": "CMP-003",
+      "chapter": "综合比较 · Choosing a workflow",
+      "type": "multiple",
+      "prompt": "A semiconductor grain boundary needs composition, band-gap and bonding/valence information. Which measurements are justified?",
+      "options": [
+        {
+          "id": "A",
+          "text": "EDS can map elemental composition, while low-loss EELS can probe a band-gap onset."
+        },
+        {
+          "id": "B",
+          "text": "Core-loss EELS fine structure can add electronic-state or ionic-valence information."
+        },
+        {
+          "id": "C",
+          "text": "One BF or HAADF intensity value is a complete replacement for all three spectral measurements."
+        },
+        {
+          "id": "D",
+          "text": "Spectrum imaging in a suitably corrected STEM can associate these spectra with small scan positions."
+        }
+      ],
+      "answers": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explanation": "A：正确。两类谱分别回答元素含量与价带到导带的低能激发；不能把EDS核心线峰位当带隙。\nB：正确。核心损失边形与可用空态/局部态密度有关，可补充元素身份之外的化学状态信息。\nC：错误。接受角不同的强度信息并不等于完整的元素、带隙和化学态能谱。\nD：正确。逐像素谱保留空间—能量关联，小探针和较高可用束流利于局部图，但并非所有单通道强度像都自带这些谱。\n\n重点词：composition（组成）；band gap（带隙）；chemical state（化学状态）\n逻辑链：先把问题拆成所需物理量 → EDS对应元素、低损失EELS对应带隙、核心损失EELS补充化学态 → 谱像把信息定位到区域。",
+      "source": {
+        "file": "跨课件比较",
+        "page": "STEM PDF pp.4,41; Spectroscopy PDF pp.48–50"
+      },
+      "difficulty": "进阶"
+    },
+    {
+      "id": "CMP-004",
+      "chapter": "综合比较 · Resolution & controls",
+      "type": "multiple",
+      "prompt": "Two X-ray lines overlap, and their signals also come from adjacent nanoscale regions. Which changes address the different limitations?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Aberration correction can provide a smaller probe and more useful beam current without automatically changing the EDS detector response."
+        },
+        {
+          "id": "B",
+          "text": "Higher WDS spectral resolution guarantees a smaller specimen interaction volume."
+        },
+        {
+          "id": "C",
+          "text": "WDS can improve separation of the line energies, while a smaller useful STEM probe can improve spatial localization."
+        },
+        {
+          "id": "D",
+          "text": "Once atomic-resolution intensity imaging is possible, all overlapping EDS lines must be resolved."
+        }
+      ],
+      "answers": [
+        "A",
+        "C"
+      ],
+      "explanation": "A：正确。球差校正改变电子探针与可用孔径，不会凭此把EDS能量分辨率变成WDS。\nB：错误。WDS分光能力不等于改变样品内电子散射体积。\nC：正确。分开邻近能量峰属于谱分辨，分开邻近位置属于空间分辨；两者应分别处理。\nD：错误。原子尺度空间能力不消除能量谱峰的探测器展宽或重叠。\n\n重点词：spectral resolution（谱分辨率）；spatial resolution（空间分辨率）；interaction volume（相互作用体积）\n逻辑链：峰挤在一起是能量分辨问题；区域混在一起是空间定位问题 → 分别改善分光与探针/相互作用条件 → 一个指标提升不能自动修复另一个。",
+      "source": {
+        "file": "跨课件比较",
+        "page": "STEM PDF pp.37,41; Spectroscopy PDF pp.34,37"
+      },
+      "difficulty": "进阶"
+    },
+    {
+      "id": "CMP-005",
+      "chapter": "综合比较 · Signals & interpretation",
+      "type": "multiple",
+      "prompt": "Which cautions remain valid when comparing BF, DF, HRTEM and HAADF data?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Atomic resolution does not remove the need to know detector geometry and specimen structure."
+        },
+        {
+          "id": "B",
+          "text": "HRTEM intensity can reverse with focus without requiring atoms to change chemical identity."
+        },
+        {
+          "id": "C",
+          "text": "A strongly scattering region can be dark in BF but bright in a suitably selected DF or ADF signal."
+        },
+        {
+          "id": "D",
+          "text": "Failure to appear bright in one DF condition does not prove that a crystalline phase is absent."
+        }
+      ],
+      "answers": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explanation": "A：正确。HAADF、BF及HRTEM分别依赖不同散射接受或相位条件，解释时仍必须辨认模式与样品结构。\nB：正确。相位干涉及离焦引起对比变化，亮暗本身不是元素转变的充分证据。\nC：正确。不同模式接受的电子方向不同，不能要求同一区域在所有模式都保持同一明暗。\nD：正确。同相不同取向可能不满足被选反射，单个DF像存在选择性。\n\n重点词：detector geometry（探测几何）；diffraction condition（衍射条件）；phase contrast（相位对比）\n逻辑链：样品散射电子 → 不同模式选择不同束或让其干涉 → 同一结构可呈不同明暗，不能脱离模式解释亮度。",
+      "source": {
+        "file": "跨课件比较",
+        "page": "TEM PDF pp.47,50–53; STEM PDF pp.29,40"
+      },
+      "difficulty": "进阶"
+    },
+    {
+      "id": "CMP-006",
+      "chapter": "综合比较 · Signals & interpretation",
+      "type": "multiple",
+      "prompt": "A high-resolution spectrum shows two elements with unequal peak heights. Which quantitative argument is defensible?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Apply appropriate corrections before comparing concentrations; better peak separation alone does not make raw heights atomic percentages."
+        },
+        {
+          "id": "B",
+          "text": "An EELS edge must be fitted as the same symmetric line as EDS before any chemical information is used."
+        },
+        {
+          "id": "C",
+          "text": "The method with the highest spectral resolution is automatically the best for every element and specimen."
+        },
+        {
+          "id": "D",
+          "text": "WDS needs no quantification correction because its peaks are narrow."
+        }
+      ],
+      "answers": [
+        "A"
+      ],
+      "explanation": "A：正确。荧光产额、吸收、原子序数、几何和束能等都影响强度。ZAF及谱处理不因WDS分峰较好而失去必要性。\nB：错误。EELS核心边反映激发至可用空态的能量分布，与离散跃迁X射线峰形不同；强行同形会丢失状态信息。\nC：错误。课件还比较成本、处理工作、透射要求和可用损失能区；最高谱分辨不是所有情景的充分选择条件。\nD：错误。谱分辨率提高解决重叠，不取消强度的物理响应与定量修正。\n\n重点词：peak intensity（峰强）；matrix correction（基体修正）；concentration（浓度）\n逻辑链：不同元素和样品条件产生不同响应 → 峰高不只由含量决定 → 峰分离后仍需谱处理与定量修正。",
+      "source": {
+        "file": "跨课件比较",
+        "page": "Spectroscopy PDF pp.24–26,47,50; STEM PDF pp.2,7"
+      },
+      "difficulty": "进阶"
+    },
+    {
+      "id": "CMP-007",
+      "chapter": "综合比较 · Resolution & controls",
+      "type": "multiple",
+      "prompt": "A low-voltage SE setting gives a good image but misses a required EDS line; increasing count rate produces a sum peak. Which responses are appropriate?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Check the core-excitation energy: increasing current cannot replace insufficient energy per electron."
+        },
+        {
+          "id": "B",
+          "text": "Lower beam current to reduce pile-up rather than treating the sum peak as a new element."
+        },
+        {
+          "id": "C",
+          "text": "Identify a sum peak as a characteristic line whose energy continuously follows the accelerating voltage."
+        },
+        {
+          "id": "D",
+          "text": "Increase beam energy when needed, while recognizing that a larger interaction volume may worsen spatial localization."
+        }
+      ],
+      "answers": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explanation": "A：正确。特征线能否出现取决于单电子能量是否足以激发相关壳层，电子数再多也不能直接替代阈值。\nB：正确。求和峰来自同时到达的光子被合并计数，降低通量可减轻；这与调能量消除激发线不是同一操作。\nC：错误。求和峰与特征光子叠加有关，而真正特征跃迁能量由元素能级差决定，不随束压连续漂移。\nD：正确。激发线系与空间分辨有权衡；更高电压不是只带来好处。\n\n重点词：excitation threshold（激发阈值）；beam current（束流）；pile-up（脉冲堆积）\n逻辑链：能量决定能否激发目标跃迁，电子通量影响计数与堆积 → 分别调整束能和束流 → 同时留意空间定位的代价。",
+      "source": {
+        "file": "跨课件比较",
+        "page": "SEM PDF p.37; TEM PDF p.8; Spectroscopy PDF pp.40,42"
+      },
+      "difficulty": "进阶"
+    },
+    {
+      "id": "CMP-008",
+      "chapter": "综合比较 · Choosing a workflow",
+      "type": "multiple",
+      "prompt": "Which reasoning correctly separates specimen-preparation requirements?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A site-specific thin lamella can locate a buried feature, whereas ESEM can address an uncoatable wet surface without that conventional thinning workflow."
+        },
+        {
+          "id": "B",
+          "text": "Gas-ion neutralization in ESEM means that no electron-beam-induced specimen change can occur."
+        },
+        {
+          "id": "C",
+          "text": "An electron-transparent insulator is automatically conductive."
+        },
+        {
+          "id": "D",
+          "text": "A thin support and a conductive coating solve the same problem, so either always substitutes for the other."
+        }
+      ],
+      "answers": [
+        "A"
+      ],
+      "explanation": "A：正确。应按所问是埋藏透射结构还是湿表面来选制样与环境，不能一律要求所有材料同样干燥镀膜。\nB：错误。中和电荷不等于取消束加热、结构损伤或其他照射效应。\nC：错误。厚度与电导性质独立，足够薄并不会自动成为金属。\nD：错误。电子透明解决透射及散射展宽，导电层解决电荷泄放；二者不可普遍互换。\n\n重点词：electron transparency（电子透明性）；conductivity（导电性）；charge neutralization（电荷中和）\n逻辑链：薄样允许透射，导电路径允许电荷泄放，环境气体可中和电荷 → 三个要求针对不同机制 → 制样步骤不能随意互换。",
+      "source": {
+        "file": "跨课件比较",
+        "page": "TEM PDF pp.19–21; SEM PDF pp.23–24,44–47"
+      },
+      "difficulty": "进阶"
+    },
+    {
+      "id": "CMP-009",
+      "chapter": "综合比较 · Signals & interpretation",
+      "type": "multiple",
+      "prompt": "Which proposed acquisition has the required signal path described in these lectures?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Infer an EELS spectrum from one BF total-intensity number at each pixel without measuring energy."
+        },
+        {
+          "id": "B",
+          "text": "Measure transmitted-electron energy losses with EELS on a suitable TEM/STEM specimen."
+        },
+        {
+          "id": "C",
+          "text": "Generate the required EDS core excitations with ordinary low-energy STM tunnelling electrons."
+        },
+        {
+          "id": "D",
+          "text": "Use a conventional bulk-sample SEM reflection detector as an EELS analyser simply by increasing beam current."
+        }
+      ],
+      "answers": [
+        "B"
+      ],
+      "explanation": "A：错误。总强度未保留能量维度，不能恢复完整能量损失谱。\nB：正确。EELS必须有可透过样品的束电子供能量分析；它与EDS测发射光子的路径不同。\nC：错误。STEM教程指出STM电子单个电子能量太低，不能激发EDS所需的高能核心跃迁；会扫描不代表激发能量足够。\nD：错误。通量改变不建立透射几何，常规SEM上方反射收集不能因此变成EELS。\n\n重点词：signal path（信号路径）；energy loss（能量损失）；core excitation（核心激发）\n逻辑链：先确认被测粒子与能量维度 → 透射电子能损是EELS，发射X射线是EDS → 有扫描能力不等于具备所有谱学路径。",
+      "source": {
+        "file": "跨课件比较",
+        "page": "Spectroscopy PDF p.43; STEM PDF pp.5,9,41"
+      },
+      "difficulty": "进阶"
+    },
+    {
+      "id": "CMP-010",
+      "chapter": "综合比较 · Resolution & controls",
+      "type": "multiple",
+      "prompt": "Which statements correctly separate the diagnoses and controls in electron microscopy?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Increase displayed magnification to eliminate both charging and astigmatism physically."
+        },
+        {
+          "id": "B",
+          "text": "Charge accumulation — provide a conductive connection/coating, or suitable ESEM charge-neutralization conditions."
+        },
+        {
+          "id": "C",
+          "text": "Change magnetic-lens coil current to vary focusing strength, while distinguishing that current from the incident electron flux."
+        },
+        {
+          "id": "D",
+          "text": "Focus-dependent perpendicular streaks — adjust the stigmator rather than assuming elemental segregation."
+        }
+      ],
+      "answers": [
+        "B",
+        "C",
+        "D"
+      ],
+      "explanation": "A：错误。显示变大不改变样品电荷路径或电子光学失准，只可能把伪影放大。\nB：正确。这针对样品中的电荷积累；导电泄放或正气体离子中和与磁透镜束形校正是不同机制。\nC：正确。线圈电流控制磁场/透镜强度；beam current是每秒入射电子数，二者不能因都称电流就混为一谈。\nD：正确。这是像散征象，四极stigmator修正椭圆束。仅改变颜色或成分标注不会修正电子光学。\n\n重点词：charging（充电）；astigmatism（像散）；focusing current（透镜线圈电流）\n逻辑链：先区分样品带电与光学束形问题 → 前者提供泄放/中和，后者调stigmator → 不把所有模糊都归为同一原因。",
+      "source": {
+        "file": "跨课件比较",
+        "page": "SEM PDF pp.23,46; STEM PDF pp.16,19–20; TEM PDF p.8"
+      },
+      "difficulty": "进阶"
+    },
+    {
+      "id": "CMP-011",
+      "chapter": "综合比较 · Principles & applications",
+      "type": "multiple",
+      "prompt": "A wet, insulating surface has features too fine for the available light microscope. Which choices are justified?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Consider ESEM because it can combine fine surface imaging with a suitable gaseous specimen environment."
+        },
+        {
+          "id": "B",
+          "text": "Assume that ordinary high-vacuum SEM preparation will always preserve the original wet state."
+        },
+        {
+          "id": "C",
+          "text": "Use gas-ion charge neutralization as an alternative to a conductive coating when the specimen cannot be coated."
+        },
+        {
+          "id": "D",
+          "text": "Assume that increasing optical display magnification alone will reveal the unresolved features."
+        }
+      ],
+      "answers": [
+        "A",
+        "C"
+      ],
+      "explanation": "A 对：需要细节分辨且要保留合适环境时，ESEM是课件支持的选择。B 错：抽真空和常规制样可能改变湿态。C 对：环境中的正离子可中和负电荷，减少必须镀导电层的要求。D 错：放大已模糊的光学像不能凭空恢复细节。\n\n重点词：wet state（湿态）；ESEM（环境扫描电镜）；resolution limit（分辨限制）\n逻辑链：湿态/不能镀膜是样品限制，细节小是分辨需求 → 同时满足两项条件再选设备 → ESEM的环境和电荷机制有明确用途。",
+      "source": {
+        "file": "SEM; TEM",
+        "page": "SEM pp. 45,46,47; TEM pp. 7"
+      },
+      "difficulty": "进阶"
+    },
+    {
+      "id": "CMP-012",
+      "chapter": "综合比较 · Principles & applications",
+      "type": "multiple",
+      "prompt": "A large heritage object needs portable elemental analysis and should not undergo electron-microscope preparation. Which arguments are appropriate?",
+      "options": [
+        {
+          "id": "A",
+          "text": "EDXRF may be preferable when portable analysis is needed without placing the object in an electron-microscope vacuum."
+        },
+        {
+          "id": "B",
+          "text": "EDS and EDXRF must require identical preparation because they can detect the same characteristic lines."
+        },
+        {
+          "id": "C",
+          "text": "A FIB cut is automatically preferable whenever the goal is elemental information."
+        },
+        {
+          "id": "D",
+          "text": "Excitation method and specimen constraints remain important even when two methods detect similar emitted radiation."
+        }
+      ],
+      "answers": [
+        "A",
+        "D"
+      ],
+      "explanation": "A 对：老师教程列出便携、不能使用所需真空或容易受电子束损伤等采用EDXRF的理由。B 错：相同的特征X射线不表示激发源、几何与制样相同。C 错：若无需透射结构信息，不能无条件把破坏性选点切片当首选。D 对：方法选择要同时看激发方式、信息需求与样品可接受条件。\n\n重点词：EDXRF（能量色散X射线荧光）；excitation source（激发源）；portability（便携性）\n逻辑链：可测相似特征线但激发方式不同 → 真空、损伤和便携要求随之不同 → 应按样品限制选择，而非只按信号名称。",
+      "source": {
+        "file": "Aberration-corrected STEM; Electron Spectroscopy",
+        "page": "STEM pp. 8; Spectroscopy pp. 52"
+      },
+      "difficulty": "进阶"
+    },
+    {
+      "id": "CMP-013",
+      "chapter": "综合比较 · Principles & applications",
+      "type": "multiple",
+      "prompt": "A nanoparticle study asks whether particles share a crystal structure and whether their elemental composition differs. Which measurements answer the appropriate question?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Use electron diffraction to examine crystallographic information."
+        },
+        {
+          "id": "B",
+          "text": "Use suitable elemental spectra or maps to examine chemical composition."
+        },
+        {
+          "id": "C",
+          "text": "Treat the same crystal structure as proof of identical elemental concentrations."
+        },
+        {
+          "id": "D",
+          "text": "Combine imaging, diffraction and spectroscopy when the structural and chemical questions are separate."
+        }
+      ],
+      "answers": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explanation": "A 对：衍射含晶格、晶相与有序性等结构信息。B 对：能谱提供元素相关信息。C 错：结构相同不自动保证成分比例完全相同。D 对：这些手段互补，先明确问题再匹配测量。\n\n重点词：crystal structure（晶体结构）；elemental identity（元素身份）；complementary techniques（互补技术）\n逻辑链：晶体排列决定结构信号，元素跃迁决定化学谱 → 两者不是同一物理量 → 需要时联合测量并关联位置。",
+      "source": {
+        "file": "TEM; Electron Spectroscopy",
+        "page": "TEM pp. 35,41,46,55; Spectroscopy pp. 17,38"
+      },
+      "difficulty": "进阶"
+    },
+    {
+      "id": "CMP-014",
+      "chapter": "综合比较 · Principles & applications",
+      "type": "multiple",
+      "prompt": "Which signal–origin pairs are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "SE — low-energy electrons emitted from the specimen near its surface."
+        },
+        {
+          "id": "B",
+          "text": "BSE — incident beam electrons scattered back by the specimen."
+        },
+        {
+          "id": "C",
+          "text": "EDS — characteristic X-ray photons emitted after suitable atomic excitations."
+        },
+        {
+          "id": "D",
+          "text": "EELS — energy losses of beam electrons transmitted through a suitable specimen."
+        }
+      ],
+      "answers": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explanation": "A 对：SE来自样品电子的低能发射，具有近表面敏感性。B 对：BSE原本属于入射束，散射后返回。C 对：EDS测发射光子的能量。D 对：EELS测透射束电子损失的能量；两者不是把同一个探测量换名称。\n\n重点词：emitted electron（发射电子）；backscattered electron（背散射电子）；transmitted electron（透射电子）\n逻辑链：先辨认被收集的是样品电子、束电子还是光子 → 再判断信号的形成机制 → 才能推断其适合回答的信息类型。",
+      "source": {
+        "file": "SEM; Electron Spectroscopy",
+        "page": "SEM pp. 39,40; Spectroscopy pp. 43,44,45"
+      },
+      "difficulty": "进阶"
+    },
+    {
+      "id": "CMP-015",
+      "chapter": "综合比较 · Principles & applications",
+      "type": "multiple",
+      "prompt": "Which statements correctly distinguish scattering, interference and spectroscopy?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Electron diffraction can contain coherent interference information about atomic arrangement."
+        },
+        {
+          "id": "B",
+          "text": "EELS is restricted to counting elastically scattered electrons without resolving their energy."
+        },
+        {
+          "id": "C",
+          "text": "Characteristic X-rays and electron-energy losses provide the same measured quantity merely with different detector names."
+        },
+        {
+          "id": "D",
+          "text": "Backscattered contrast and characteristic X-ray spectra arise from different interactions, so they need not provide identical information."
+        }
+      ],
+      "answers": [
+        "A",
+        "D"
+      ],
+      "explanation": "A 对：衍射是相干电子波的干涉，携带排列信息。B 错：EELS要求能量分析，关注束电子能量损失。C 错：X射线光子能量与透射电子损失能量对应不同事件和谱形。D 对：核散射相关对比不等同于原子跃迁发射的元素谱。\n\n重点词：coherent interference（相干干涉）；elastic scattering（弹性散射）；inelastic excitation（非弹性激发）\n逻辑链：核散射、波的干涉、能量转移是不同过程 → 对应不同可检测量 → 对比相似不表示物理机制相同。",
+      "source": {
+        "file": "SEM; TEM; Electron Spectroscopy",
+        "page": "SEM pp. 40; TEM pp. 27,28,29; Spectroscopy pp. 18,44,45"
+      },
+      "difficulty": "进阶"
+    },
+    {
+      "id": "CMP-016",
+      "chapter": "综合比较 · Principles & applications",
+      "type": "multiple",
+      "prompt": "An expected EDS line is weak or missing. Which checks should precede a conclusion that the element is absent?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Whether the incident electrons can excite the relevant transition."
+        },
+        {
+          "id": "B",
+          "text": "Whether peak overlap or background makes the line difficult to identify."
+        },
+        {
+          "id": "C",
+          "text": "Whether absorption and detector response reduce the detected signal."
+        },
+        {
+          "id": "D",
+          "text": "Whether a visually bright SEM region guarantees that every elemental line must be detected."
+        }
+      ],
+      "answers": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explanation": "A 对：激发能量不足会使相关线不出现。B 对：重叠与背景可掩盖弱信号。C 对：吸收、窗口和探测响应都可能减弱检测。D 错：图像亮度不保证每一元素峰必然可见；阴性结果需要先检查方法能力和条件。\n\n重点词：detection（检测）；background（背景）；absorption（吸收）\n逻辑链：信号必须先产生、再逃逸、再被探测并从背景中辨认 → 任一环节受限都可导致弱/缺峰 → 不能直接等同于元素不存在。",
+      "source": {
+        "file": "Electron Spectroscopy; Aberration-corrected STEM",
+        "page": "Spectroscopy pp.22,25,32,40,42,52; STEM p.6"
+      },
+      "difficulty": "进阶"
+    },
+    {
+      "id": "CMP-017",
+      "chapter": "综合比较 · Principles & applications",
+      "type": "multiple",
+      "prompt": "Which explanations of a bright feature are physically plausible in the indicated mode?",
+      "options": [
+        {
+          "id": "A",
+          "text": "An edge gives more escaping secondary electrons in SE imaging."
+        },
+        {
+          "id": "B",
+          "text": "A heavy-element region produces stronger backscattering in a comparable BSE measurement."
+        },
+        {
+          "id": "C",
+          "text": "A crystalline region contributes to the selected diffraction beam in DF-TEM."
+        },
+        {
+          "id": "D",
+          "text": "The brightness changes with focus through phase interference in conventional HRTEM."
+        }
+      ],
+      "answers": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explanation": "A 对：边缘增强可来自逃逸几何而非成分。B 对：较强核散射可增加BSE信号。C 对：暗场亮度可与是否满足被选衍射条件有关。D 对：相位干涉对比随离焦变化，不能把这些模式的亮都解释成同一个化学原因。\n\n重点词：escape geometry（逃逸几何）；selected reflection（选定反射）；phase interference（相位干涉）\n逻辑链：同样表现为亮 → 先查看检测模式 → 再分别考虑几何、核散射、衍射条件或相位干涉。",
+      "source": {
+        "file": "SEM; TEM",
+        "page": "SEM pp. 39,40,41; TEM pp. 47,50,53"
+      },
+      "difficulty": "进阶"
+    },
+    {
+      "id": "CMP-018",
+      "chapter": "综合比较 · Principles & applications",
+      "type": "multiple",
+      "prompt": "Why is the comparison between DIC and HRTEM useful?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Both can convert phase differences into intensity contrast through interference."
+        },
+        {
+          "id": "B",
+          "text": "They must use the same wavelength and the same type of lens."
+        },
+        {
+          "id": "C",
+          "text": "HRTEM contrast can arise from interference between transmitted and diffracted electron waves."
+        },
+        {
+          "id": "D",
+          "text": "Their shared interference principle means that specimen preparation and application limits are identical."
+        }
+      ],
+      "answers": [
+        "A",
+        "C"
+      ],
+      "explanation": "A 对：老师Tutorial要求抓住相位差经干涉变成强度差的共同链条。B 错：一个使用光，一个使用电子，装置不同。C 对：HRTEM让不同电子束干涉形成相位对比。D 错：共同原理不取消透射、厚度和环境等条件差异。\n\n重点词：phase difference（相位差）；interference（干涉）；intensity contrast（强度对比）\n逻辑链：样品造成相位差 → 波相互干涉 → 强度发生差异；共通的逻辑不等于相同的设备或适用范围。",
+      "source": {
+        "file": "TEM; Electron Spectroscopy",
+        "page": "TEM pp. 27,28,52,55; Spectroscopy pp. 11"
+      },
+      "difficulty": "进阶"
+    },
+    {
+      "id": "CMP-019",
+      "chapter": "综合比较 · Principles & applications",
+      "type": "multiple",
+      "prompt": "What is gained by recording a spectrum at each scan position instead of only one detector intensity?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Stored spectra can be used to extract different chemical information while preserving spatial location."
+        },
+        {
+          "id": "B",
+          "text": "A total-intensity image can always recover an unrecorded spectrum after acquisition."
+        },
+        {
+          "id": "C",
+          "text": "Different spectral regions can answer different questions, such as elemental distribution or low-loss electronic information."
+        },
+        {
+          "id": "D",
+          "text": "Recording spectra removes the need to distinguish spatial resolution from spectral resolution."
+        }
+      ],
+      "answers": [
+        "A",
+        "C"
+      ],
+      "explanation": "A 对：逐点能谱同时保存位置和能量维度。B 错：未记录的能量信息不能从一个总强度值普遍恢复。C 对：谱的不同区域与物理过程关联，能提取不同信息。D 错：能否分开位置与能否分开能量仍是两个独立限制。\n\n重点词：spectrum imaging（谱像）；energy dimension（能量维度）；spatial association（空间关联）\n逻辑链：每点保存完整能谱 → 可按谱区选择所需信号 → 得到相应信息的空间分布，而非只有一幅总强度图。",
+      "source": {
+        "file": "Aberration-corrected STEM; Electron Spectroscopy",
+        "page": "STEM pp. 41,42,43; Spectroscopy pp. 38,39,49"
+      },
+      "difficulty": "进阶"
+    },
+    {
+      "id": "CMP-020",
+      "chapter": "综合比较 · Principles & applications",
+      "type": "multiple",
+      "prompt": "Which control–effect matches are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Reducing the scanned area can increase displayed SEM magnification without necessarily shrinking the physical probe."
+        },
+        {
+          "id": "B",
+          "text": "Improving electron optics can improve probe localization without automatically improving an X-ray detector’s energy resolution."
+        },
+        {
+          "id": "C",
+          "text": "Increasing electron flux can improve counting statistics but cannot replace insufficient excitation energy per electron."
+        },
+        {
+          "id": "D",
+          "text": "Increasing displayed magnification alone corrects lens aberrations and separates overlapping spectral peaks."
+        }
+      ],
+      "answers": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explanation": "A 对：扫描区域与显示放大有关，但不必改变真实探针尺寸。B 对：探针空间能力与探测器谱分辨应区分。C 对：电子数与单电子能量是不同控制量。D 错：显示缩放不改变透镜物理和能谱峰形。\n\n重点词：magnification（放大倍数）；probe size（探针尺寸）；counting statistics（计数统计）\n逻辑链：先判断限制发生在空间、能量还是统计维度 → 调整对应物理控制 → 不把更大显示图像或更多电子当万能改善。",
+      "source": {
+        "file": "SEM; Aberration-corrected STEM",
+        "page": "SEM pp.20,21,22,36,37,50; STEM pp.31,37"
+      },
+      "difficulty": "进阶"
+    }
+  ]
+}

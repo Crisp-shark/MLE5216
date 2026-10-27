@@ -1,0 +1,972 @@
+{
+  "version": 1,
+  "title": "MLE5216 · SEM 精编练习",
+  "questions": [
+    {
+      "id": "SEM-001",
+      "chapter": "SEM",
+      "type": "multiple",
+      "prompt": "Which statements correctly describe the capabilities and information provided by SEM?",
+      "options": [
+        {
+          "id": "A",
+          "text": "SEM replaces the focused light beam of a scanning optical microscope with a focused electron beam."
+        },
+        {
+          "id": "B",
+          "text": "Its spatial resolution and large depth of field are useful for studying rough surface morphology."
+        },
+        {
+          "id": "C",
+          "text": "A surface image by itself determines both the topography and the complete elemental composition."
+        },
+        {
+          "id": "D",
+          "text": "A BSE image provides the same quantitative chemical information as an elemental spectrum."
+        }
+      ],
+      "answers": [
+        "A",
+        "B"
+      ],
+      "explanation": "A（正确）：两者都可逐点扫描，但SEM探针是电子而不是光。B（正确）：高空间分辨能力与大景深有助于看清粗糙表面不同高度的结构。C（错误）：形貌图不能自动提供完整元素组成，成像通道决定信息类型。D（错误）：BSE能提示成分反差，真正的化学鉴定和定量仍需适当谱学。\n\n重点词：focused electron beam（聚焦电子束）；depth of field（景深）；topography（形貌）。\n逻辑链：聚焦电子束逐点探测 → 信号形成表面图像 → 高空间分辨与大景深有利于观察形貌，但不能自动给出完整化学组成。",
+      "source": {
+        "file": "SEM",
+        "page": "PDF pp. 17, 18, 49"
+      },
+      "difficulty": "基础"
+    },
+    {
+      "id": "SEM-002",
+      "chapter": "SEM",
+      "type": "multiple",
+      "prompt": "Why does a shorter electron wavelength not guarantee finer practical detail in SEM?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Raising beam energy shortens the electron wavelength and improves the diffraction-only expectation."
+        },
+        {
+          "id": "B",
+          "text": "In a bulk specimen, higher-energy electrons can spread farther sideways before generating the measured signal."
+        },
+        {
+          "id": "C",
+          "text": "The detector assigns every detected electron to the same physical point where it was generated, so lateral spreading cannot blur an image."
+        },
+        {
+          "id": "D",
+          "text": "A voltage setting must balance the wavelength benefit against the size of the signal-generating region."
+        }
+      ],
+      "answers": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explanation": "A（正确）：高束能使波长缩短，这是瑞利分辨率思路中的有利因素。B（正确）：但常规SEM厚样品内的相互作用体积可随束能增大，横向扩展使信号不再只来自束斑下极小区域。C（错误）：图像按入射束的扫描位置赋值，不能将来自较宽区域的信号重新定位到其真实产生点。D（正确）：实际选束能要平衡短波长与横向扩展等限制，不是越高越好。\n\n重点词：wavelength（波长）；interaction volume（相互作用体积）；lateral spread（横向扩展）。\n逻辑链：束能升高 → 波长变短，同时厚样品内横向扩展可能增大 → 实际分辨率取决于两者及其他限制的平衡。",
+      "source": {
+        "file": "SEM",
+        "page": "PDF pp. 20, 36, 37, 50; TEM PDF p.6"
+      },
+      "difficulty": "进阶",
+      "tutorial": "SEM Tutorial Q2"
+    },
+    {
+      "id": "SEM-003",
+      "chapter": "SEM",
+      "type": "multiple",
+      "prompt": "Which SEM component–function matches are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Electron gun: supplies electrons; accelerator: sets beam energy and influences interaction depth."
+        },
+        {
+          "id": "B",
+          "text": "Condenser lenses: control electron illumination; objective lens: controls focus and influences resolution."
+        },
+        {
+          "id": "C",
+          "text": "Scan coils: control beam position and scanned area, thereby affecting magnification."
+        },
+        {
+          "id": "D",
+          "text": "Detectors and readout: associate measured signal intensity with raster positions to construct the image."
+        }
+      ],
+      "answers": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explanation": "A（正确）：电子枪是电子源；加速器设置动能，进而影响电子进入材料的深度。\nB（正确）：课件分别把聚光镜对应电子照明，把物镜对应聚焦和分辨率。\nC（正确）：计算机通过扫描线圈偏转束斑，控制逐点扫描的位置及视场大小。\nD（正确）：探测强度与扫描位置同步，每个位置的信号构成一个像素，由控制读出系统形成图像。\n\n重点词：electron gun（电子枪）；scan coils（扫描线圈）；objective lens（物镜）。\n逻辑链：电子源供束、加速器定束能 → 透镜聚焦与扫描线圈定位 → 探测器把位置相关强度交给读出系统形成图像。",
+      "source": {
+        "file": "SEM",
+        "page": "PDF pp. 21, 22"
+      },
+      "difficulty": "基础"
+    },
+    {
+      "id": "SEM-004",
+      "chapter": "SEM",
+      "type": "multiple",
+      "prompt": "Which statements about SEM raster acquisition are supported by the lecture?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The frame is assembled serially, although raster acquisition can still be fast."
+        },
+        {
+          "id": "B",
+          "text": "A slower scan can improve signal-to-noise ratio by allowing more signal collection at each position."
+        },
+        {
+          "id": "C",
+          "text": "In the illustrated raster, flyback contributes image data in the same way as the forward scan."
+        },
+        {
+          "id": "D",
+          "text": "All raster positions must be exposed simultaneously before any pixel intensity is recorded."
+        }
+      ],
+      "answers": [
+        "A",
+        "B"
+      ],
+      "explanation": "A（正确）：SEM逐点建立像素，逐点采集仍可实现较快成像。B（正确）：较慢扫描允许每个位置积累更多信号，可改善信噪比。C（错误）：课件示意中有效数据来自正向扫描，回扫应与之区分。D（错误）：逐点扫描不是全视场同时曝光，每个位置的强度随束斑扫描获得。\n\n重点词：raster scan（光栅扫描）；dwell（驻留）；signal-to-noise ratio（信噪比）。\n逻辑链：束斑逐点驻留采集 → 每点信号构成像素 → 适当放慢扫描可提高信号积累与信噪比。",
+      "source": {
+        "file": "SEM",
+        "page": "PDF p. 22"
+      },
+      "difficulty": "基础"
+    },
+    {
+      "id": "SEM-005",
+      "chapter": "SEM",
+      "type": "multiple",
+      "prompt": "An operator surveys a large specimen and then zooms into one feature. Which interpretations are justified?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Reducing the scanned specimen area at fixed display size increases magnification, without itself guaranteeing newly resolved detail."
+        },
+        {
+          "id": "B",
+          "text": "SEM navigation is restricted to the same small fixed field in the way described for scanning-probe exploration."
+        },
+        {
+          "id": "C",
+          "text": "Changing the scan area necessarily changes the kinetic energy of every electron."
+        },
+        {
+          "id": "D",
+          "text": "Increasing displayed magnification alone removes the specimen interaction-volume limit."
+        }
+      ],
+      "answers": [
+        "A"
+      ],
+      "explanation": "A（正确）：扫描范围变小会增大显示倍率，但样品内横向扩展等分辨率限制仍在；倍率不等于新增空间信息。\nB（错误）：课件把容易放大、缩小和移动至其他位置作为SEM相对SPM大范围探索的优势。\nC（错误）：扫描区域由扫描线圈控制，束能由加速器设置，是不同控制量。\nD（错误）：把图像放大不能缩小信号的物理来源区域，也不会自动分辨更细结构。\n\n重点词：magnification（放大倍数）；resolution（分辨率）；field of view（视场）。\n逻辑链：扫描范围缩小、显示尺寸不变 → 倍率提高 → 物理信号范围并未因此缩小，新增细节仍受分辨率限制。",
+      "source": {
+        "file": "SEM",
+        "page": "PDF pp. 18, 21, 22, 36"
+      },
+      "difficulty": "进阶"
+    },
+    {
+      "id": "SEM-006",
+      "chapter": "SEM",
+      "type": "multiple",
+      "prompt": "Which statements distinguish beam current, beam energy and their practical consequences?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Increasing current at fixed energy increases the electron arrival rate without changing what energy per electron means."
+        },
+        {
+          "id": "B",
+          "text": "Beam energy concerns individual-electron kinetic energy; changing it can affect wavelength and surface sensitivity."
+        },
+        {
+          "id": "C",
+          "text": "Reducing current can reduce beam damage but may make the image noisier."
+        },
+        {
+          "id": "D",
+          "text": "Increasing current and increasing accelerating voltage are interchangeable ways of shortening the wavelength."
+        }
+      ],
+      "answers": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explanation": "A（正确）：电流对应单位时间内到达的电子数；束能固定时增加电流不等于每个电子能量增加。B（正确）：加速电压影响电子动能、波长以及样品内相互作用，进而影响表面敏感性。C（正确）：减少入射电子可降低损伤，但同时减少有效信号，产生信号与样品保护的取舍。D（错误）：电流控制电子数量，束能控制单电子能量，二者不能互相替代。\n\n重点词：beam current（束流）；beam energy（束能）；beam damage（束流损伤）。\n逻辑链：电流改变电子到达数量，束能改变单电子动能 → 信号、波长与相互作用分别改变 → 需要按成像质量和样品耐受性取舍。",
+      "source": {
+        "file": "SEM",
+        "page": "PDF pp. 20, 42, 44, 50（PDF p.44印刷页脚误标48/50）；SEM教程解答及电流噪声图：TEM PDF p. 8"
+      },
+      "difficulty": "进阶",
+      "tutorial": "SEM Tutorial Q4"
+    },
+    {
+      "id": "SEM-007",
+      "chapter": "SEM",
+      "type": "multiple",
+      "prompt": "Which relationships between beam energy, specimen material and interaction volume are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "For the same bulk material, increasing beam energy can increase penetration and lateral spreading."
+        },
+        {
+          "id": "B",
+          "text": "A larger nuclear charge can deflect electrons more strongly and give a smaller interaction volume."
+        },
+        {
+          "id": "C",
+          "text": "Changing specimen composition cannot change electron trajectories if the accelerating voltage is fixed."
+        },
+        {
+          "id": "D",
+          "text": "The smallest interaction volume is the only factor that determines the final SEM resolution."
+        }
+      ],
+      "answers": [
+        "A",
+        "B"
+      ],
+      "explanation": "A（正确）：同种厚样品中，高能电子通常深入更深、横向扩展更大。B（正确）：核电荷较大时对快电子的偏转更强，是材料影响相互作用体积的原因。C（错误）：束能相同也不能忽略样品元素、核电荷带来的散射差别。D（错误）：小相互作用体积有利于局域信号，但波长、束斑和电子光学等仍可能限制分辨率。\n\n重点词：nuclear charge（核电荷）；penetration（穿透）；interaction volume（相互作用体积）。\n逻辑链：束能和材料核电荷共同影响电子轨迹 → 穿透深度与横向扩展改变 → 信号局域性和实际分辨率随之改变。",
+      "source": {
+        "file": "SEM",
+        "page": "PDF pp. 36, 37；相关教程解答：TEM PDF p. 6"
+      },
+      "difficulty": "进阶"
+    },
+    {
+      "id": "SEM-008",
+      "chapter": "SEM",
+      "type": "multiple",
+      "prompt": "Which statements correctly identify the secondary-electron signal?",
+      "options": [
+        {
+          "id": "A",
+          "text": "SE are low-energy specimen electrons that mainly escape from a shallow region near the surface."
+        },
+        {
+          "id": "B",
+          "text": "SE are incident beam electrons elastically turned back near sample nuclei."
+        },
+        {
+          "id": "C",
+          "text": "SE retain energies comparable to the primary beam and therefore directly sample the same deeper region as BSE."
+        },
+        {
+          "id": "D",
+          "text": "The positive charge of the SE detector pushes secondary electrons away from it."
+        }
+      ],
+      "answers": [
+        "A"
+      ],
+      "explanation": "A（正确）：入射束激发样品价带或芯能级电子，低能SE只能从靠近自由表面的很浅区域容易逃出。B（错误）：这是BSE的来源；SE来自受激发的样品电子。C（错误）：SE能量低、直接逃逸浅；较高能量和较深信号来源对应BSE。D（错误）：负电子被正探测器吸引，不是排斥。\n\n重点词：secondary electrons, SE（二次电子）；escape depth（逃逸深度）；surface-sensitive（表面敏感）。\n逻辑链：入射束激发样品电子 → 低能SE难从深处逃逸 → 探测到的SE主要反映浅表面信息。",
+      "source": {
+        "file": "SEM",
+        "page": "PDF pp. 38, 39"
+      },
+      "difficulty": "基础"
+    },
+    {
+      "id": "SEM-009",
+      "chapter": "SEM",
+      "type": "multiple",
+      "prompt": "Why can edges and corners appear bright in an SE image of a chemically uniform rough surface?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A larger fraction of the interaction region is close to an accessible free surface at an edge."
+        },
+        {
+          "id": "B",
+          "text": "More low-energy SE can escape and reach the detector, producing topographic contrast."
+        },
+        {
+          "id": "C",
+          "text": "The brightness proves that the edges must contain heavier elements than the flat regions."
+        },
+        {
+          "id": "D",
+          "text": "Edge enhancement requires SE to escape directly from every point throughout the full primary-beam interaction volume."
+        }
+      ],
+      "answers": [
+        "A",
+        "B"
+      ],
+      "explanation": "A（正确）：转角、斜坡和侧壁增加邻近自由表面的体积比例。\nB（正确）：SE逃逸深度浅，侧面提供额外逃逸机会，形成边缘增强和三维形貌感。\nC（错误）：即使组成均匀，几何形貌也足以增强SE边缘亮度，不能据此认定重元素。\nD（错误）：初级束相互作用体积与低能SE直接逃逸深度不是同一量；只有靠近自由表面的SE容易逃出。\n\n重点词：edge enhancement（边缘增强）；free surface（自由表面）；topographic contrast（形貌对比）。\n逻辑链：边角具有侧面自由表面 → 更多浅层SE有机会逃逸并被收集 → 即使成分均匀，边缘也可较亮。",
+      "source": {
+        "file": "SEM",
+        "page": "PDF pp. 39, 50；边、角、斜坡几何图及解答：TEM PDF p. 5"
+      },
+      "difficulty": "进阶",
+      "tutorial": "SEM Tutorial Q1"
+    },
+    {
+      "id": "SEM-010",
+      "chapter": "SEM",
+      "type": "multiple",
+      "prompt": "Which statements describe backscattered electrons and their sampling region?",
+      "options": [
+        {
+          "id": "A",
+          "text": "BSE originate in the incident beam and can be turned back by strong interaction near specimen nuclei."
+        },
+        {
+          "id": "B",
+          "text": "Their relatively high energies allow a deeper sampling region than the low-energy SE signal."
+        },
+        {
+          "id": "C",
+          "text": "BSE are newly emitted valence electrons rather than incident electrons."
+        },
+        {
+          "id": "D",
+          "text": "The nuclear backscattering process taught here requires almost all electron kinetic energy to be lost."
+        }
+      ],
+      "answers": [
+        "A",
+        "B"
+      ],
+      "explanation": "A（正确）：BSE是入射束电子，受样品正核电荷作用发生强偏转后部分返回。B（正确）：BSE通常保有较高能量，其信号来源比SE更深；这里重点是相对深浅，不要求背诵固定深度。C（错误）：将BSE误认为受激发的低能样品电子。D（错误）：课件主要以弹性核散射解释BSE，高动能可以保留，并非必须几乎耗尽。\n\n重点词：backscattered electrons, BSE（背散射电子）；elastic scattering（弹性散射）；nucleus（原子核）。\n逻辑链：入射束电子接近样品核 → 较强核电场使部分电子大角度返回且保有较高能量 → BSE来源与SE的受激发低能电子不同。",
+      "source": {
+        "file": "SEM",
+        "page": "PDF pp. 38, 40"
+      },
+      "difficulty": "基础"
+    },
+    {
+      "id": "SEM-011",
+      "chapter": "SEM",
+      "type": "multiple",
+      "prompt": "Why can BSE images distinguish regions of different composition?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A larger nuclear proton number can increase backscattering and produce composition-dependent intensity."
+        },
+        {
+          "id": "B",
+          "text": "A single BSE grey value uniquely identifies an element without additional chemical information."
+        },
+        {
+          "id": "C",
+          "text": "SE and BSE images of the same region can emphasize different properties: surface shape and composition."
+        },
+        {
+          "id": "D",
+          "text": "BSE contrast is chemical because the detected BSE are emitted from the core levels of sample atoms."
+        }
+      ],
+      "answers": [
+        "A",
+        "C"
+      ],
+      "explanation": "A（正确）：元素核电荷不同会影响入射电子被散回的概率，所以不同成分可产生BSE灰度差。B（错误）：灰度可提示差异，但精确元素鉴定需要适当谱学或其他证据。C（正确）：SE以形貌信息为主，BSE有成分相关反差，二者互补。D（错误）：BSE仍来自入射束，化学敏感性来自它们与样品核相互作用的概率，而非样品芯电子发射。\n\n重点词：atomic number（原子序数）；backscattering probability（背散射概率）；chemical contrast（化学对比）。\n逻辑链：核正电荷随元素改变 → 背散射概率与强度改变 → BSE显示成分相关对比，但精确元素身份仍需谱学验证。",
+      "source": {
+        "file": "SEM",
+        "page": "PDF pp. 40, 41, 49, 50；核散射化学反差解答：TEM PDF p. 9"
+      },
+      "difficulty": "进阶",
+      "tutorial": "SEM Tutorial Q5"
+    },
+    {
+      "id": "SEM-012",
+      "chapter": "SEM",
+      "type": "multiple",
+      "prompt": "Which distinctions are needed when interpreting beam-energy and aperture changes?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Changing beam energy can change SE contrast without proving that the specimen topography changed."
+        },
+        {
+          "id": "B",
+          "text": "A smaller aperture and convergence angle can increase depth of field."
+        },
+        {
+          "id": "C",
+          "text": "Depth of field is defined by the deepest penetration point of the primary beam."
+        },
+        {
+          "id": "D",
+          "text": "Because SE directly escape only from a shallow layer, their image contrast cannot depend on the deeper interaction-volume changes caused by beam energy."
+        }
+      ],
+      "answers": [
+        "A",
+        "B"
+      ],
+      "explanation": "A（正确）：p42的氧化钒纳米管例子说明成像条件本身可明显改变反差；低束能更表面敏感。\nB（正确）：p43的几何图显示小会聚角使更大高度范围保持清晰，这是SEM大景深的重要关系。\nC（错误）：景深是样品不同高度保持清晰的范围，不是材料内部电子穿透深度。\nD（错误）：低能SE的直接逃逸区域与初级束相互作用体积应区分；p42明确展示束能改变仍会影响SE图像。\n\n重点词：surface sensitivity（表面敏感性）；convergence angle（会聚角）；depth of field（景深）。\n逻辑链：束能改变相互作用和表面敏感性，孔径改变会聚角 → 对比与清晰高度范围可分别改变 → 不应将景深、穿透深度和横向分辨率混为一谈。",
+      "source": {
+        "file": "SEM",
+        "page": "PDF pp. 38, 39, 42, 43"
+      },
+      "difficulty": "进阶"
+    },
+    {
+      "id": "SEM-013",
+      "chapter": "SEM",
+      "type": "multiple",
+      "prompt": "Which specimen-preparation choices are supported by the lecture?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A grounded conductive base, connected using silver paint, graphite paint or carbon tape, can drain charge; carbon tape can also support powders."
+        },
+        {
+          "id": "B",
+          "text": "Non-conductive bulk specimens often need a thin carbon or metal coating, commonly applied by sputter coating."
+        },
+        {
+          "id": "C",
+          "text": "Polymer or biological specimens may require heavy-metal staining for useful contrast."
+        },
+        {
+          "id": "D",
+          "text": "Dry bulk and powder samples are usable, but specimen height should still be checked to avoid instrument damage."
+        }
+      ],
+      "answers": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explanation": "A（正确）：这些材料提供导电接触，碳胶带同时可承载粉末；机械固定与排电路径都应考虑。\nB（正确）：碳、金或其他金属薄层可减少成像充电；不是每个样品都必须采用同一材料或厚度。\nC（正确）：染色针对反差需求，应与为排电而做的导电镀层区分。\nD（正确）：课件明确列出可用样品形态，并要求高度检查；镀膜或使用胶带不取消机械安全要求。\n\n重点词：grounding（接地）；conductive coating（导电镀层）；staining（染色）。\n逻辑链：样品导电性与所需对比不同 → 分别选择排电连接、导电镀层或染色 → 减少充电并提供所需反差，同时仍检查样品高度。",
+      "source": {
+        "file": "SEM",
+        "page": "PDF pp. 23, 24"
+      },
+      "difficulty": "基础"
+    },
+    {
+      "id": "SEM-014",
+      "chapter": "SEM",
+      "type": "multiple",
+      "prompt": "Which steps belong to the conventional SEM workflow shown in the lecture?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Vent for specimen exchange and use gloves to help keep the vacuum environment clean."
+        },
+        {
+          "id": "B",
+          "text": "Use the chamber camera and stage to position the sample relative to the objective, then pump down before imaging."
+        },
+        {
+          "id": "C",
+          "text": "Begin with a low-magnification overview, center the region of interest, and perform voltage, focus, aperture and astigmatism adjustments."
+        },
+        {
+          "id": "D",
+          "text": "A high-magnification image should replace the initial overview, because magnification alone guarantees safe specimen positioning."
+        }
+      ],
+      "answers": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explanation": "A（正确）：换样先放气，戴手套减少残留污染；随后送回样品并重新建立合适真空。\nB（正确）：相机辅助观察样品与物镜的相对位置，样品台可移动或转动；空气分子会散射电子，所以常规案例抽真空成像。\nC（正确）：这是p27的导航及主要调整流程；各调整有不同控制目的。\nD（错误）：高倍率不替代全貌导航和高度检查；初始低倍率视野便于找到并居中目标。\n\n重点词：venting（放气）；vacuum（真空）；region of interest（目标区域）。\n逻辑链：换样后重新建立真空并安全定位 → 低倍率寻找和居中目标 → 逐项完成束能、聚焦和对准调整后观察细节。",
+      "source": {
+        "file": "SEM",
+        "page": "PDF pp. 25, 26, 27, 34"
+      },
+      "difficulty": "基础"
+    },
+    {
+      "id": "SEM-015",
+      "chapter": "SEM",
+      "type": "multiple",
+      "prompt": "An SEM image shifts sideways through focus, while another develops perpendicular elongations. Which diagnoses are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Rigid focus-dependent image shift calls for checking aperture centering."
+        },
+        {
+          "id": "B",
+          "text": "Perpendicular elongations call for the stigmator, a multipole adjustment that reshapes an oval beam toward a circular beam."
+        },
+        {
+          "id": "C",
+          "text": "The two symptoms establish the same fault, so aperture centering always replaces stigmator adjustment."
+        },
+        {
+          "id": "D",
+          "text": "Ordinary refocusing alone removes the cause of both symptoms without any alignment change."
+        }
+      ],
+      "answers": [
+        "A",
+        "B"
+      ],
+      "explanation": "A（正确）：p28把调焦时整体横向移动与孔径偏心相对应。\nB（正确）：像散使欠焦、过焦拉长方向互相垂直；消像散器改变电子束形状。\nC（错误）：孔径偏心与像散是不同失准，不能互换诊断和校正。\nD（错误）：穿焦观察的目的正是发现对中或像散问题，仅把图像调到某焦点不等于消除原因。\n\n重点词：aperture centering（孔径对中）；astigmatism（像散）；stigmator（像散校正器）。\n逻辑链：穿焦时观察整体平移或正交拉伸 → 区分孔径偏心与像散 → 分别对中孔径或调整stigmator。",
+      "source": {
+        "file": "SEM",
+        "page": "PDF pp. 28, 29"
+      },
+      "difficulty": "进阶"
+    },
+    {
+      "id": "SEM-016",
+      "chapter": "SEM",
+      "type": "multiple",
+      "prompt": "Why is optical microscopy followed by SEM a useful workflow for a delicate biological surface?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Reflection light microscopy can provide an initial survey, while SEM reveals finer surface structure."
+        },
+        {
+          "id": "B",
+          "text": "A conductive contact and an appropriate thin coating can help charge leave a non-conductive specimen."
+        },
+        {
+          "id": "C",
+          "text": "Accumulated negative charge attracts and stabilizes the negative electron beam."
+        },
+        {
+          "id": "D",
+          "text": "Views of fine three-dimensional structure can help investigate an optical function without directly identifying a pigment."
+        }
+      ],
+      "answers": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explanation": "A（正确）：课件蝶翼案例先用光学明场看整体鳞片，再用SEM看更细结构，体现分辨能力和视场的互补。B（正确）：导电安装与合适镀层减少电荷积累，作用是排电，不是要求背诵特定案例厚度。C（错误）：积累负电会排斥负电子束，引起闪烁或扫描畸变。D（正确）：细微三维结构可与光扩散等功能联系，但SEM形貌图本身不等同于颜料的化学鉴定。\n\n重点词：reflection bright field（反射明场）；conductive coating（导电镀层）；light diffuser（光扩散结构）。\n逻辑链：光镜定位整体结构 → 导电安装与合适镀层帮助SEM稳定观察细节 → 三维形貌可用于理解光学功能，但不直接鉴定化学色素。",
+      "source": {
+        "file": "SEM",
+        "page": "PDF pp. 31, 32, 33, 34, 35"
+      },
+      "difficulty": "进阶"
+    },
+    {
+      "id": "SEM-017",
+      "chapter": "SEM",
+      "type": "multiple",
+      "prompt": "Which interpretations of changes in previously scanned regions are justified?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Polymer swelling or shrinkage, heating and etching can be beam damage; reducing beam current is the suggested remedy."
+        },
+        {
+          "id": "B",
+          "text": "A hydrocarbon residue can polymerize under irradiation, so avoiding organic residue addresses contamination."
+        },
+        {
+          "id": "C",
+          "text": "A persistent dark patch does not by itself prove charging rather than contamination or physical damage."
+        },
+        {
+          "id": "D",
+          "text": "Conductive grounding alone removes the organic residue responsible for irradiation-induced contamination."
+        }
+      ],
+      "answers": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explanation": "A（正确）：课件将这些现象列为束流损伤，明确建议降低电流。\nB（正确）：污染是表面残留在电子束下发生聚合，与电荷简单积累或调焦失准不同。\nC（正确）：课件展示多种已扫描区域伪影，应结合机制判断，不能只按一个明暗症状作唯一归因。\nD（错误）：接地改善排电，不能自动去除烃类残留；不同伪影需要针对性措施。\n\n重点词：beam damage（束损伤）；hydrocarbon（烃类）；contamination（污染）。\n逻辑链：束流可改变材料，也可使残留烃聚合 → 扫描区出现形变或污染痕迹 → 按机制降低束流、保持清洁，而非只靠接地。",
+      "source": {
+        "file": "SEM",
+        "page": "PDF p. 44（PDF p.44印刷页脚误标48/50）"
+      },
+      "difficulty": "进阶"
+    },
+    {
+      "id": "SEM-018",
+      "chapter": "SEM",
+      "type": "multiple",
+      "prompt": "An insulating specimen flickers and the scan is distorted. Which proposals address the charging mechanism?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Provide a path for accumulated electrons to leave, or use suitable ESEM charge neutralization when coating is unsuitable."
+        },
+        {
+          "id": "B",
+          "text": "Switch from SE to BSE detection and assume that unchanged specimen preparation can no longer charge."
+        },
+        {
+          "id": "C",
+          "text": "Treat the distortion as proof of aperture decentering, even if it is unrelated to changing focus."
+        },
+        {
+          "id": "D",
+          "text": "Use conductive coating only to improve focus, because charge accumulation cannot deflect a beam."
+        }
+      ],
+      "answers": [
+        "A"
+      ],
+      "explanation": "A（正确）：非导电区域负电积累可排斥束流；接地/导电层用于排电，ESEM则通过正气体离子中和，适用于不能镀膜等情况。\nB（错误）：换探测通道并不建立电荷排流或中和机制，不能保证消除充电。\nC（错误）：孔径偏心的特征是图像随调焦移动；充电畸变不能无条件套用该诊断。\nD（错误）：导电镀层的关键用途是减少电荷积累，而积累负电正可改变入射束轨迹。\n\n重点词：charging（充电）；charge drainage（电荷排流）；distortion（畸变）。\n逻辑链：绝缘表面无法及时排走入射电荷 → 负电积累偏转电子束 → 导电通路或合适ESEM中和可减轻畸变。",
+      "source": {
+        "file": "SEM",
+        "page": "PDF pp. 23, 24, 33, 44, 46（PDF p.44印刷页脚误标48/50）（PDF pp.45–48印刷页脚为44–47/50）"
+      },
+      "difficulty": "进阶"
+    },
+    {
+      "id": "SEM-019",
+      "chapter": "SEM",
+      "type": "multiple",
+      "prompt": "Which statements correctly describe the ESEM pressure arrangement?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Most of the column stays under vacuum, while pressure-limiting apertures and differential pumping allow gas near the sample."
+        },
+        {
+          "id": "B",
+          "text": "The electron gun, column and sample must all be at unrestricted ambient pressure."
+        },
+        {
+          "id": "C",
+          "text": "Pressure-limiting apertures actively pump away gas, so pumping between them is unnecessary."
+        },
+        {
+          "id": "D",
+          "text": "ESEM succeeds by eliminating every interaction between electrons and gas molecules."
+        }
+      ],
+      "answers": [
+        "A"
+      ],
+      "explanation": "A（正确）：ESEM不是整台仪器处于室内气压：通过限压孔及其间差分抽气，使样品附近可处于较差真空甚至环境压力。\nB（错误）：这忽略了ESEM维持区域间压力差及保护电子束传播条件的结构。\nC（错误）：孔径限制气体流通，抽走气体仍依赖差分抽气，两者功能不同。\nD（错误）：气体仍与电子相互作用，而且后续正离子中和机制正依赖气体被电离。\n\n重点词：pressure-limiting aperture（限压孔）；differential pumping（差分抽气）；gas environment（气体环境）。\n逻辑链：孔径限制气体流通，孔间抽气维持压力差 → 样品附近可保留较高气压而柱体保持真空 → 环境观察与电子束传播条件得以兼顾。",
+      "source": {
+        "file": "SEM",
+        "page": "PDF p. 45（PDF pp.45–48印刷页脚为44–47/50）"
+      },
+      "difficulty": "基础"
+    },
+    {
+      "id": "SEM-020",
+      "chapter": "SEM",
+      "type": "multiple",
+      "prompt": "Which steps in ESEM surface-charge neutralization are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "SE and BSE emitted from the specimen can ionize nearby gas and generate positive ions."
+        },
+        {
+          "id": "B",
+          "text": "The negatively charged specimen attracts the positive ions."
+        },
+        {
+          "id": "C",
+          "text": "The positive SE detector repels positive ions toward the specimen, helping them neutralize accumulated negative charge."
+        },
+        {
+          "id": "D",
+          "text": "Negative gas ions must add more negative charge to the specimen for neutralization to occur."
+        }
+      ],
+      "answers": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explanation": "A（正确）：课件把两类出射电子均列为气体电离来源，正气体离子随后参与中和。\nB（正确）：异号电荷相吸，正离子向被束流充成负电的表面移动。\nC（正确）：探测器的正电排斥和样品的负电吸引共同促进正离子朝样品漂移。\nD（错误）：这把中和物种和电荷符号倒置；本讲机制是正离子抵消表面负电。\n\n重点词：gas ionization（气体电离）；positive ions（正离子）；neutralization（中和）。\n逻辑链：出射SE/BSE电离气体 → 正离子受样品吸引并被正探测器排向样品 → 正离子抵消表面积累的负电。",
+      "source": {
+        "file": "SEM",
+        "page": "PDF p. 46（PDF pp.45–48印刷页脚为44–47/50）"
+      },
+      "difficulty": "基础"
+    },
+    {
+      "id": "SEM-021",
+      "chapter": "SEM",
+      "type": "multiple",
+      "prompt": "Which applications are supported by the ESEM examples?",
+      "options": [
+        {
+          "id": "A",
+          "text": "In-situ observation of wet materials and real-time gas/liquid/solid interactions."
+        },
+        {
+          "id": "B",
+          "text": "Observing uncoatable archaeological material when finer spatial detail than optical microscopy is required."
+        },
+        {
+          "id": "C",
+          "text": "Imaging a non-conducting ceramic or the illustrated unstained di-block copolymer without the usual charging preparation."
+        },
+        {
+          "id": "D",
+          "text": "An insulating ceramic must always receive a metal coating even when effective ESEM ion neutralization is available."
+        }
+      ],
+      "answers": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explanation": "A（正确）：课件明确列出湿态原位观察及动态界面过程，并以水泥相关需求举例。\nB（正确）：不能镀膜是ESEM适用理由；教程同时强调相对光镜需要更高分辨率时的选择。\nC（正确）：示例包含非导电陶瓷以及无染色的共聚物层片，说明环境模式扩展样品适用性，并非宣称任何样品都无需准备。\nD（错误）：气体正离子中和允许部分非导电表面不镀导电层，这是ESEM的重要优势。\n\n重点词：in situ（原位）；vacuum-sensitive（真空敏感）；uncoatable（不可镀膜）。\n逻辑链：样品需湿态、不能承受常规真空或不能镀膜，同时需要高空间分辨 → 选择适合的ESEM条件 → 扩展常规SEM难处理样品的可观察范围。",
+      "source": {
+        "file": "SEM",
+        "page": "PDF pp. 45, 47, 50（PDF pp.45–48印刷页脚为44–47/50）；相对光镜选择的教程解答：TEM PDF p. 7"
+      },
+      "difficulty": "进阶",
+      "tutorial": "SEM Tutorial Q3"
+    },
+    {
+      "id": "SEM-022",
+      "chapter": "SEM",
+      "type": "multiple",
+      "prompt": "What can environmental electron microscopy reveal during a wet, changing experiment?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Repeated images of the same region can follow hydration or other gas–liquid–solid changes over time."
+        },
+        {
+          "id": "B",
+          "text": "Electron-beam-induced reduction can produce metal deposits, so the observation may alter the process being observed."
+        },
+        {
+          "id": "C",
+          "text": "Using ESEM ensures that an electron beam cannot cause a chemical transformation in liquid."
+        },
+        {
+          "id": "D",
+          "text": "A BSE image sequence directly gives calibrated concentrations of every dissolved species."
+        }
+      ],
+      "answers": [
+        "A",
+        "B"
+      ],
+      "explanation": "A（正确）：课件盐晶体吸水例子表明同一区域连续成像可追踪动态变化。B（正确）：另一例中束流诱导溶液中金属离子还原沉积，说明测量条件可能参与过程。C（错误）：环境模式扩展样品适用性，不保证束流化学惰性。D（错误）：BSE记录散射强度变化，不自动构成全部溶解物种的定量分析。\n\n重点词：time series（时间序列）；hydration（水合）；beam-induced reduction（束流诱导还原）。\n逻辑链：环境条件下重复观察同一区域 → 可跟踪液体相关变化，同时束流可能参与化学反应 → 解释动态结果时需考虑测量对样品的影响。",
+      "source": {
+        "file": "SEM",
+        "page": "PDF p. 48（PDF pp.45–48印刷页脚为44–47/50）"
+      },
+      "difficulty": "进阶"
+    },
+    {
+      "id": "SEM-023",
+      "chapter": "SEM",
+      "type": "multiple",
+      "prompt": "Which criteria are appropriate when selecting a technique from the lecture overview?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Analytical spot size and concentration detection range are separate performance dimensions; the smallest spot need not give the lowest detection limit."
+        },
+        {
+          "id": "B",
+          "text": "The desired information—surface shape, local composition or a real chemical characterization—matters in addition to spatial resolution."
+        },
+        {
+          "id": "C",
+          "text": "The technique with the greatest displayed magnification must be optimal for every material and measurement."
+        },
+        {
+          "id": "D",
+          "text": "Every boundary in the overview chart is a guaranteed specification for all instruments and samples."
+        }
+      ],
+      "answers": [
+        "A",
+        "B"
+      ],
+      "explanation": "A（正确）：总览图分别比较空间定位与检测浓度范围，不能由一个维度最佳推出另一个也最佳。\nB（正确）：SEM应用及总结区分形貌、BSE成分反差和谱学表征，选技术应先明确问题。\nC（错误）：倍率不等于分辨率，也不能代替检测限、信号类型或样品兼容性要求。\nD（错误）：图表示不同技术的概括能力范围，不能当作所有设置和样品的硬性保证。\n\n重点词：analytical spot size（分析区域尺寸）；detection limit（检测限）；information content（信息类型）。\n逻辑链：先明确所需信息与空间/浓度范围 → 再比较设备信号和样品条件 → 不能只按倍率或单一性能选仪器。",
+      "source": {
+        "file": "SEM",
+        "page": "PDF pp. 15, 18, 49"
+      },
+      "difficulty": "进阶"
+    },
+    {
+      "id": "SEM-024",
+      "chapter": "SEM",
+      "type": "multiple",
+      "prompt": "A rough composite has bright edges in SE, bright inclusions in BSE, and less fine detail at higher voltage. Which interpretations are reasonable?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Edge geometry can enhance SE escape even where composition is uniform."
+        },
+        {
+          "id": "B",
+          "text": "Composition-dependent backscattering can make an inclusion bright, but its exact identity still needs chemical evidence."
+        },
+        {
+          "id": "C",
+          "text": "A shorter wavelength at higher voltage prevents lateral spreading from reducing image detail."
+        },
+        {
+          "id": "D",
+          "text": "The different observations should be interpreted through their signal mechanisms rather than one universal brightness rule."
+        }
+      ],
+      "answers": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explanation": "A（正确）：边缘提供更多靠近自由表面的SE逃逸路径。B（正确）：核电荷相关散射可产生BSE成分反差，但灰度不是唯一元素标签。C（错误）：短波长和更大横向扩展可以同时发生，后者可使实际细节变差。D（正确）：SE、BSE及束能变化分别涉及不同逻辑，不能把所有亮处都当成同一种信息。\n\n重点词：signal mechanism（信号机制）；topography（形貌）；composition（成分）。\n逻辑链：观察SE边缘、BSE夹杂与高束能细节变化 → 分别联系逃逸几何、核散射与横向展宽 → 避免用同一亮度规则解释全部现象。",
+      "source": {
+        "file": "SEM",
+        "page": "PDF pp. 36, 37, 39, 40, 41, 42, 49"
+      },
+      "difficulty": "进阶"
+    },
+    {
+      "id": "SEM-025",
+      "chapter": "SEM",
+      "type": "multiple",
+      "prompt": "Which task–method matches are supported by the SEM lecture?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Use a light-microscope overview to locate a region before investigating finer surface detail with SEM."
+        },
+        {
+          "id": "B",
+          "text": "Use SEM for large-area exploration with easy changes of position and magnification."
+        },
+        {
+          "id": "C",
+          "text": "Assume a scanning-probe instrument and SEM offer the same ease of surveying a large specimen."
+        },
+        {
+          "id": "D",
+          "text": "Choose the method with the largest displayed magnification without considering the required information."
+        }
+      ],
+      "answers": [
+        "A",
+        "B"
+      ],
+      "explanation": "A（正确）：光镜整体定位与SEM精细形貌可以互补，课件蝶翼案例就是这种流程。B（正确）：容易缩放和移动视场是课件强调的SEM应用优势。C（错误）：课件把大范围探索方便作为SEM相对SPM的一项优势，不能假定二者导航范围与方式相同。D（错误）：应先确定形貌、成分或动态观察任务，倍率本身不是选设备的充分依据。\n\n重点词：survey（概览）；complementary methods（互补方法）；surface structure（表面结构）。\n逻辑链：先确定位置与目标尺度 → 光镜概览和SEM细节观察相互补充 → 依据任务而非最高显示倍率安排测量流程。",
+      "source": {
+        "file": "SEM",
+        "page": "PDF pp. 17, 18, 31, 32, 35"
+      },
+      "difficulty": "进阶"
+    },
+    {
+      "id": "SEM-026",
+      "chapter": "SEM",
+      "type": "multiple",
+      "prompt": "A conventional SEM image of a fragile polymer becomes noisy after current is reduced. Which responses address the stated trade-off?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A slower scan can collect more signal per position and improve signal-to-noise ratio."
+        },
+        {
+          "id": "B",
+          "text": "Raising beam energy is identical to restoring the previous electron arrival rate."
+        },
+        {
+          "id": "C",
+          "text": "Reducing current can protect the specimen, while the acquisition settings must still provide enough useful signal."
+        },
+        {
+          "id": "D",
+          "text": "Increasing display magnification alone supplies the missing detected electrons."
+        }
+      ],
+      "answers": [
+        "A",
+        "C"
+      ],
+      "explanation": "A（正确）：更慢扫描增加每点的信号采集，可改善噪声，但仍需留意样品受到的照射。B（错误）：束能改变单电子能量，不等于改变每秒电子数。C（正确）：降低电流减轻损伤与保持足够信号之间存在取舍，应按目标协调采集条件。D（错误）：图像显示放大不能补充未采集到的电子信号。\n\n重点词：electron arrival rate（电子到达率）；dwell time（驻留时间）；signal-to-noise ratio（信噪比）。\n逻辑链：降电流减轻损伤但减少信号 → 调整扫描采集时间以改善统计 → 同时关注信号质量与样品受到的照射。",
+      "source": {
+        "file": "SEM",
+        "page": "PDF pp. 22, 44, 50"
+      },
+      "difficulty": "进阶"
+    },
+    {
+      "id": "SEM-027",
+      "chapter": "SEM",
+      "type": "multiple",
+      "prompt": "A specimen must remain wet and cannot receive a conductive coating. When is ESEM a justified choice over light microscopy?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The experiment needs spatial detail beyond light microscopy while preserving a suitable wet environment."
+        },
+        {
+          "id": "B",
+          "text": "Gas near the specimen can support charge neutralization of an insulating surface."
+        },
+        {
+          "id": "C",
+          "text": "The mere presence of water makes ESEM preferable even if an optical method already answers the question."
+        },
+        {
+          "id": "D",
+          "text": "Choosing ESEM removes the need to consider what information the detector actually measures."
+        }
+      ],
+      "answers": [
+        "A",
+        "B"
+      ],
+      "explanation": "A（正确）：Tutorial强调湿态或真空敏感样品同时需要比光镜更高空间分辨时，可选ESEM。B（正确）：合适气体产生的正离子可中和样品负电，使不宜镀膜的绝缘表面也可能成像。C（错误）：湿态不是自动选择ESEM的充分条件；光镜若已满足观察目标，应结合任务取舍。D（错误）：ESEM改变样品环境与充电条件，SE/BSE等信号的信息边界仍在。\n\n重点词：wet-state imaging（湿态成像）；charge neutralization（电荷中和）；spatial resolution（空间分辨率）。\n逻辑链：先判断湿态与不可镀膜约束 → 再判断光镜能否满足所需空间信息 → 需要更细信息时考虑ESEM及其正确的信号解释。",
+      "source": {
+        "file": "SEM",
+        "page": "PDF pp. 45, 46, 47, 50"
+      },
+      "difficulty": "进阶"
+    },
+    {
+      "id": "SEM-028",
+      "chapter": "SEM",
+      "type": "multiple",
+      "prompt": "A coating improves the stability of an SEM image, but a scanned area still changes irreversibly. Which conclusions are justified?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Improved charge drainage can reduce flicker without preventing all beam damage."
+        },
+        {
+          "id": "B",
+          "text": "Hydrocarbon contamination can still polymerize under the beam, so cleanliness remains important."
+        },
+        {
+          "id": "C",
+          "text": "A stable image proves that the specimen remains physically and chemically unchanged."
+        },
+        {
+          "id": "D",
+          "text": "Charging, contamination and beam damage are different mechanisms and may need different remedies."
+        }
+      ],
+      "answers": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explanation": "A（正确）：导电层解决电荷排流，不能保证聚合物形变、加热或刻蚀等损伤消失。B（正确）：表面烃残留可在照射下聚合，接地并不会自动清除它们。C（错误）：成像稳定仅说明某些畸变受到控制，不证明测量绝不改变样品。D（正确）：应按电荷、残留物与材料受束作用的机制分别诊断。\n\n重点词：charging（充电）；contamination（污染）；irreversible change（不可逆变化）。\n逻辑链：导电处理改善电荷稳定性 → 但束流损伤和残留物反应仍可继续 → 图像稳定不等于样品不被改变。",
+      "source": {
+        "file": "SEM",
+        "page": "PDF pp. 23, 24, 33, 44"
+      },
+      "difficulty": "进阶"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#245b49">
+  <meta name="description" content="为 yyw 准备的 MLE5216 选择题练习：章节练习、模拟测验和错题回顾。">
+  <title>MLE5216 · 练习室</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+  <script type="module" src="./app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到主要内容</a>
+  <div class="app-shell">
+    <aside class="sidebar" aria-label="主导航">
+      <a class="brand" href="./" aria-label="MLE5216 练习室首页"><span class="brand-mark">m.</span><span><strong>MLE5216</strong><small>一点一点，学得扎实。</small></span></a>
+      <div class="nav-label">我的学习空间</div>
+      <nav id="navigation">
+        <button class="nav-item active" data-view="home"><span class="nav-icon">◫</span>开始练习</button>
+        <button class="nav-item" data-view="tutorial" aria-label="Tutorial重点"><span class="nav-icon">◎</span><span class="tutorial-nav-label">Tutorial重点</span><span class="nav-count" id="tutorial-count">0</span></button>
+        <button class="nav-item" data-view="wrong"><span class="nav-icon">↺</span>错题本<span class="nav-count" id="wrong-count">0</span></button>
+        <button class="nav-item" data-view="favorites"><span class="nav-icon">☆</span>我的收藏<span class="nav-count" id="favorite-count">0</span></button>
+        <button class="nav-item" data-view="history"><span class="nav-icon">◷</span>练习记录</button>
+      </nav>
+      <div class="sidebar-note"><span class="note-spark">✳</span><strong>给 yyw 的练习室</strong><p>每次弄懂一点，<br>考试就多一分把握。</p></div>
+      <div class="sidebar-bottom"><span class="status-dot"></span>进度保存在当前浏览器<button class="text-button" id="reset-progress">清除进度</button></div>
+    </aside>
+    <div class="workspace">
+      <header class="topbar"><span>学习空间 <span class="breadcrumb">/</span> <strong id="page-label">开始练习</strong></span><div class="topbar-actions"><button class="small-button" id="import-bank">导入题库</button><span class="avatar" title="yyw">Y</span></div></header>
+      <main id="main" tabindex="-1"><div class="loading">正在打开练习室…</div></main>
+      <footer>MLE5216 练习室<span>保持好奇，慢慢掌握。</span></footer>
+    </div>
+  </div>
+  <input id="bank-file" type="file" accept=".json,application/json" hidden>
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+  <noscript>请启用 JavaScript 后使用选择题练习功能。</noscript>
+</body>
+</html>

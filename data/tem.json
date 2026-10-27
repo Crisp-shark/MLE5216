@@ -1,0 +1,1041 @@
+{
+  "version": 1,
+  "title": "MLE5216 · TEM 原理与应用练习",
+  "questions": [
+    {
+      "id": "TEM-001",
+      "chapter": "TEM · Principles & applications",
+      "type": "multiple",
+      "prompt": "Which statements correctly describe the information and practical limits of TEM?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A cross-sectional TEM specimen can reveal buried interfaces and thin-film thickness."
+        },
+        {
+          "id": "B",
+          "text": "A TEM projection is a direct map of the exposed surface height of a thick specimen."
+        },
+        {
+          "id": "C",
+          "text": "TEM can examine different areas and magnifications, but thin-specimen preparation and operation can be more demanding than SEM."
+        },
+        {
+          "id": "D",
+          "text": "Suitable specimen holders allow observations during heating or electrical stressing."
+        }
+      ],
+      "answers": [
+        "A",
+        "C",
+        "D"
+      ],
+      "explanation": "A：正确。截面让埋藏的层与界面进入透射观察方向。B：错误。TEM看穿样品，不直接把投影强度变成表面高度。C：正确。TEM也能导航和放大缩小，代价是更复杂的制样与操作。D：正确。原位研究需要适合该实验的专用样品杆，不能认为每支普通样品杆都自动具备这些功能。\n\n重点词：cross section（截面）；transmission（透射）；in situ（原位）\n逻辑链：研究埋藏结构 → 制作可透电子的截面 → 观察层厚与界面；研究动态过程 → 配置合适样品杆 → 在受控刺激下记录变化。",
+      "source": {
+        "file": "TEM",
+        "page": "PDF pp. 15–18,54"
+      },
+      "difficulty": "基础"
+    },
+    {
+      "id": "TEM-002",
+      "chapter": "TEM · Principles & applications",
+      "type": "multiple",
+      "prompt": "Why can TEM reveal finer details than conventional bulk-sample SEM?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The transmitted electrons are measured below a thin specimen rather than only collecting reflection-side signals above a thick specimen."
+        },
+        {
+          "id": "B",
+          "text": "The higher electron energy normally used in TEM gives a shorter electron wavelength."
+        },
+        {
+          "id": "C",
+          "text": "A thin specimen reduces the lateral spreading that broadens the signal-generating region in a bulk sample."
+        },
+        {
+          "id": "D",
+          "text": "A larger interaction volume is the main reason for the finer details."
+        }
+      ],
+      "answers": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explanation": "A：正确。透射几何配合薄样品，使TEM和常规SEM具有不同的信号路径和作用区域。B：正确。较高动能缩短电子波长，有利于分辨细节，但不是唯一条件。C：正确。薄样品减少横向散射，局域信息不易被较大作用体积混合。D：错误。横向作用区域扩大通常使细节变模糊；不能用“作用体积更大”解释TEM优势。\n\n重点词：lateral spread（横向展宽）；interaction volume（相互作用体积）；wavelength（波长）\n逻辑链：薄样品 → 横向散射减少 → 信号更局域；较高束能 → 波长缩短 → 有利于更高空间分辨。不能只比较显示放大倍数。",
+      "source": {
+        "file": "TEM; Electron Spectroscopy",
+        "page": "TEM PDF pp.17–19,55; Spectroscopy PDF p.9"
+      },
+      "difficulty": "进阶",
+      "tutorial": "TEM Tutorial Q3"
+    },
+    {
+      "id": "TEM-003",
+      "chapter": "TEM · Sample preparation",
+      "type": "multiple",
+      "prompt": "Which preparation choices are appropriate for dispersed nanoparticles in TEM?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The particles and support must allow enough electrons to pass through the region of interest."
+        },
+        {
+          "id": "B",
+          "text": "A conductive support makes an arbitrarily thick particle suitable for transmission imaging."
+        },
+        {
+          "id": "C",
+          "text": "A particle suspension can be drop-cast onto a thin carbon or silicon-nitride support film."
+        },
+        {
+          "id": "D",
+          "text": "A support grid carrying the specimen is mounted in a holder that enters the microscope vacuum."
+        }
+      ],
+      "answers": [
+        "A",
+        "C",
+        "D"
+      ],
+      "explanation": "A：正确。关键要求是电子透明，而不是背诵一个对所有材料通用的厚度上限。B：错误。导电性与电子透明性是不同要求，导电并不能取消透射限制。C：正确。这是课件给出的颗粒样品简便路线。D：正确。支撑网与样品杆承载薄样品并将其送入真空中的观察位置。\n\n重点词：electron transparency（电子透明性）；drop-casting（滴涂）；support film（支撑膜）\n逻辑链：颗粒分散并滴涂 → 颗粒落在薄支撑膜上 → 观察区可透射电子；厚度要求不能由导电支撑替代。",
+      "source": {
+        "file": "TEM",
+        "page": "PDF pp. 20,22"
+      },
+      "difficulty": "基础"
+    },
+    {
+      "id": "TEM-004",
+      "chapter": "TEM · Sample preparation",
+      "type": "multiple",
+      "prompt": "When is FIB preparation particularly justified instead of less expensive mechanical thinning?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A particular small device feature must be included in the TEM cross-section."
+        },
+        {
+          "id": "B",
+          "text": "Mechanical preparation is unsuitable whenever the final observation region must be thin."
+        },
+        {
+          "id": "C",
+          "text": "The question requires a site-specific buried interface or local failure region."
+        },
+        {
+          "id": "D",
+          "text": "FIB is the best choice for every specimen because its main advantage is lower cost."
+        }
+      ],
+      "answers": [
+        "A",
+        "C"
+      ],
+      "explanation": "A、C：正确。FIB的关键优势是位点特异，能把目标小结构准确放入截面。B：错误。机械切磨、中心减薄及离子减薄也能得到可透电子的样品。D：错误。课件强调FIB昂贵；“更能选点”不等于“普遍更便宜”。不需要精确选点时，可考虑机械路线。\n\n重点词：site-specific（位点特异）；focused ion beam（聚焦离子束）；failure analysis（失效分析）\n逻辑链：目标是特定局部小结构 → 需要精确选点 → FIB有价值；只需代表性截面 → 可采用机械制样与后续离子减薄。",
+      "source": {
+        "file": "TEM; Electron Spectroscopy",
+        "page": "TEM PDF pp.20–21,55; Spectroscopy PDF p.10"
+      },
+      "difficulty": "进阶",
+      "tutorial": "TEM Tutorial Q4"
+    },
+    {
+      "id": "TEM-005",
+      "chapter": "TEM · Sample preparation",
+      "type": "multiple",
+      "prompt": "Which descriptions of the dual-beam FIB lift-out process are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The Ga+ ion beam mills the specimen while the electron beam helps locate and observe the target."
+        },
+        {
+          "id": "B",
+          "text": "Local Pt deposition can connect a lamella to a manipulator and later to its support."
+        },
+        {
+          "id": "C",
+          "text": "The lamella is secured before being released and transferred, and it must still be thinned for electron transmission."
+        },
+        {
+          "id": "D",
+          "text": "For a suitable non-site-specific sample, cutting, grinding, dimpling and ion milling provide another thinning route."
+        }
+      ],
+      "answers": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explanation": "A：正确。双束系统把切削与观察分工。B：正确。局部沉积Pt用于连接，操纵针完成薄片转移。C：正确。先固定再释放可保留目标薄片；转移并不意味着已完成最终减薄。D：正确。机械路线与FIB都必须最终满足电子透明性，只是选点能力和成本不同。\n\n重点词：lamella（薄片）；lift-out（提取）；ion milling（离子减薄）\n逻辑链：观察定位目标 → 离子切削并固定薄片 → 转移到支撑网 → 继续减薄至可透电子。",
+      "source": {
+        "file": "TEM",
+        "page": "PDF pp.20–22"
+      },
+      "difficulty": "进阶"
+    },
+    {
+      "id": "TEM-006",
+      "chapter": "TEM · Sources & coherence",
+      "type": "multiple",
+      "prompt": "Which comparisons of the electron sources listed in the lecture are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "LaB6 is a field emitter, while the tungsten field emitter is a thermionic source."
+        },
+        {
+          "id": "B",
+          "text": "Increasing displayed image magnification makes the source coherence irrelevant."
+        },
+        {
+          "id": "C",
+          "text": "The field emitter offers the best coherence and resolution among the listed sources, at higher cost."
+        },
+        {
+          "id": "D",
+          "text": "The inexpensive tungsten hairpin filament has better coherence than the listed field emitter."
+        }
+      ],
+      "answers": [
+        "C"
+      ],
+      "explanation": "A：错误。LaB6属于热电子发射源，钨场发射源依靠场发射。B：错误。显示放大不能改变源尺寸、相干性或探针质量。C：正确。课件把场发射源与较好的相干性和分辨能力联系起来，同时指出其成本更高。D：错误。钨发夹丝低价，但不能因此推成相干性最好。\n\n重点词：thermionic emission（热电子发射）；field emission（场发射）；coherence（相干性）\n逻辑链：选择电子源 → 决定束流质量与相干条件 → 影响可形成的探针及相位成像能力；显示倍率不能补偿源质量。",
+      "source": {
+        "file": "TEM",
+        "page": "PDF pp.23–26"
+      },
+      "difficulty": "基础"
+    },
+    {
+      "id": "TEM-007",
+      "chapter": "TEM · Sources & coherence",
+      "type": "multiple",
+      "prompt": "Which statements correctly connect coherence with the electron beam?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A small source favours spatial, or directional, coherence."
+        },
+        {
+          "id": "B",
+          "text": "Stable acceleration conditions help maintain consistent electron energies and temporal coherence."
+        },
+        {
+          "id": "C",
+          "text": "High spatial coherence automatically guarantees high temporal coherence."
+        },
+        {
+          "id": "D",
+          "text": "Both spatial and temporal coherence are useful when electron-wave interference is used for phase imaging."
+        }
+      ],
+      "answers": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explanation": "A：正确。较小源尺寸有助于方向关系一致。B：正确。稳定加速条件减少电子能量与频率的变化，有利于时间相干。C：错误。课件展示两种相干性可以独立变化。D：正确。只检查方向而忽略时间相位关系，或反过来，都不是完整的相干条件。\n\n重点词：spatial coherence（空间相干性）；temporal coherence（时间相干性）；phase（相位）\n逻辑链：小源尺寸 → 方向更一致；稳定能量 → 时间相位关系更稳定；两者配合 → 干涉对比更可靠。",
+      "source": {
+        "file": "TEM",
+        "page": "PDF pp.24–26"
+      },
+      "difficulty": "进阶"
+    },
+    {
+      "id": "TEM-008",
+      "chapter": "TEM · Sources & coherence",
+      "type": "multiple",
+      "prompt": "What do DIC and HRTEM have in common when forming image contrast?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The specimen introduces phase differences into the illuminating waves."
+        },
+        {
+          "id": "B",
+          "text": "Interference converts those phase differences into measurable intensity differences."
+        },
+        {
+          "id": "C",
+          "text": "Both techniques form their images by collecting surface secondary electrons."
+        },
+        {
+          "id": "D",
+          "text": "Their common phase-contrast logic means that they use identical radiation and specimen requirements."
+        }
+      ],
+      "answers": [
+        "A",
+        "B"
+      ],
+      "explanation": "A、B：正确。这正是老师Tutorial要求抓住的共同逻辑：样品改变相位，波干涉再把相位差转为明暗。C：错误。DIC使用光，HRTEM使用透射电子波，都不是SEM二次电子图。D：错误。机制有相似处不等于所用波、光路、制样要求完全相同。\n\n重点词：phase difference（相位差）；interference（干涉）；intensity contrast（强度对比）\n逻辑链：样品引入相位差 → 波发生相长/相消干涉 → 探测到强度差 → 形成图像明暗。共同机制不等于相同适用范围。",
+      "source": {
+        "file": "TEM; Electron Spectroscopy",
+        "page": "TEM PDF pp.27,55; Spectroscopy PDF p.11"
+      },
+      "difficulty": "进阶",
+      "tutorial": "TEM Tutorial Q5"
+    },
+    {
+      "id": "TEM-009",
+      "chapter": "TEM · Diffraction & crystallography",
+      "type": "multiple",
+      "prompt": "Which statements explain diffraction from a periodic array of atoms illuminated by coherent electrons?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Each atom acts as a point-like scatterer in the Huygens construction."
+        },
+        {
+          "id": "B",
+          "text": "Specific directions have constructive interference because scattered waves have matching phases."
+        },
+        {
+          "id": "C",
+          "text": "The direct beam is the forward direction in which the waves can also add constructively."
+        },
+        {
+          "id": "D",
+          "text": "Every intermediate direction has the same constructive intensity as a diffraction maximum."
+        }
+      ],
+      "answers": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explanation": "A：正确。单个原子向不同方向散射电子波。B：正确。多原子散射波在特定方向同相叠加，形成衍射极大。C：正确。直射方向也满足课件所示的相长条件。D：错误。不满足相长条件的中间方向可出现相消，不能认为所有方向一样强。\n\n重点词：Huygens principle（惠更斯原理）；constructive interference（相长干涉）；destructive interference（相消干涉）\n逻辑链：原子散射电子波 → 周期排列决定各方向相位差 → 特定方向同相增强、其他方向削弱 → 形成衍射图样。",
+      "source": {
+        "file": "TEM",
+        "page": "PDF pp.28–31"
+      },
+      "difficulty": "基础"
+    },
+    {
+      "id": "TEM-010",
+      "chapter": "TEM · Diffraction & crystallography",
+      "type": "multiple",
+      "prompt": "Which qualitative consequences of Bragg diffraction are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "At fixed wavelength and reflection order, more closely spaced planes diffract to a larger angle."
+        },
+        {
+          "id": "B",
+          "text": "At fixed plane spacing, using a shorter wavelength necessarily increases the diffraction angle."
+        },
+        {
+          "id": "C",
+          "text": "The beam-deflection angle and the angle between the incident beam and the crystal planes are interchangeable."
+        },
+        {
+          "id": "D",
+          "text": "A larger diffraction angle directly means that the crystal grains are physically larger."
+        }
+      ],
+      "answers": [
+        "A"
+      ],
+      "explanation": "A：正确。固定波长和级次时，晶面间距与散射角呈反向关系。B：错误。固定间距时，波长缩短对应更小的Bragg角，不能把间距关系套到波长上。C：错误。课件几何中Bragg角与总束偏转角不同，不能互换；理解光路比死记代入更重要。D：错误。衍射角主要反映晶面间距及条件，不是晶粒尺寸的放大坐标。\n\n重点词：Bragg diffraction（布拉格衍射）；lattice spacing（晶面间距）；scattering angle（散射角）\n逻辑链：固定波长与反射条件 → 晶面间距变小 → 相长干涉出现于更大散射角 → 图样反映结构周期而非晶粒外形。",
+      "source": {
+        "file": "TEM",
+        "page": "PDF pp.32,36–38"
+      },
+      "difficulty": "进阶"
+    },
+    {
+      "id": "TEM-011",
+      "chapter": "TEM · Diffraction & crystallography",
+      "type": "multiple",
+      "prompt": "Which interpretations of TEM diffraction patterns are justified?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A single crystal can produce discrete spots, while many orientations can produce sharp rings."
+        },
+        {
+          "id": "B",
+          "text": "A diffraction ring is the intersection of a diffracted cone with the detector plane."
+        },
+        {
+          "id": "C",
+          "text": "A ring radius directly traces the real-space boundary of a particle."
+        },
+        {
+          "id": "D",
+          "text": "A central dark shape may be a beam stop protecting the camera rather than a specimen feature."
+        }
+      ],
+      "answers": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explanation": "A：正确。参与衍射的晶粒数与取向分布影响斑点、稀疏斑点或环的出现。B：正确。多取向的同一散射角形成锥面，与相机平面相交为环。C：错误。衍射环记录角度和周期性信息，粒子边界应看实空间像。D：正确。必须把挡束器等仪器结构与样品结构区分。\n\n重点词：single crystal（单晶）；polycrystalline（多晶）；beam stop（挡束器）\n逻辑链：晶体取向分布不同 → 相长散射方向分布不同 → 形成斑点或锐环；先辨仪器部件，再解释样品。",
+      "source": {
+        "file": "TEM",
+        "page": "PDF pp.33,35"
+      },
+      "difficulty": "基础"
+    },
+    {
+      "id": "TEM-012",
+      "chapter": "TEM · Diffraction & crystallography",
+      "type": "multiple",
+      "prompt": "When using a TEM diffraction pattern to compare lattice spacings, which statements are justified?",
+      "options": [
+        {
+          "id": "A",
+          "text": "At the same wavelength and camera settings, a reflection farther from the direct beam corresponds to a larger plane spacing."
+        },
+        {
+          "id": "B",
+          "text": "Electron diffraction necessarily measures lattice parameters more precisely than X-ray diffraction."
+        },
+        {
+          "id": "C",
+          "text": "Changing camera length changes the real lattice spacing of an unchanged specimen."
+        },
+        {
+          "id": "D",
+          "text": "The wavelength and camera geometry must be known or calibrated before interpreting spot positions quantitatively."
+        }
+      ],
+      "answers": [
+        "D"
+      ],
+      "explanation": "A：错误。相同设置下，离中心更远表示更大散射角，对应更小而非更大的晶面间距。B：错误。课件复习明确指出电子衍射测晶体结构参数的精度低于XRD；局部分析优势不等于参数精度最高。C：错误。相机长度改变图样几何缩放，并不改变样品晶格。D：正确。同一半径在不同设置下不能未经校准就比较成相同间距。\n\n重点词：camera length（相机长度）；calibration（校准）；lattice parameter（晶格参数）\n逻辑链：已知波长与相机几何 → 将斑点位置关联到散射角与晶面间距；改变显示几何 ≠ 改变真实晶格。",
+      "source": {
+        "file": "TEM; Electron Spectroscopy",
+        "page": "TEM PDF pp.37–38; Spectroscopy PDF p.3"
+      },
+      "difficulty": "进阶"
+    },
+    {
+      "id": "TEM-013",
+      "chapter": "TEM · Diffraction & crystallography",
+      "type": "multiple",
+      "prompt": "Why is indexing needed after lattice spacings have been obtained?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It associates reflections with particular crystal planes rather than leaving them as unassigned distances."
+        },
+        {
+          "id": "B",
+          "text": "Symmetry-equivalent plane families in a cubic crystal must have different spacings."
+        },
+        {
+          "id": "C",
+          "text": "Measuring one spacing automatically identifies every crystal phase without considering possible alternatives."
+        },
+        {
+          "id": "D",
+          "text": "The same set of allowed reflections can be assumed for every crystal structure."
+        }
+      ],
+      "answers": [
+        "A"
+      ],
+      "explanation": "A：正确。知道间距之后仍需回答“它属于哪组晶面”，这就是索引的意义。B：错误。立方晶体的对称等价面可共享间距，不能把每个方向变化都当作新相。C：错误。不同候选结构可能有相近间距，需要更多反射及整体一致性。D：错误。fcc、bcc及其他晶系具有不同反射关系。\n\n重点词：indexing（索引）；Miller indices（密勒指数）；equivalent planes（等价晶面）\n逻辑链：测得衍射位置 → 得到间距 → 匹配晶面与允许反射 → 综合判断晶体结构；不能只靠一个未标定距离。",
+      "source": {
+        "file": "TEM",
+        "page": "PDF pp.39–40"
+      },
+      "difficulty": "进阶"
+    },
+    {
+      "id": "TEM-014",
+      "chapter": "TEM · Diffraction & crystallography",
+      "type": "multiple",
+      "prompt": "Which reasoning helps distinguish candidate crystal structures from diffraction?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Compare the pattern of observed spacings and allowed reflections with the candidate structures."
+        },
+        {
+          "id": "B",
+          "text": "Assume that any pattern containing rings must have the same crystal structure."
+        },
+        {
+          "id": "C",
+          "text": "Require several reflections to be consistent with one structural interpretation."
+        },
+        {
+          "id": "D",
+          "text": "Treat a larger pattern on the camera as proof that a different phase has formed, without checking camera settings."
+        }
+      ],
+      "answers": [
+        "A",
+        "C"
+      ],
+      "explanation": "A：正确。课件用不同立方结构的反射关系说明相识别逻辑，不必靠背一串数值完成判断。B：错误。环说明取向叠加，不直接指定晶相。C：正确。多条反射的一致性比单条相似间距更可靠。D：错误。相机几何也会改变图样尺度，应先排除设置变化。\n\n重点词：crystal phase（晶相）；allowed reflection（允许反射）；consistency（一致性）\n逻辑链：提出候选结构 → 比较多条间距及反射关系 → 检查是否共同一致 → 支持或排除晶相；先控制几何再比较。",
+      "source": {
+        "file": "TEM",
+        "page": "PDF pp.37–40"
+      },
+      "difficulty": "进阶"
+    },
+    {
+      "id": "TEM-015",
+      "chapter": "TEM · Diffraction & crystallography",
+      "type": "multiple",
+      "prompt": "A region changes from sharp diffraction features to broad diffuse rings during irradiation. Which interpretations are justified?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The later pattern can indicate a loss of long-range crystalline order."
+        },
+        {
+          "id": "B",
+          "text": "The original specimen must already have been amorphous because any diffraction ring proves disorder."
+        },
+        {
+          "id": "C",
+          "text": "Irradiation may have changed the specimen, so the final pattern should not automatically be assigned to its initial state."
+        },
+        {
+          "id": "D",
+          "text": "Broad diffuse rings establish the elemental composition without spectroscopy."
+        }
+      ],
+      "answers": [
+        "A",
+        "C"
+      ],
+      "explanation": "A：正确。课件把锐斑或锐环与晶态联系，把宽弥散环与非晶状态联系。B：错误。多晶也可出现锐环，应区分锐环和弥散环。C：正确。测量过程可能改变样品，必须区分初始状态与照射后状态。D：错误。衍射首先提供结构有序性信息，不直接代替元素谱。\n\n重点词：amorphous（非晶）；diffuse ring（弥散环）；beam-induced change（束致变化）\n逻辑链：照射使结构有序性下降 → 相干衍射特征变宽/弥散 → 图样变化；必须检查测量是否改变被测对象。",
+      "source": {
+        "file": "TEM",
+        "page": "PDF pp.41,54–55"
+      },
+      "difficulty": "进阶"
+    },
+    {
+      "id": "TEM-016",
+      "chapter": "TEM · Image formation & apertures",
+      "type": "multiple",
+      "prompt": "How does switching TEM from imaging mode to diffraction mode change what is recorded?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The specimen image is merely enlarged digitally until it becomes a diffraction pattern."
+        },
+        {
+          "id": "B",
+          "text": "The objective back-focal plane, rather than the ordinary specimen image plane, is projected onto the camera."
+        },
+        {
+          "id": "C",
+          "text": "Changing beam current alone selects a different physical plane for projection onto the camera."
+        },
+        {
+          "id": "D",
+          "text": "The selected-area aperture replaces the camera and records the electrons itself."
+        }
+      ],
+      "answers": [
+        "B"
+      ],
+      "explanation": "A：错误。数字放大不改变被投影的物理平面。B：正确。衍射模式显示方向/角度信息，成像模式显示样品实空间像。C：错误。束流改变不等于投影平面切换；课件通过调节中间镜强度选择投影平面。D：错误。选区光阑筛选区域，不是记录探测器。\n\n重点词：back-focal plane（后焦面）；image plane（像平面）；intermediate lens（中间镜）\n逻辑链：调节中间镜 → 改变投影到相机的平面 → 在实空间图像与衍射角分布之间切换。",
+      "source": {
+        "file": "TEM",
+        "page": "PDF pp.42–43"
+      },
+      "difficulty": "进阶"
+    },
+    {
+      "id": "TEM-017",
+      "chapter": "TEM · Image formation & apertures",
+      "type": "multiple",
+      "prompt": "Which aperture–function matches are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A selected-area aperture restricts which specimen region contributes to a diffraction pattern."
+        },
+        {
+          "id": "B",
+          "text": "An objective aperture selects electron beams in the diffraction plane and therefore affects the imaging mode."
+        },
+        {
+          "id": "C",
+          "text": "Movable holes in a metal strip are physical means of selecting an aperture size and position."
+        },
+        {
+          "id": "D",
+          "text": "The selected-area and objective apertures select the same variable and are interchangeable."
+        }
+      ],
+      "answers": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explanation": "A：正确。选区光阑在像平面选哪块样品。B：正确。物镜光阑在后焦/衍射平面选哪些电子束。C：正确。光阑是可移动的实体孔，操作改变其接受范围。D：错误。一个选空间区域，一个选散射方向，位置与功能不能互换。\n\n重点词：selected-area aperture（选区光阑）；objective aperture（物镜光阑）；beam selection（选束）\n逻辑链：要选样品位置 → 用像平面选区光阑；要选直射或衍射束 → 用衍射平面物镜光阑 → 决定成像信息。",
+      "source": {
+        "file": "TEM",
+        "page": "PDF pp.42–44"
+      },
+      "difficulty": "进阶"
+    },
+    {
+      "id": "TEM-018",
+      "chapter": "TEM · Imaging modes & applications",
+      "type": "multiple",
+      "prompt": "Which statements correctly describe bright-field TEM?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The objective aperture accepts the central direct beam and excludes scattering outside its angular range."
+        },
+        {
+          "id": "B",
+          "text": "Strong scattering out of the accepted beam can make a region dark."
+        },
+        {
+          "id": "C",
+          "text": "A dark region must be a hole or the lightest material in the specimen."
+        },
+        {
+          "id": "D",
+          "text": "Selecting only an off-axis diffracted beam while blocking the direct beam is the ordinary BF condition."
+        }
+      ],
+      "answers": [
+        "A",
+        "B"
+      ],
+      "explanation": "A：正确。BF用中心直射束形成亮背景。B：正确。局部电子被散射出接受范围，会减少该处成像计数而变暗。C：错误。暗对比可由厚度、质量散射、衍射或晶格畸变造成，不能只凭明暗定物性。D：错误。该描述属于DF选束。\n\n重点词：bright field（明场）；direct beam（直射束）；scattering contrast（散射对比）\n逻辑链：局部散射增强 → 更多电子离开BF接受范围 → 直射计数减少 → 图像变暗；暗并不自动等于某一种结构。",
+      "source": {
+        "file": "TEM",
+        "page": "PDF pp.46–49"
+      },
+      "difficulty": "基础"
+    },
+    {
+      "id": "TEM-019",
+      "chapter": "TEM · Imaging modes & applications",
+      "type": "multiple",
+      "prompt": "Which expectations for routine BF-TEM are appropriate?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It is useful for overview images and measurements of particle size and shape."
+        },
+        {
+          "id": "B",
+          "text": "A dislocation can appear dark because lattice distortion scatters electrons outside the objective aperture."
+        },
+        {
+          "id": "C",
+          "text": "If atomic-scale detail is not resolved, increasing displayed magnification alone supplies the missing information."
+        },
+        {
+          "id": "D",
+          "text": "Its comparatively straightforward alignment makes it useful before choosing a more specialized mode."
+        }
+      ],
+      "answers": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explanation": "A：正确。BF适合先找区域并观察尺寸、形状。B：正确。位错周围的晶格畸变改变散射，造成明场计数减少。C：错误。放大像素不增加真实分辨能力，需按任务选择HRTEM等模式。D：正确。常规概览与精细结构分析可以构成连续工作流。\n\n重点词：overview（概览）；dislocation（位错）；resolution（分辨能力）\n逻辑链：先用BF定位和测形状 → 根据研究问题选择更合适模式；畸变改变散射 → 电子离开BF光阑 → 位错产生暗对比。",
+      "source": {
+        "file": "TEM",
+        "page": "PDF pp.48–49,53–54"
+      },
+      "difficulty": "进阶"
+    },
+    {
+      "id": "TEM-020",
+      "chapter": "TEM · Imaging modes & applications",
+      "type": "multiple",
+      "prompt": "A region is bright in dark-field TEM when",
+      "options": [
+        {
+          "id": "A",
+          "text": "It contributes strongly to the diffracted beam selected by the objective aperture."
+        },
+        {
+          "id": "B",
+          "text": "It necessarily has the highest exposed-surface height."
+        },
+        {
+          "id": "C",
+          "text": "It necessarily contains the heaviest element, independently of crystal orientation."
+        },
+        {
+          "id": "D",
+          "text": "It sends most of its electrons only into the direct beam that is blocked in DF."
+        }
+      ],
+      "answers": [
+        "A"
+      ],
+      "explanation": "A：正确。DF亮区表示对被选衍射方向有强贡献。B：错误。DF不是表面高度图。C：错误。反射选择与取向很重要，不能把亮区直接当成重元素标签。D：错误。被挡住的直射电子不参与DF成像。可通过光阑偏心或合适束倾斜选入所需衍射束。\n\n重点词：dark field（暗场）；diffracted beam（衍射束）；orientation（取向）\n逻辑链：选一束衍射电子并挡直射束 → 只有满足所选散射条件的区域贡献强信号 → 相应区域变亮。",
+      "source": {
+        "file": "TEM",
+        "page": "PDF pp.46,50"
+      },
+      "difficulty": "基础"
+    },
+    {
+      "id": "TEM-021",
+      "chapter": "TEM · Imaging modes & applications",
+      "type": "multiple",
+      "prompt": "Two precipitates have similar BF appearance, but only one is bright under a chosen DF condition. Which deductions are justified?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The dark precipitate may fail to satisfy the selected reflection even if it belongs to the same phase."
+        },
+        {
+          "id": "B",
+          "text": "Selecting another reflection can change which crystallites are visible."
+        },
+        {
+          "id": "C",
+          "text": "Every crystal belonging to a phase must be bright under any one selected reflection."
+        },
+        {
+          "id": "D",
+          "text": "Collecting only a fraction of transmitted electrons can give high contrast but weak signal and longer acquisition."
+        }
+      ],
+      "answers": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explanation": "A、B：正确。DF按特定反射筛选，不同取向晶粒对同一反射的贡献不同。C：错误。DF暗不能直接推出该相不存在。D：正确。选束提高特异性，却丢弃许多电子，存在对比与信号量的取舍。\n\n重点词：selected reflection（所选反射）；phase selectivity（相选择性）；signal intensity（信号强度）\n逻辑链：选择特定反射 → 只显示满足条件的晶粒 → 获得高选择性/对比；被接受电子减少 → 信号变弱、采集更慢。",
+      "source": {
+        "file": "TEM",
+        "page": "PDF pp.47,50–51"
+      },
+      "difficulty": "进阶"
+    },
+    {
+      "id": "TEM-022",
+      "chapter": "TEM · Imaging modes & applications",
+      "type": "multiple",
+      "prompt": "Which configuration and mechanism describe HRTEM?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only the central direct beam is allowed through the objective aperture, excluding all diffracted beams."
+        },
+        {
+          "id": "B",
+          "text": "The direct beam and suitable diffracted beams pass together through the objective aperture."
+        },
+        {
+          "id": "C",
+          "text": "Interference between the accepted electron waves produces phase contrast."
+        },
+        {
+          "id": "D",
+          "text": "The periodic atomic-scale contrast discussed in the lecture is obtained without any dependence on crystalline order."
+        }
+      ],
+      "answers": [
+        "B",
+        "C"
+      ],
+      "explanation": "A：错误。只留中心束是BF的基本选束逻辑。B、C：正确。HRTEM让直射与衍射波共同参与相干干涉。D：错误。课件的规则晶格对比依赖晶态，非晶区表现为无规则灰度，不能把两者等同。\n\n重点词：high-resolution TEM（高分辨TEM）；phase contrast（相位对比）；crystalline order（晶体有序性）\n逻辑链：直射波与衍射波共同通过 → 相位差参与干涉 → 晶格产生周期强度对比；非晶结构不能产生同样规则的晶格图。",
+      "source": {
+        "file": "TEM",
+        "page": "PDF pp.46,52"
+      },
+      "difficulty": "进阶"
+    },
+    {
+      "id": "TEM-023",
+      "chapter": "TEM · Imaging modes & applications",
+      "type": "multiple",
+      "prompt": "Which interpretation of conventional HRTEM avoids overclaiming atomic positions?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A bright spot is always an atom column, irrespective of the focus setting."
+        },
+        {
+          "id": "B",
+          "text": "Changing focus can reverse bright and dark contrast even when the specimen structure has not changed."
+        },
+        {
+          "id": "C",
+          "text": "The image can reveal very fine layers and lattice structure, but raw contrast alone does not uniquely locate every atom or interface."
+        },
+        {
+          "id": "D",
+          "text": "A contrast reversal necessarily means that atoms have exchanged places."
+        }
+      ],
+      "answers": [
+        "B",
+        "C"
+      ],
+      "explanation": "A：错误。传统HRTEM明暗依赖相位传递与调焦，不能简单作固定原子标签。B：正确。课件展示离焦变化导致对比翻转。C：正确。高分辨能力很有用，但不等于无条件的原子定位；课件随后引出像差校正STEM。D：错误。成像条件改变足以改变明暗，未必发生原子迁移。\n\n重点词：defocus（离焦）；contrast reversal（对比翻转）；atomic position（原子位置）\n逻辑链：焦点改变 → 电子波干涉强度改变 → 明暗可翻转；成像对比变化 ≠ 原子位置必然变化。",
+      "source": {
+        "file": "TEM",
+        "page": "PDF pp.52–54"
+      },
+      "difficulty": "进阶"
+    },
+    {
+      "id": "TEM-024",
+      "chapter": "TEM · Imaging modes & applications",
+      "type": "multiple",
+      "prompt": "A very thin oxide is buried beneath another film. Which plan is appropriate for measuring its thickness with very fine spatial detail?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Prepare an electron-transparent cross-section containing the buried layer and both interfaces."
+        },
+        {
+          "id": "B",
+          "text": "Use HRTEM or suitable aberration-corrected STEM after preparing the required cross-section."
+        },
+        {
+          "id": "C",
+          "text": "Assume that a surface SE-SEM image directly exposes the thickness of the covered oxide."
+        },
+        {
+          "id": "D",
+          "text": "Replace the spatial-resolution requirement by increasing only the displayed magnification."
+        }
+      ],
+      "answers": [
+        "A",
+        "B"
+      ],
+      "explanation": "A、B：正确。老师Tutorial的关键先是几何：埋藏层必须通过截面进入观察方向；然后选择能分辨所需细节的模式。C：错误。表面图不会自动看见被覆盖的内部层厚。D：错误。显示放大不能弥补实际分辨不足。这里考察“目标信息—制样几何—成像模式”匹配，不要求记住题中的具体厚度数值。\n\n重点词：buried layer（埋藏层）；cross-sectional specimen（截面样品）；spatial resolution（空间分辨率）\n逻辑链：先明确要测内部层厚 → 做穿过目标界面的薄截面 → 选足够分辨细节的透射模式 → 测量界面间距。",
+      "source": {
+        "file": "TEM; Electron Spectroscopy",
+        "page": "TEM PDF pp.15,53,55; Spectroscopy PDF p.7"
+      },
+      "difficulty": "进阶",
+      "tutorial": "TEM Tutorial Q1"
+    },
+    {
+      "id": "TEM-025",
+      "chapter": "TEM · Integrated reasoning",
+      "type": "multiple",
+      "prompt": "A composite has bright edges in SE-SEM and a bright inclusion in BSE-SEM. Which comparisons with TEM are justified?",
+      "options": [
+        {
+          "id": "A",
+          "text": "SE edge brightness can arise from escape geometry even without a change in composition."
+        },
+        {
+          "id": "B",
+          "text": "A BSE-bright region can indicate stronger nuclear scattering associated with heavier elements."
+        },
+        {
+          "id": "C",
+          "text": "The bright region must have the same physical meaning in SE, BSE, BF-TEM and DF-TEM."
+        },
+        {
+          "id": "D",
+          "text": "To interpret a TEM intensity, one should first identify whether direct or diffracted electrons are accepted."
+        }
+      ],
+      "answers": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explanation": "A：正确。粗糙边缘更有利于SE逃逸，形貌足以造成亮度变化。B：正确。较大核电荷可增强BSE。C：错误。不同模式接受不同物理信号，不存在通用亮度含义。D：正确。BF和DF首先由接受束不同定义，再讨论具体散射机制。\n\n重点词：topographic contrast（形貌对比）；chemical contrast（成分对比）；detector geometry（探测几何）\n逻辑链：先确定模式和所收电子 → 再确定对比来源 → 最后推断样品性质；不能跨设备直接沿用同一“亮=某物性”规则。",
+      "source": {
+        "file": "TEM",
+        "page": "PDF pp.3,5,9,46–50"
+      },
+      "difficulty": "进阶"
+    },
+    {
+      "id": "TEM-026",
+      "chapter": "TEM · Integrated reasoning",
+      "type": "multiple",
+      "prompt": "Which distinctions are correct when adjusting electron-microscope imaging conditions?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Beam current describes electron delivery rate, whereas beam energy describes kinetic energy per electron."
+        },
+        {
+          "id": "B",
+          "text": "Increasing beam current necessarily shortens the electron wavelength."
+        },
+        {
+          "id": "C",
+          "text": "In bulk SEM, increasing beam energy can enlarge lateral interaction spread even though the wavelength becomes shorter."
+        },
+        {
+          "id": "D",
+          "text": "The thin-specimen geometry in TEM helps limit the bulk-scattering broadening relevant to this comparison."
+        }
+      ],
+      "answers": [
+        "A",
+        "C",
+        "D"
+      ],
+      "explanation": "A：正确。电流与单电子动能是不同控制量。B：错误。增加每秒电子数不等于增加每个电子动能。C：正确。短波长收益可能被较大横向作用体积抵消。D：正确。这解释为何不能把块体SEM的电压趋势不加条件套到薄样品TEM。\n\n重点词：beam current（束流）；beam energy（束能）；lateral spreading（横向展宽）\n逻辑链：束能升高 → 波长缩短，同时在块体中作用体积可能扩大；最终分辨能力需同时看波长和样品内横向展宽。",
+      "source": {
+        "file": "TEM",
+        "page": "PDF pp.6,8,19,24"
+      },
+      "difficulty": "进阶"
+    },
+    {
+      "id": "TEM-027",
+      "chapter": "TEM · Integrated reasoning",
+      "type": "multiple",
+      "prompt": "A wet, uncoatable insulator needs finer structural detail than a light microscope provides. Which choice follows the tutorial logic?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Conventional high-vacuum TEM can examine the unchanged thick wet sample simply by increasing magnification."
+        },
+        {
+          "id": "B",
+          "text": "ESEM can provide a more suitable local specimen environment and help neutralize charging without a conductive coating."
+        },
+        {
+          "id": "C",
+          "text": "All electron microscopes have identical preparation requirements once electrons replace light."
+        },
+        {
+          "id": "D",
+          "text": "The required specimen state and the information sought should be considered before ranking instruments only by resolution."
+        }
+      ],
+      "answers": [
+        "B",
+        "D"
+      ],
+      "explanation": "A：错误。常规TEM仍有电子透明性与真空等制样要求，放大不能消除。B：正确。ESEM允许样品附近有气体，并可通过正离子中和表面负电荷。C：错误。SEM、ESEM和TEM的几何及环境要求不同。D：正确。保持目标状态是方法选择的条件，不应只比最高分辨率。\n\n重点词：environmental SEM（环境扫描电镜）；charging（充电）；specimen state（样品状态）\n逻辑链：样品不能镀膜且需要湿态观察 → 先满足环境与电荷条件 → 选择ESEM等适合方法；最佳分辨率不是唯一标准。",
+      "source": {
+        "file": "TEM; SEM",
+        "page": "TEM PDF pp.7,16–20; SEM PDF pp.45–47"
+      },
+      "difficulty": "进阶"
+    },
+    {
+      "id": "TEM-028",
+      "chapter": "TEM · Diffraction & crystallography",
+      "type": "multiple",
+      "prompt": "Which structural questions can electron diffraction answer?",
+      "options": [
+        {
+          "id": "A",
+          "text": "What lattice spacings are present in the selected region?"
+        },
+        {
+          "id": "B",
+          "text": "Which crystal phase is consistent with the observed reflection pattern?"
+        },
+        {
+          "id": "C",
+          "text": "Is the selected material single-crystalline, polycrystalline or amorphous?"
+        },
+        {
+          "id": "D",
+          "text": "What is the exposed-surface height at every point, directly from diffraction intensity?"
+        }
+      ],
+      "answers": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explanation": "A、B、C：正确。老师Tutorial列出的核心结构信息包括间距、晶相，以及单晶/多晶/非晶状态。需要把图样的几何、允许反射和锐斑/锐环/弥散特征结合起来。D：错误。衍射不是表面高度图；形状尺寸可看实空间像，结构周期看衍射，两者互补。\n\n重点词：lattice spacing（晶面间距）；crystal phase（晶相）；crystallinity（结晶状态）\n逻辑链：选定区域 → 测衍射位置及形态 → 判断周期/晶相/有序性；实空间形状与倒易空间结构回答不同问题。",
+      "source": {
+        "file": "TEM; Electron Spectroscopy",
+        "page": "TEM PDF pp.32,39–41,55; Spectroscopy PDF p.8"
+      },
+      "difficulty": "进阶",
+      "tutorial": "TEM Tutorial Q2"
+    },
+    {
+      "id": "TEM-029",
+      "chapter": "TEM · Integrated reasoning",
+      "type": "multiple",
+      "prompt": "A particle looks dark in BF-TEM. Which additional observations help test the cause rather than assuming a unique composition?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Selecting a suitable diffracted beam can test whether diffraction contributes to the contrast."
+        },
+        {
+          "id": "B",
+          "text": "Comparing the particle across suitable imaging conditions can reveal that contrast is condition-dependent."
+        },
+        {
+          "id": "C",
+          "text": "The BF intensity alone establishes the exact element, so no other signal is useful."
+        },
+        {
+          "id": "D",
+          "text": "Distortion around a dislocation can alter scattering even without a separate chemical phase."
+        }
+      ],
+      "answers": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explanation": "A：正确。改变选束可检查衍射贡献，而不是把单张BF暗区唯一化解释。B：正确。同一区域随模式或成像条件变化的对比有助于约束解释。C：错误。结构强度对比不等于唯一元素指纹，化学问题通常还需相应谱学。D：正确。位错示例说明局部畸变也能造成BF暗对比。\n\n重点词：diffraction contrast（衍射对比）；lattice distortion（晶格畸变）；complementary evidence（互补证据）\n逻辑链：观察到暗区 → 提出散射/衍射等候选原因 → 改变选束并结合结构证据 → 排除把亮度直接等同元素的过度推断。",
+      "source": {
+        "file": "TEM; Electron Spectroscopy",
+        "page": "TEM PDF pp.47–53; Spectroscopy PDF pp.14–17"
+      },
+      "difficulty": "进阶"
+    },
+    {
+      "id": "TEM-030",
+      "chapter": "TEM · Principles & applications",
+      "type": "multiple",
+      "prompt": "Which statements guide an in-situ TEM study of a structural change during heating?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A suitable holder is needed to control the stimulus while retaining a usable electron-transparent observation region."
+        },
+        {
+          "id": "B",
+          "text": "BF imaging and local diffraction can provide complementary changes in shape and crystal structure."
+        },
+        {
+          "id": "C",
+          "text": "A changing HRTEM intensity always proves atomic motion even if focus and imaging conditions also changed."
+        },
+        {
+          "id": "D",
+          "text": "The observed sequence should be interpreted with awareness that illumination and imaging conditions can affect what is seen."
+        }
+      ],
+      "answers": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explanation": "A：正确。原位实验不是只把普通样品放进仪器，还需适合加热等条件的样品杆并保持透射几何。B：正确。实空间像跟踪形状，衍射跟踪局部结构，可联合判断。C：错误。离焦造成的对比翻转也会改变强度，必须控制成像条件。D：正确。课件示例既强调原位动态，也展示照射诱导结构变化，需区分真实样品演化和测量影响。\n\n重点词：in-situ heating（原位加热）；controlled conditions（受控条件）；structural evolution（结构演化）\n逻辑链：控制加热与成像条件 → 连续观察同一区域 → 联合形状和衍射变化 → 判断结构演化，同时排除离焦或照射效应。",
+      "source": {
+        "file": "TEM",
+        "page": "PDF pp.15,22,41,53–54"
+      },
+      "difficulty": "进阶"
+    }
+  ]
+}

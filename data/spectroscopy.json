@@ -1,0 +1,1042 @@
+{
+  "version": 1,
+  "title": "MLE5216 · Electron Spectroscopy 原理与应用",
+  "questions": [
+    {
+      "id": "SPEC-001",
+      "chapter": "Electron Spectroscopy",
+      "type": "multiple",
+      "prompt": "Which statements correctly connect electron–matter signals with local chemical analysis?",
+      "options": [
+        {
+          "id": "A",
+          "text": "BSE brightness alone uniquely identifies every element in an unknown specimen."
+        },
+        {
+          "id": "B",
+          "text": "EDS and EDX denote the same technique and can provide point spectra, line scans and elemental maps."
+        },
+        {
+          "id": "C",
+          "text": "Overlaying elemental maps with an SE image can connect local composition with surface morphology."
+        },
+        {
+          "id": "D",
+          "text": "Returning beam electrons, emitted photons and absorbed-electron specimen current are different possible signals; EDS and WDS analyse the X-ray-photon branch."
+        }
+      ],
+      "answers": [
+        "B",
+        "C",
+        "D"
+      ],
+      "explanation": "A 错误：BSE提供与散射能力等因素有关的相对成分反差，亮度不能唯一确定元素身份。\nB 正确：EDS与EDX是同一技术的不同缩写；点、线、面测量回答不同空间范围的组分问题。\nC 正确：SE提供形貌，元素图提供组分分布，二者叠加可建立结构与化学的联系。\nD 正确：课件区分返回的BSE、发射的光子及吸收电子形成的样品电流；阴极发光和X射线均属光子分支，但所测光谱范围不同，不能把这些信号混成同一种。\n\n重点词：backscattered electrons（背散射电子）；elemental mapping（元素成像）；topography（形貌）。\n逻辑链：电子束与样品相互作用 → 产生不同信号 → 按信号选择探测器 → 分别回答形貌、相对成分或元素身份。",
+      "source": {
+        "file": "Electron Spectroscopy",
+        "page": "PDF pp. 13, 14, 15, 16, 17"
+      },
+      "difficulty": "基础"
+    },
+    {
+      "id": "SPEC-002",
+      "chapter": "Electron Spectroscopy",
+      "type": "multiple",
+      "prompt": "Which statements correctly describe characteristic X-ray production?",
+      "options": [
+        {
+          "id": "A",
+          "text": "XRF and EDS use the same incident excitation beam because they can measure the same characteristic X-rays."
+        },
+        {
+          "id": "B",
+          "text": "XRF uses incident X-rays, whereas EDS and WDS use energetic electrons to initiate core-level excitation."
+        },
+        {
+          "id": "C",
+          "text": "One element can produce several characteristic lines because several allowed core-level transitions are possible."
+        },
+        {
+          "id": "D",
+          "text": "Only allowed transitions occur; Kα and Kβ both end in the K shell but originate from different higher shells."
+        }
+      ],
+      "answers": [
+        "B",
+        "C",
+        "D"
+      ],
+      "explanation": "A 错误：相同发射线不代表激发源相同；XRF由X射线激发，EDS/WDS由电子束激发。\nB 正确：两者都能产生内层空穴，随后弛豫发出特征X射线。\nC 正确：不同允许跃迁有不同能级差，因此峰数不能直接等于元素数；跃迁还受选择规则限制。\nD 正确：K表示接受电子的最终壳层，α和β区分较高壳层的跃迁来源。\n\n重点词：core hole（内层空穴）；characteristic X-ray（特征X射线）；selection rule（选择规则）。\n逻辑链：足够能量的入射辐射 → 内层电子被激发并留下空穴 → 高壳层电子填补 → 能级差形成元素特征光子。",
+      "source": {
+        "file": "Electron Spectroscopy",
+        "page": "PDF pp. 18, 19"
+      },
+      "difficulty": "基础"
+    },
+    {
+      "id": "SPEC-003",
+      "chapter": "Electron Spectroscopy",
+      "type": "multiple",
+      "prompt": "An automatic EDS fit gives an unlikely element and leaves a weak shoulder unexplained. Which actions are justified?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Check candidate line assignments against plausible sample chemistry and other lines from the same element."
+        },
+        {
+          "id": "B",
+          "text": "Accept the automatic assignment unchanged because software cannot confuse overlapping lines."
+        },
+        {
+          "id": "C",
+          "text": "Treat every visible feature as a separate element without checking whether one element has several lines."
+        },
+        {
+          "id": "D",
+          "text": "Check peak identification and background treatment before fitting peak contributions and quantifying composition."
+        }
+      ],
+      "answers": [
+        "A",
+        "D"
+      ],
+      "explanation": "A 正确：谱线可能重叠，也可能有漏掉的弱峰；应结合样品背景与同元素多条谱线核对。\nB 错误：课件明确展示软件误认和漏峰，人工核查是必要环节。\nC 错误：单元素可产生多条线，多个元素也可叠成一个宽峰，不能按峰数直接数元素。\nD 正确：鉴别错误会传递到拟合和定量；处理流程应先解决信号归属与本底。\n\n重点词：peak identification（峰鉴别）；overlap（重叠）；background subtraction（背景扣除）。\n逻辑链：观察到宽峰或肩峰 → 检查可能的重叠与弱线 → 扣除连续背景并合理拟合 → 再进行元素定量。",
+      "source": {
+        "file": "Electron Spectroscopy",
+        "page": "PDF pp. 20, 21, 22"
+      },
+      "difficulty": "进阶"
+    },
+    {
+      "id": "SPEC-004",
+      "chapter": "Electron Spectroscopy",
+      "type": "multiple",
+      "prompt": "Which statements explain the broad background beneath EDS characteristic peaks?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Fast-electron deflection and deceleration in nuclear electric fields can emit a continuum of X-ray energies."
+        },
+        {
+          "id": "B",
+          "text": "Reabsorption can suppress the low-energy part, so the detected continuum differs from the initially emitted continuum."
+        },
+        {
+          "id": "C",
+          "text": "The maximum of a smooth continuum is an element-specific line that identifies the same element in every sample."
+        },
+        {
+          "id": "D",
+          "text": "The highest possible continuum photon energy is independent of the incident electron energy."
+        }
+      ],
+      "answers": [
+        "A",
+        "B"
+      ],
+      "explanation": "A 正确：电子以不同程度损失能量，产生连续能量分布的制动辐射，而非单一离散跃迁线。\nB 正确：部分光子在逸出前被样品吸收，因而测到的连续谱形还含传播与吸收效应。\nC 错误：连续背景不是元素特征线，其宽峰顶不能直接当作元素指纹。\nD 错误：光子能量来自入射电子，改变束能也会改变连续谱的能量上限。\n\n重点词：Bremsstrahlung（制动辐射）；continuum（连续谱）；reabsorption（再吸收）。\n逻辑链：快电子在核电场中偏转并损失不同能量 → 发出连续X射线 → 低能光子更易被吸收 → 形成探测到的本底。",
+      "source": {
+        "file": "Electron Spectroscopy",
+        "page": "PDF pp. 23, 42"
+      },
+      "difficulty": "基础"
+    },
+    {
+      "id": "SPEC-005",
+      "chapter": "Electron Spectroscopy",
+      "type": "multiple",
+      "prompt": "Why is a weak EDS peak not sufficient evidence that an element has a low concentration?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Peak fitting removes all differences in elemental X-ray generation efficiency."
+        },
+        {
+          "id": "B",
+          "text": "Different elements and different shell transitions can have different fluorescence yields."
+        },
+        {
+          "id": "C",
+          "text": "Light elements can give weak signals and less reliable quantification even when they are present."
+        },
+        {
+          "id": "D",
+          "text": "A weak or absent peak always proves that the element is absent."
+        }
+      ],
+      "answers": [
+        "B",
+        "C"
+      ],
+      "explanation": "A 错误：拟合可减少噪声影响，但不能自动消除不同元素或线系的物理响应差异。\nB 正确：每次电离产生X射线的概率不相同，同一元素不同壳层的线也不能直接按原始峰高比较。\nC 正确：课件用轻元素可用壳层较少、辐射跃迁通道有限说明其低荧光产额；弱响应使定量更困难。\nD 错误：低产额、吸收、重叠或激发不足都可让元素信号不明显。\n\n重点词：fluorescence yield（荧光产额）；core ionization（内层电离）；detection limit（检测限）。\n逻辑链：电离机会相近不代表发光效率相同 → 不同产额产生不同峰强 → 弱峰不能直接等同于低浓度 → 定量前必须校正。",
+      "source": {
+        "file": "Electron Spectroscopy",
+        "page": "PDF pp. 24, 27"
+      },
+      "difficulty": "基础"
+    },
+    {
+      "id": "SPEC-006",
+      "chapter": "Electron Spectroscopy",
+      "type": "multiple",
+      "prompt": "A bulk SEM-EDS measurement is repeated at higher beam energy. Which interpretations are justified?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The chemical sampling region must become smaller whenever the nominal surface probe remains unchanged."
+        },
+        {
+          "id": "B",
+          "text": "Higher beam energy can enlarge the interaction volume and the lateral region contributing X-rays."
+        },
+        {
+          "id": "C",
+          "text": "X-rays generated inside the sample may be reabsorbed along their exit paths."
+        },
+        {
+          "id": "D",
+          "text": "Quantification corrections must consider specimen response and measurement geometry, not concentration alone."
+        }
+      ],
+      "answers": [
+        "B",
+        "C",
+        "D"
+      ],
+      "explanation": "A 错误：表面探针直径不等于整个X射线产生体积的横向范围。\nB 正确：较高束能通常使块体中的电子轨迹更深、更广，局部化学测量会混合更大范围的信息。\nC 正确：生成深度及离开样品的路径影响吸收，因此探测谱不同于全部发射谱。\nD 正确：本课ZAF方法将原子序数、吸收、荧光产额等与束能、探测几何一起纳入校正。\n\n重点词：interaction volume（相互作用体积）；absorption（吸收）；ZAF correction（ZAF校正）。\n逻辑链：束能影响电子在样品中的传播 → 改变X射线生成范围与逸出路径 → 同时影响空间定位和峰强 → 不能只改束能而忽略定量条件。",
+      "source": {
+        "file": "Electron Spectroscopy",
+        "page": "PDF pp. 25, 26"
+      },
+      "difficulty": "进阶"
+    },
+    {
+      "id": "SPEC-007",
+      "chapter": "Electron Spectroscopy",
+      "type": "multiple",
+      "prompt": "How should a quantitative composition be obtained from the EDS peaks of a two-element specimen?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Correct the relative peak intensities for the different elemental responses before interpreting a concentration ratio."
+        },
+        {
+          "id": "B",
+          "text": "Normalize the two uncorrected peak heights and regard the result as exact composition."
+        },
+        {
+          "id": "C",
+          "text": "Use the assumption that the concentrations of the included elements sum to the whole specimen."
+        },
+        {
+          "id": "D",
+          "text": "Use one universal correction factor for every detector geometry and every sample material."
+        }
+      ],
+      "answers": [
+        "A",
+        "C"
+      ],
+      "explanation": "A 正确：课件中的校正因子把强度比转换为浓度比，二者不能直接混用。\nB 错误：只归一化原始峰高仍保留产额、吸收等偏差。\nC 正确：比例给相对关系，二元组分和的归一化条件才确定各自份额；前提是二元模型确实适用。\nD 错误：因子包含样品与测量条件，不能当作与仪器和材料无关的通用常量。\n\n重点词：intensity ratio（强度比）；concentration ratio（浓度比）；normalization（归一化）。\n逻辑链：原始峰强 → 按元素与测量条件校正 → 得到浓度比例 → 在正确的组分模型下归一化。",
+      "source": {
+        "file": "Electron Spectroscopy",
+        "page": "PDF pp. 26"
+      },
+      "difficulty": "进阶"
+    },
+    {
+      "id": "SPEC-008",
+      "chapter": "Electron Spectroscopy",
+      "type": "multiple",
+      "prompt": "An EDS analysis initially assumes two elements, but a third element is then identified. Which changes are necessary?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Keep the original two elements normalized to the whole sample and add the third concentration afterwards."
+        },
+        {
+          "id": "B",
+          "text": "Include the third element in the composition model and in the total concentration used for normalization."
+        },
+        {
+          "id": "C",
+          "text": "Assume that adding another element makes absorption and fluorescence-yield corrections unnecessary."
+        },
+        {
+          "id": "D",
+          "text": "Use enough corrected relative-intensity information to determine the concentrations of all included elements."
+        }
+      ],
+      "answers": [
+        "B",
+        "D"
+      ],
+      "explanation": "A 错误：若先把两元素占满总组分，再额外添加第三元素，会造成模型不自洽。\nB 正确：归一化范围必须覆盖所采用模型中的全部组分。\nC 错误：多元素只是扩展模型，元素响应及基体影响并不会消失。\nD 正确：需要足够的独立校正关系，再结合总组分条件，不能仅凭一个原始峰比确定所有份额。\n\n重点词：multielement analysis（多元素分析）；matrix effects（基体效应）；normalization（归一化）。\n逻辑链：识别出额外元素 → 更新组分模型及相关校正关系 → 对全部组分统一归一化 → 避免遗漏组分造成系统性偏差。",
+      "source": {
+        "file": "Electron Spectroscopy",
+        "page": "PDF pp. 27"
+      },
+      "difficulty": "进阶"
+    },
+    {
+      "id": "SPEC-009",
+      "chapter": "Electron Spectroscopy",
+      "type": "multiple",
+      "prompt": "A multiphase alloy has bright and dark regions in a BSE image. Which approach supports a reliable composition comparison?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Measure EDS spectra at several representative grains in each region rather than relying on brightness alone."
+        },
+        {
+          "id": "B",
+          "text": "Assign an exact elemental composition directly from the BSE brightness of one grain."
+        },
+        {
+          "id": "C",
+          "text": "Check reproducibility before using an average or median to summarize a measurement series."
+        },
+        {
+          "id": "D",
+          "text": "Treat one point spectrum as proof that the entire alloy has a uniform composition."
+        }
+      ],
+      "answers": [
+        "A",
+        "C"
+      ],
+      "explanation": "A 正确：BSE反差可引导选点，但元素身份和组分差异应由局部能谱核实，多晶粒测量更具代表性。\nB 错误：亮度是相对散射反差，不能直接给出精确组成。\nC 正确：课件强调不同晶粒的重复结果可重复时再取平均或中位数。\nD 错误：单点只反映对应采样区域，不能自动代表所有相和整块样品。\n\n重点词：representative sampling（代表性取样）；reproducibility（可重复性）；local composition（局部组分）。\n逻辑链：BSE发现不同区域 → 在各相进行多点EDS验证 → 检查结果是否可重复 → 再总结相之间的可靠组分差异。",
+      "source": {
+        "file": "Electron Spectroscopy",
+        "page": "PDF pp. 28"
+      },
+      "difficulty": "进阶"
+    },
+    {
+      "id": "SPEC-010",
+      "chapter": "Electron Spectroscopy",
+      "type": "multiple",
+      "prompt": "How does a silicon drift detector determine the energy of an incoming X-ray?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The photon deposits energy and produces electron–hole pairs in the silicon crystal."
+        },
+        {
+          "id": "B",
+          "text": "The generated charge is related to photon energy and is collected using an applied electric field."
+        },
+        {
+          "id": "C",
+          "text": "The central anode and electronic readout convert the collected charge into an energy-related pulse."
+        },
+        {
+          "id": "D",
+          "text": "Every X-ray produces the same collected charge, so pulse height contains no energy information."
+        }
+      ],
+      "answers": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explanation": "A 正确：X射线在硅晶体中沉积能量并产生电子–空穴对。\nB 正确：能量越大产生的载流子越多，偏置电场使电子漂移至阳极。\nC 正确：中央阳极及FET等读出电路测电荷，脉冲幅度携带能量信息。\nD 错误：若每个事件电荷都相同，就不能由脉冲幅度进行能量色散。\n\n重点词：electron–hole pair（电子–空穴对）；drift（漂移）；pulse height（脉冲幅度）。\n逻辑链：光子沉积能量 → 产生对应数量载流子 → 电场收集电荷 → 脉冲幅度转换为X射线能量。",
+      "source": {
+        "file": "Electron Spectroscopy",
+        "page": "PDF pp. 30"
+      },
+      "difficulty": "基础"
+    },
+    {
+      "id": "SPEC-011",
+      "chapter": "Electron Spectroscopy",
+      "type": "multiple",
+      "prompt": "A high EDS count rate causes pulse pile-up. Which responses follow the detector principle?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Allow for finite pulse-processing time, during which some additional events cannot be processed normally."
+        },
+        {
+          "id": "B",
+          "text": "Assume the specimen stops emitting X-rays whenever the detector is processing a pulse."
+        },
+        {
+          "id": "C",
+          "text": "Reduce an excessive beam current to lower the photon arrival rate and the probability of overlapping pulses."
+        },
+        {
+          "id": "D",
+          "text": "Increase beam current to eliminate detector dead time by increasing each electron’s kinetic energy."
+        }
+      ],
+      "answers": [
+        "A",
+        "C"
+      ],
+      "explanation": "A 正确：处理一次事件需要时间，处理期间的额外事件可能丢失或堆积。\nB 错误：死时间属于探测器读出限制，不表示样品停止产生X射线。\nC 正确：减少单位时间的入射电子及光子数可降低事件重叠概率。\nD 错误：束流控制到达数量，不等同于提高单电子动能，也不能消除有限处理时间。\n\n重点词：dead time（死时间）；count rate（计数率）；pile-up（脉冲堆积）。\n逻辑链：事件到达过快 → 前一脉冲尚未处理完 → 丢计数或错误合并 → 合理降低束流以改善有效采集。",
+      "source": {
+        "file": "Electron Spectroscopy",
+        "page": "PDF pp. 31, 40"
+      },
+      "difficulty": "进阶"
+    },
+    {
+      "id": "SPEC-012",
+      "chapter": "Electron Spectroscopy",
+      "type": "multiple",
+      "prompt": "Which detector-design choices improve reliable EDS signal collection?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A thin window helps maintain the appropriate vacuum near the silicon crystal and prevent ice formation."
+        },
+        {
+          "id": "B",
+          "text": "Cooling reduces thermal noise; either liquid-nitrogen or Peltier cooling can serve this purpose."
+        },
+        {
+          "id": "C",
+          "text": "A suitable detector position and collection angle can increase the number of X-rays collected from the sample."
+        },
+        {
+          "id": "D",
+          "text": "Moving the detector closer changes the specimen’s core-level transition energies."
+        }
+      ],
+      "answers": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explanation": "A 正确：课件把薄窗与晶体处的良好真空、防结冰联系起来。\nB 正确：冷却降低热噪声，两种冷却方式都体现这一目的，而非改变元素能级。\nC 正确：收集几何决定能接受多少出射光子，影响信号效率。\nD 错误：位置改变收集条件，不改变样品原子内层能级差。\n\n重点词：thermal noise（热噪声）；collection angle（收集角）；detector window（探测器窗口）。\n逻辑链：稳定晶体环境并冷却 → 降低结冰和噪声影响；合理收集几何 → 接收更多有用光子 → 改善测量质量。",
+      "source": {
+        "file": "Electron Spectroscopy",
+        "page": "PDF pp. 32, 33"
+      },
+      "difficulty": "基础"
+    },
+    {
+      "id": "SPEC-013",
+      "chapter": "Electron Spectroscopy",
+      "type": "multiple",
+      "prompt": "A quick elemental survey is needed, but a later measurement must separate closely spaced X-ray lines. Which comparison is appropriate?",
+      "options": [
+        {
+          "id": "A",
+          "text": "EDS usually has higher spectral resolving power than WDS, so WDS is useful mainly for faster broad surveys."
+        },
+        {
+          "id": "B",
+          "text": "EDS is convenient for a quick broad spectrum, while WDS can offer better line separation at the cost of slower acquisition and more demanding operation and height control."
+        },
+        {
+          "id": "C",
+          "text": "Narrower WDS peaks automatically imply a smaller spatial interaction volume in the specimen."
+        },
+        {
+          "id": "D",
+          "text": "Once WDS resolves a line, neither standards nor intensity corrections are needed for quantitative composition."
+        }
+      ],
+      "answers": [
+        "B"
+      ],
+      "explanation": "A 错误：课件的相对优势相反：EDS快而方便，WDS谱分辨能力更高。\nB 正确：WDS顺序选波及几何要求带来速度、操作和样品高度等取舍，课件也列出其标样要求。\nC 错误：谱分辨率描述能量/波长轴分离能力，不是样品空间采样范围。\nD 错误：分开谱线不等于完成定量，课件仍列出WDS的标样要求，响应及吸收等强度校正也不能省略。\n\n重点词：spectral resolution（谱分辨率）；parallel acquisition（并行采集）；standards（标样）。\n逻辑链：快速多元素概览 → 选方便的EDS；相近线难分 → 考虑高谱分辨WDS → 同时接受速度、几何与定量要求的代价。",
+      "source": {
+        "file": "Electron Spectroscopy",
+        "page": "PDF pp. 26, 34–37; STEM PDF p. 2"
+      },
+      "difficulty": "进阶"
+    },
+    {
+      "id": "SPEC-014",
+      "chapter": "Electron Spectroscopy",
+      "type": "multiple",
+      "prompt": "Which statements describe how WDS selects and records X-rays?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A crystal selects wavelengths through the Bragg condition, so changing the crystal–detector geometry changes the accepted wavelength."
+        },
+        {
+          "id": "B",
+          "text": "Counting at one fixed selected wavelength records the entire broad spectrum in parallel."
+        },
+        {
+          "id": "C",
+          "text": "Different crystal spacings and multiple channels can extend the accessible lines and improve acquisition efficiency."
+        },
+        {
+          "id": "D",
+          "text": "The detector and monochromator geometry can be ignored when the selected wavelength is changed."
+        }
+      ],
+      "answers": [
+        "A",
+        "C"
+      ],
+      "explanation": "A 正确：晶体衍射满足布拉格条件，Rowland圆上的几何配合使选定波长到达探测器。\nB 错误：一个固定波长只贡献一个谱点，需继续改变选波条件才得到其他位置。\nC 正确：不同晶体和多通道可覆盖不同线系并提高效率，但不改变基本选波逻辑。\nD 错误：选波与几何本来就相互关联，不能把WDS当作与角度无关的全谱读出。\n\n重点词：Bragg condition（布拉格条件）；monochromator（单色器）；sequential acquisition（顺序采集）。\n逻辑链：选择晶体及衍射角 → 仅相应波长被有效选出 → 记录该谱点 → 改变几何继续扫描以形成光谱。",
+      "source": {
+        "file": "Electron Spectroscopy",
+        "page": "PDF pp. 35, 36"
+      },
+      "difficulty": "基础"
+    },
+    {
+      "id": "SPEC-015",
+      "chapter": "Electron Spectroscopy",
+      "type": "multiple",
+      "prompt": "A broad EDS feature may contain contributions from two elements. Which conclusions are justified?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A higher spectral-resolution WDS measurement can help separate nearby line contributions."
+        },
+        {
+          "id": "B",
+          "text": "A single broad feature proves that only one element is present in the sampled region."
+        },
+        {
+          "id": "C",
+          "text": "After separating lines, peak assignment, background treatment and quantitative corrections still require attention."
+        },
+        {
+          "id": "D",
+          "text": "Separating spectral lines proves that the two elements are spatially separated within the specimen."
+        }
+      ],
+      "answers": [
+        "A",
+        "C"
+      ],
+      "explanation": "A 正确：课件的重叠谱对照展示WDS可改善相邻线的分离。\nB 错误：不同元素的线可能在EDS中混成一个宽峰。\nC 正确：分峰改善归属，不能代替其余处理和校正步骤。\nD 错误：能量轴上分开不等于空间上分开；可能来自同一个采样体积。\n\n重点词：overlapping peaks（重叠峰）；line separation（谱线分离）；spatial resolution（空间分辨率）。\n逻辑链：宽谱峰可能包含多条线 → 提高谱分辨能力帮助归属 → 再处理背景和响应 → 元素空间分布仍需合适的扫描与采样尺度。",
+      "source": {
+        "file": "Electron Spectroscopy",
+        "page": "PDF pp. 22, 34, 37"
+      },
+      "difficulty": "进阶"
+    },
+    {
+      "id": "SPEC-016",
+      "chapter": "Electron Spectroscopy",
+      "type": "multiple",
+      "prompt": "Which statements explain the value and limits of spectrum imaging?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Saving a spectrum at each scan position creates spatially indexed spectral data, not a direct depth reconstruction."
+        },
+        {
+          "id": "B",
+          "text": "Selected elemental maps can be extracted after acquisition, and local spectra can be re-examined."
+        },
+        {
+          "id": "C",
+          "text": "Combining elemental maps with morphology can distinguish filler-rich regions from the surrounding fibres or matrix."
+        },
+        {
+          "id": "D",
+          "text": "A colour-coded elemental map by itself determines every chemical bond and ionic state."
+        }
+      ],
+      "answers": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explanation": "A 正确：数据包含扫描位置和能谱坐标，第三轴是能量或波长，不是物理深度。\nB 正确：保存完整谱保留了后续选峰与核查局部信号的可能。\nC 正确：课件纸张例子将纤维与填料的元素分布联系起来，重点是信息互补而非记材料配方。\nD 错误：元素分布不等于全部键合或价态信息，后者可能需要EELS细结构等更合适信号。\n\n重点词：spectrum imaging（谱像）；data cube（数据立方体）；elemental distribution（元素分布）。\n逻辑链：逐点采集并保留完整能谱 → 选择元素信号并映射回位置 → 与形貌联合解读 → 不把元素图超解释为所有化学状态。",
+      "source": {
+        "file": "Electron Spectroscopy",
+        "page": "PDF pp. 38, 39"
+      },
+      "difficulty": "进阶"
+    },
+    {
+      "id": "SPEC-017",
+      "chapter": "Electron Spectroscopy",
+      "type": "multiple",
+      "prompt": "An extra high-energy EDS feature becomes much stronger when the count rate is increased. Which interpretations are reasonable?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Nearly simultaneous photon events may be processed as one event carrying their combined energy."
+        },
+        {
+          "id": "B",
+          "text": "Lowering the beam current is a useful check for a pile-up-related sum feature."
+        },
+        {
+          "id": "C",
+          "text": "An additional peak must represent a new impurity element rather than a detector artefact."
+        },
+        {
+          "id": "D",
+          "text": "Changing current can alter pile-up probability without changing the elemental characteristic transition energies."
+        }
+      ],
+      "answers": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explanation": "A 正确：两个脉冲未能被正常分开时，收集电荷可被错误合并成较高能量事件。\nB 正确：降低到达率可减少重叠；课件用不同束流的曲线展示这种诊断思路。\nC 错误：额外峰可能是和峰，不能一见新峰就添加新元素。\nD 正确：电流改变事件到达率，不改变元素内层能级差。\n\n重点词：sum peak（和峰）；pulse pile-up（脉冲堆积）；arrival rate（到达率）。\n逻辑链：光子到达过密 → 两事件在处理中重叠 → 被记成合并能量 → 改变计数率检查其变化，而非直接判为新元素。",
+      "source": {
+        "file": "Electron Spectroscopy",
+        "page": "PDF pp. 40"
+      },
+      "difficulty": "进阶"
+    },
+    {
+      "id": "SPEC-018",
+      "chapter": "Electron Spectroscopy",
+      "type": "multiple",
+      "prompt": "Which explanation correctly identifies an escape peak in a silicon EDS detector?",
+      "options": [
+        {
+          "id": "A",
+          "text": "An X-ray generated inside the detector can escape, leaving less energy deposited than in the original photon event."
+        },
+        {
+          "id": "B",
+          "text": "The escape peak lies above its parent because escape adds energy to the detected event."
+        },
+        {
+          "id": "C",
+          "text": "An escape peak and a sum peak are both caused by combining two incoming sample photons."
+        },
+        {
+          "id": "D",
+          "text": "A silicon-related detector escape feature proves that silicon is present in the specimen."
+        }
+      ],
+      "answers": [
+        "A"
+      ],
+      "explanation": "A 正确：部分能量以探测器内产生的X射线形式逸出，最终记录的沉积能量小于原光子能量。\nB 错误：能量离开而非加入探测事件，所以逃逸特征位于母峰较低能量一侧。\nC 错误：和峰是多个事件重叠，逃逸峰是一个事件未完全沉积能量，两者机制和方向不同。\nD 错误：这里的硅来自探测器晶体，不能据此认定样品含硅。\n\n重点词：escape peak（逃逸峰）；deposited energy（沉积能量）；detector artefact（探测伪影）。\n逻辑链：原光子进入硅晶体 → 部分能量再以X射线逸出 → 留在晶体中的能量减少 → 出现母峰低能侧的逃逸特征。",
+      "source": {
+        "file": "Electron Spectroscopy",
+        "page": "PDF pp. 41"
+      },
+      "difficulty": "进阶"
+    },
+    {
+      "id": "SPEC-019",
+      "chapter": "Electron Spectroscopy",
+      "type": "multiple",
+      "prompt": "Changing SEM beam energy alters an EDS measurement. Which consequences should be considered?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Higher beam energy can make a previously inaccessible high-energy characteristic line possible by satisfying its excitation requirement."
+        },
+        {
+          "id": "B",
+          "text": "Failure to observe a chosen line at low beam energy proves that the element is absent."
+        },
+        {
+          "id": "C",
+          "text": "Higher beam energy can enlarge the lateral X-ray-generation region and reduce spatial localization in a bulk sample."
+        },
+        {
+          "id": "D",
+          "text": "The beam setting producing the best-looking SE image must also be sufficient for every desired EDS line."
+        }
+      ],
+      "answers": [
+        "A",
+        "C"
+      ],
+      "explanation": "A 正确：产生内层空穴需要足够入射能量；束能过低时，即使有该元素也可能激发不出所需线。\nB 错误：缺峰可能是激发条件不足，不能直接推出元素不存在。\nC 正确：较高束能同时可能增大相互作用体积，让相邻区域信号混入，因此存在取舍。\nD 错误：表面SE成像与内层X射线激发的最佳条件不必相同，不能只按图像漂亮程度选谱学束能。\n\n重点词：excitation threshold（激发阈值）；interaction volume（相互作用体积）；localization（局域性）。\n逻辑链：提高束能 → 更可能激发较深核心能级，同时电子传播更广 → 可测谱线增加但局部采样范围可能变大 → 按目标谱线与空间尺度共同选束能。",
+      "source": {
+        "file": "Electron Spectroscopy",
+        "page": "PDF pp. 25, 42, 52; STEM PDF p. 6"
+      },
+      "difficulty": "进阶",
+      "tutorial": "Electron Spectroscopy Tutorial Q2"
+    },
+    {
+      "id": "SPEC-020",
+      "chapter": "Electron Spectroscopy",
+      "type": "multiple",
+      "prompt": "Why is EELS normally associated with TEM or STEM rather than the conventional bulk-sample SEM described in the course?",
+      "options": [
+        {
+          "id": "A",
+          "text": "EELS analyses the energy lost by beam electrons transmitted through a sufficiently thin specimen."
+        },
+        {
+          "id": "B",
+          "text": "The conventional SEM geometry discussed uses thick specimens and does not provide the required transmitted-electron measurement path."
+        },
+        {
+          "id": "C",
+          "text": "TEM and STEM can provide a transmitting specimen and an appropriate detector path below it."
+        },
+        {
+          "id": "D",
+          "text": "EELS measures characteristic X-ray photons above the sample, so specimen transmission is irrelevant."
+        }
+      ],
+      "answers": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explanation": "A 正确：EELS的被测对象是穿过样品后仍可检测的束电子及其能量损失。\nB 正确：本课常规SEM的厚样品及探测几何不提供这种下方透射路径，这是老师Tutorial的核心原因。\nC 正确：TEM/STEM的薄样品和透射电子光路与这一测量要求相符。\nD 错误：这把EELS与EDS/WDS的X射线探测混淆，忽略了真正需要的信号路径。\n\n重点词：transmission（透射）；energy loss（能量损失）；detector geometry（探测器几何）。\n逻辑链：EELS要测穿过样品的电子 → 样品必须足够透射并有下方光路 → TEM/STEM符合条件 → 不能仅在常规厚样品SEM上加一个X射线式探测器替代。",
+      "source": {
+        "file": "Electron Spectroscopy",
+        "page": "PDF pp. 16, 43, 52; STEM PDF p. 5"
+      },
+      "difficulty": "基础",
+      "tutorial": "Electron Spectroscopy Tutorial Q1"
+    },
+    {
+      "id": "SPEC-021",
+      "chapter": "Electron Spectroscopy",
+      "type": "multiple",
+      "prompt": "Which information can EELS provide beyond a simple list of elements?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The lecture overview includes excitation information such as phonons, plasmons and interband transitions."
+        },
+        {
+          "id": "B",
+          "text": "Core-loss features can identify elements, while their fine structure may contain additional electronic-state information."
+        },
+        {
+          "id": "C",
+          "text": "Changes in edge structure can support investigation of ionic valence and bonding."
+        },
+        {
+          "id": "D",
+          "text": "EELS and EDS are not identical observables: one measures beam-electron energy loss and the other emitted X-ray photon energy."
+        }
+      ],
+      "answers": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explanation": "A 正确：EELS能探测不同类型的能量转移，不仅是元素核心边。\nB 正确：核心边位置与元素有关，边附近结构还可能反映局部可用电子态。\nC 正确：课件利用氧化物细结构说明价态、键合等附加信息。\nD 正确：两者共享某些激发背景，但探测对象及对应跃迁过程不同。\n\n重点词：phonon（声子）；plasmon（等离激元）；fine structure（细结构）；valence（价态）。\n逻辑链：电子向样品转移能量 → 不同激发对应不同能损特征 → 边位置提供元素线索、边形提供电子态线索 → 根据问题选择合适能损区段。",
+      "source": {
+        "file": "Electron Spectroscopy",
+        "page": "PDF pp. 44, 48, 50"
+      },
+      "difficulty": "进阶"
+    },
+    {
+      "id": "SPEC-022",
+      "chapter": "Electron Spectroscopy",
+      "type": "multiple",
+      "prompt": "Why can the same core excitation lead to a symmetric EDS line but an asymmetric EELS ionization edge?",
+      "options": [
+        {
+          "id": "A",
+          "text": "EDS emission connects discrete core levels, whereas EELS excites a core electron into a distribution of available states."
+        },
+        {
+          "id": "B",
+          "text": "The EELS edge depends only on occupied core states and is unrelated to unoccupied conduction-band states."
+        },
+        {
+          "id": "C",
+          "text": "An EELS ionization threshold and its edge structure must be distinguished from the background before interpretation."
+        },
+        {
+          "id": "D",
+          "text": "EELS must have the same peak shape as EDS because both measurements involve the same sample element."
+        }
+      ],
+      "answers": [
+        "A",
+        "C"
+      ],
+      "explanation": "A 正确：EDS特征光子对应较明确的离散能级差；EELS激发的最终空态有分布，因此形成不对称电离边。\nB 错误：课件明确将边形与局部导带可用空态密度联系起来，不能只看已占据核心态。\nC 正确：核心边叠加在本底上，先识别阈值并扣除背景，才可讨论细结构。\nD 错误：元素相同不代表测量同一个物理量或同样的最终态分布。\n\n重点词：discrete levels（离散能级）；ionization edge（电离边）；unoccupied states（未占据态）；density of states（态密度）。\n逻辑链：EDS：离散壳层间弛豫 → 近对称特征线；EELS：核心电子进入一系列空态 → 能损分布与态密度相关 → 形成非对称边。",
+      "source": {
+        "file": "Electron Spectroscopy",
+        "page": "PDF pp. 45–46, 52; STEM PDF pp. 3, 7"
+      },
+      "difficulty": "进阶",
+      "tutorial": "Electron Spectroscopy Tutorial Q3"
+    },
+    {
+      "id": "SPEC-023",
+      "chapter": "Electron Spectroscopy",
+      "type": "multiple",
+      "prompt": "Which interpretation of an EDS–EELS spectral comparison is justified?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The finer spectral resolution available in the illustrated EELS measurement can reveal energy structure not resolved by EDS."
+        },
+        {
+          "id": "B",
+          "text": "EELS cannot provide element-related information because it detects electrons rather than X-ray photons."
+        },
+        {
+          "id": "C",
+          "text": "EDS photon energy and EELS electron energy loss are the same observable produced by identical transitions."
+        },
+        {
+          "id": "D",
+          "text": "Better spectral resolution alone guarantees finer spatial localization regardless of probe size and specimen."
+        }
+      ],
+      "answers": [
+        "A"
+      ],
+      "explanation": "A 正确：课件比较说明EELS可区分更细的能量结构，不需要记具体分辨率数值才能理解这一用途。\nB 错误：核心损失边同样可提供元素信息。\nC 错误：EDS测辐射弛豫光子，EELS测束电子在激发中的能量损失，不能把两条能量轴当作完全相同过程。\nD 错误：能量轴的谱分辨率和样品空间定位是不同维度，后者还受探针和相互作用范围影响。\n\n重点词：spectral resolution（谱分辨率）；spatial resolution（空间分辨率）；energy transfer（能量转移）。\n逻辑链：能量结构分得更细 → 更易看见细谱特征；采样区域是否更小 → 仍需看探针与样品 → 两种分辨能力必须分别判断。",
+      "source": {
+        "file": "Electron Spectroscopy",
+        "page": "PDF pp. 47"
+      },
+      "difficulty": "进阶"
+    },
+    {
+      "id": "SPEC-024",
+      "chapter": "Electron Spectroscopy",
+      "type": "multiple",
+      "prompt": "Two regions contain the same transition-metal element but may have different chemical states. Which EELS arguments are justified?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Different ionic valences can produce different edge fine structures even when the elemental identity is unchanged."
+        },
+        {
+          "id": "B",
+          "text": "All compounds containing the same element must have identical edge shapes."
+        },
+        {
+          "id": "C",
+          "text": "Edge-shape changes can reflect changes in local available electronic states and help distinguish chemical environments."
+        },
+        {
+          "id": "D",
+          "text": "Only the total integrated intensity can carry chemical information; edge shape is irrelevant."
+        }
+      ],
+      "answers": [
+        "A",
+        "C"
+      ],
+      "explanation": "A 正确：课件的氧化物对照表明同一元素的不同价态可改变边结构。\nB 错误：元素身份相同不代表价态、键合和局部电子结构相同。\nC 正确：边形与局部未占据态相关，可用于分析化学环境差异。\nD 错误：细结构形状正是附加化学状态信息的重要来源，不能只看总计数。\n\n重点词：ionic valence（离子价态）；bonding（键合）；local electronic structure（局部电子结构）。\n逻辑链：价态或键合改变 → 局部未占据电子态改变 → EELS边细结构变化 → 用形状而非仅总强度比较化学状态。",
+      "source": {
+        "file": "Electron Spectroscopy",
+        "page": "PDF pp. 48"
+      },
+      "difficulty": "进阶"
+    },
+    {
+      "id": "SPEC-025",
+      "chapter": "Electron Spectroscopy",
+      "type": "multiple",
+      "prompt": "A semiconductor has spatially varying composition. Which measurements and interpretations are appropriate?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Low-loss EELS can probe excitation of valence electrons into available conduction-band states."
+        },
+        {
+          "id": "B",
+          "text": "The onset of suitable low-loss excitations can provide a band-gap estimate."
+        },
+        {
+          "id": "C",
+          "text": "Comparing a local EDS composition map with a local EELS gap map can investigate a composition–property relationship."
+        },
+        {
+          "id": "D",
+          "text": "The band gap can be read directly from ordinary characteristic EDS photon counts without measuring an energy-loss spectrum."
+        }
+      ],
+      "answers": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explanation": "A 正确：带隙相关低损失信号涉及价电子激发，而非深核心电子激发。\nB 正确：对半导体或绝缘体，合适的激发起始可与带隙联系起来。\nC 正确：课件将组分与带隙沿位置比较，体现化学组成和电子性质的互补测量。\nD 错误：普通EDS主要给元素相关X射线，不直接代替低损失EELS的带隙测量。\n\n重点词：low-loss EELS（低损失EELS）；onset（起始位置）；band gap（带隙）。\n逻辑链：价带电子跃迁需要达到能隙要求 → 能损谱出现相关起始 → 提取局部带隙 → 与局部元素组成比较以研究结构/组分—性质联系。",
+      "source": {
+        "file": "Electron Spectroscopy",
+        "page": "PDF pp. 49"
+      },
+      "difficulty": "进阶"
+    },
+    {
+      "id": "SPEC-026",
+      "chapter": "Electron Spectroscopy",
+      "type": "multiple",
+      "prompt": "Which practical comparisons should guide a choice between EDS and EELS under the course conditions?",
+      "options": [
+        {
+          "id": "A",
+          "text": "EDS is common, relatively convenient and automated, and can cover many elemental lines in a spectrum."
+        },
+        {
+          "id": "B",
+          "text": "EELS requires no alignment and is always less demanding to process than EDS."
+        },
+        {
+          "id": "C",
+          "text": "EELS can be particularly useful for light-element and chemical-state questions, while its alignment and processing requirements must be considered."
+        },
+        {
+          "id": "D",
+          "text": "Broad EDS spectral coverage guarantees that every element is detectable at every beam energy without yield or absorption limitations."
+        }
+      ],
+      "answers": [
+        "A",
+        "C"
+      ],
+      "explanation": "A 正确：课件把成本、常见程度和自动化列为EDS的实用优点。\nB 错误：课件指出EELS需要对准，谱处理也较费人工，不能只看它的信息优势。\nC 正确：本课常规测量条件下，EELS对轻元素、过渡金属及价态键合问题有价值，但实验代价也重要。\nD 错误：激发条件、荧光产额和吸收仍限制可测信号，宽谱覆盖不是无条件检测保证。\n\n重点词：elemental coverage（元素覆盖范围）；alignment（对准）；chemical state（化学状态）。\n逻辑链：先明确需要元素组成还是电子/化学状态 → 比较可获得的信息 → 再考虑样品、对准、处理及成本 → 选择合适而非名义上最强的技术。",
+      "source": {
+        "file": "Electron Spectroscopy",
+        "page": "PDF pp. 50"
+      },
+      "difficulty": "进阶"
+    },
+    {
+      "id": "SPEC-027",
+      "chapter": "Electron Spectroscopy",
+      "type": "multiple",
+      "prompt": "When can EDXRF be preferred to electron-beam EDS even though both detect characteristic X-rays?",
+      "options": [
+        {
+          "id": "A",
+          "text": "When the object is sensitive to electron-beam damage."
+        },
+        {
+          "id": "B",
+          "text": "When portable or off-site analysis is needed."
+        },
+        {
+          "id": "C",
+          "text": "When the required measurement cannot be carried out in the electron microscope vacuum."
+        },
+        {
+          "id": "D",
+          "text": "When the main requirement is the highly localized analysis provided by a focused STEM electron probe."
+        }
+      ],
+      "answers": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explanation": "A 正确：老师教程把电子束敏感性列为选择不同激发方式的理由。\nB 正确：便携、现场测量也是EDXRF的应用优势。\nC 正确：样品不能进入所需真空环境时，应考虑测量约束更合适的方法。\nD 错误：若主要目标是聚焦电子探针提供的高度局域谱学，应考虑合适的STEM测量；EDXRF的现场及样品兼容优势不能替代这一空间定位要求。\n\n重点词：excitation source（激发源）；beam-sensitive（束敏感的）；portable analysis（便携分析）。\n逻辑链：测量相同类型特征X射线 ≠ 激发方式和样品条件相同 → 检查电子束损伤、真空及现场限制 → 在适当场景选EDXRF而非EDS。",
+      "source": {
+        "file": "Electron Spectroscopy",
+        "page": "PDF pp. 18, 51–52; STEM PDF p. 8"
+      },
+      "difficulty": "进阶",
+      "tutorial": "Electron Spectroscopy Tutorial Q4"
+    },
+    {
+      "id": "SPEC-028",
+      "chapter": "Electron Spectroscopy",
+      "type": "multiple",
+      "prompt": "Why is conventional EDS not obtained merely by adding an X-ray detector to an ordinary STM?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The tunnelling electrons do not have sufficient energy for the core excitation underlying the characteristic X-rays discussed."
+        },
+        {
+          "id": "B",
+          "text": "The sharp STM tip guarantees enough core-excitation energy because it gives good spatial localization."
+        },
+        {
+          "id": "C",
+          "text": "An X-ray detector supplies the missing excitation energy to the tunnelling electrons."
+        },
+        {
+          "id": "D",
+          "text": "Increasing the number of low-energy tunnelling electrons automatically raises the kinetic energy of each electron."
+        }
+      ],
+      "answers": [
+        "A"
+      ],
+      "explanation": "A 正确：老师教程强调普通STM电子能量不足；关键限制是不能有效产生所需内层激发。\nB 错误：空间定位好不等于入射电子能量足够，两者是不同条件。\nC 错误：探测器记录已有信号，不负责补充样品激发能量。\nD 错误：电子数量和单电子能量不能混为一谈，增大低能电子数不自动满足电离阈值。\n\n重点词：core excitation（内层激发）；tunnelling electron（隧穿电子）；excitation energy（激发能量）。\n逻辑链：特征X射线需要内层空穴 → 普通STM电子能量不足 → 不产生所需激发 → 只加探测器或只增加电子数不能补足这一条件。",
+      "source": {
+        "file": "Electron Spectroscopy",
+        "page": "PDF pp. 51–52; STEM PDF p. 9"
+      },
+      "difficulty": "进阶",
+      "tutorial": "Electron Spectroscopy Tutorial Q5"
+    },
+    {
+      "id": "SPEC-029",
+      "chapter": "Electron Spectroscopy",
+      "type": "multiple",
+      "prompt": "Which measurement–information matches are appropriate when combining microscopy with spectroscopy?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A fine STEM probe with a suitable thin specimen can support highly localized EDS or EELS mapping."
+        },
+        {
+          "id": "B",
+          "text": "EDS can map elemental distribution, while EELS fine structure can add local chemical-state information."
+        },
+        {
+          "id": "C",
+          "text": "Narrower WDS lines alone establish that neighbouring nanoscale regions are spatially resolved."
+        },
+        {
+          "id": "D",
+          "text": "BSE can guide the selection of compositionally different regions, but spectra are needed to establish elemental identities."
+        }
+      ],
+      "answers": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explanation": "A 正确：小探针及薄样品可使电子激发更局域，课件据此引出STEM中的高空间分辨谱学。\nB 正确：元素分布与价态/键合是相关但不同的信息，可联合回答问题。\nC 错误：WDS分开的是能量/波长相近谱线，空间上是否分开还需看采样体积与探针。\nD 正确：BSE适合寻找相对组分差异，不能独自给出唯一元素身份。\n\n重点词：localization（局域性）；complementary information（互补信息）；element identification（元素鉴别）。\n逻辑链：显微反差提示值得分析的位置 → 小探针局域采集谱学信号 → 按元素或化学状态提取信息 → 分开评估空间定位与能谱分离能力。",
+      "source": {
+        "file": "Electron Spectroscopy",
+        "page": "PDF pp. 14, 17, 34, 47, 48, 51"
+      },
+      "difficulty": "进阶"
+    },
+    {
+      "id": "SPEC-030",
+      "chapter": "Electron Spectroscopy",
+      "type": "multiple",
+      "prompt": "An expected EDS line is not clearly detected. Which explanations should be checked before concluding that the element is absent?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The incident beam may not supply enough energy to excite the relevant core level."
+        },
+        {
+          "id": "B",
+          "text": "The relevant transition may have a low fluorescence yield."
+        },
+        {
+          "id": "C",
+          "text": "Generated X-rays may be absorbed before reaching the detector."
+        },
+        {
+          "id": "D",
+          "text": "The feature may be hidden by overlapping lines or a background that requires more careful processing."
+        }
+      ],
+      "answers": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explanation": "A 正确：低于相应激发要求时，元素存在也不代表这条线会出现。\nB 正确：不同跃迁产额不同，元素可能有弱响应。\nC 正确：发射后还要逸出并到达探测器，传播吸收会减弱信号。\nD 正确：重叠、噪声和连续本底可能掩盖弱线，需要合理处理与复核，不能直接作不存在的结论。\n\n重点词：non-detection（未检出）；excitation threshold（激发阈值）；signal assignment（信号归属）。\n逻辑链：元素存在 → 还需能被激发、产生足够辐射、成功逸出并被区分 → 任一环节受限都可缺峰 → 未检出不能自动等同于不存在。",
+      "source": {
+        "file": "Electron Spectroscopy",
+        "page": "PDF pp. 22, 24, 25, 42"
+      },
+      "difficulty": "进阶"
+    }
+  ]
+}

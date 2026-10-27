@@ -1,0 +1,528 @@
+{
+  "file": "Electron Spectroscopy",
+  "pdfPages": 52,
+  "questionCount": 30,
+  "pageNumbering": "PDF文件页序，从1开始",
+  "questionStyle": "English stem and four independent English statements; variable undisclosed correct count; Chinese explanation with key terms and causal chain.",
+  "topics": [
+    {
+      "topic": "束电子、样品发射电子、阴极发光/X射线光子和吸收电流；BSE局限及EDS/EDX应用",
+      "pages": [
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "questionIds": [
+        "SPEC-001"
+      ]
+    },
+    {
+      "topic": "XRF与EDS/WDS激发源、核心空穴与特征跃迁、Kα/Kβ及选择规则",
+      "pages": [
+        18,
+        19
+      ],
+      "questionIds": [
+        "SPEC-002"
+      ]
+    },
+    {
+      "topic": "峰鉴别、弱峰/肩峰、软件误认与背景拟合处理次序",
+      "pages": [
+        20,
+        21,
+        22
+      ],
+      "questionIds": [
+        "SPEC-003"
+      ]
+    },
+    {
+      "topic": "制动辐射、连续背景、低能吸收与束能截止",
+      "pages": [
+        23,
+        42
+      ],
+      "questionIds": [
+        "SPEC-004"
+      ]
+    },
+    {
+      "topic": "荧光产额、轻元素弱响应、同元素不同线系及定量限制",
+      "pages": [
+        24,
+        27
+      ],
+      "questionIds": [
+        "SPEC-005"
+      ]
+    },
+    {
+      "topic": "相互作用体积、横向采样、吸收路径与ZAF物理因素",
+      "pages": [
+        25,
+        26
+      ],
+      "questionIds": [
+        "SPEC-006"
+      ]
+    },
+    {
+      "topic": "二元组分的校正比例与归一化逻辑",
+      "pages": [
+        26
+      ],
+      "questionIds": [
+        "SPEC-007"
+      ]
+    },
+    {
+      "topic": "三元与多元素归一化、模型完整性及基体影响",
+      "pages": [
+        27
+      ],
+      "questionIds": [
+        "SPEC-008"
+      ]
+    },
+    {
+      "topic": "BSE相对组分与EDS验证、跨晶粒重复测量及代表性",
+      "pages": [
+        28
+      ],
+      "questionIds": [
+        "SPEC-009"
+      ]
+    },
+    {
+      "topic": "SDD载流子产生、偏置漂移、中央阳极、FET及能量编码",
+      "pages": [
+        30
+      ],
+      "questionIds": [
+        "SPEC-010"
+      ]
+    },
+    {
+      "topic": "脉冲处理、死时间、光子到达率与束流控制",
+      "pages": [
+        31,
+        40
+      ],
+      "questionIds": [
+        "SPEC-011"
+      ]
+    },
+    {
+      "topic": "窗口真空、防结冰、热噪声冷却及收集几何",
+      "pages": [
+        32,
+        33
+      ],
+      "questionIds": [
+        "SPEC-012"
+      ]
+    },
+    {
+      "topic": "EDS/WDS速度、谱分辨率、操作与定量条件",
+      "pages": [
+        34,
+        37
+      ],
+      "questionIds": [
+        "SPEC-013"
+      ]
+    },
+    {
+      "topic": "WDS晶体选波、布拉格角、Rowland几何、顺序扫描与多通道",
+      "pages": [
+        35,
+        36
+      ],
+      "questionIds": [
+        "SPEC-014"
+      ]
+    },
+    {
+      "topic": "重叠谱线解释与谱、空间分辨率区别",
+      "pages": [
+        22,
+        34,
+        37
+      ],
+      "questionIds": [
+        "SPEC-015"
+      ]
+    },
+    {
+      "topic": "谱像数据立方体、逐像素能谱、后提取与形貌关联",
+      "pages": [
+        38,
+        39
+      ],
+      "questionIds": [
+        "SPEC-016"
+      ]
+    },
+    {
+      "topic": "和峰、同时事件、电流依赖与伪峰诊断",
+      "pages": [
+        40
+      ],
+      "questionIds": [
+        "SPEC-017"
+      ]
+    },
+    {
+      "topic": "硅逃逸峰、单事件能量损失与和峰区别",
+      "pages": [
+        41
+      ],
+      "questionIds": [
+        "SPEC-018"
+      ]
+    },
+    {
+      "topic": "Tutorial Q2：束能、内层激发阈值与相互作用体积",
+      "pages": [
+        25,
+        42,
+        52
+      ],
+      "questionIds": [
+        "SPEC-019"
+      ]
+    },
+    {
+      "topic": "Tutorial Q1：EELS的透射电子路径及SEM/TEM/STEM几何",
+      "pages": [
+        16,
+        43,
+        52
+      ],
+      "questionIds": [
+        "SPEC-020"
+      ]
+    },
+    {
+      "topic": "EELS元素之外的电子激发、声子/等离激元/带间跃迁与化学信息",
+      "pages": [
+        44,
+        48,
+        50
+      ],
+      "questionIds": [
+        "SPEC-021"
+      ]
+    },
+    {
+      "topic": "Tutorial Q3：离散EDS线与EELS电离边、空态密度及背景",
+      "pages": [
+        45,
+        46,
+        52
+      ],
+      "questionIds": [
+        "SPEC-022"
+      ]
+    },
+    {
+      "topic": "EDS/EELS谱分辨率、信号物理量与空间分辨率区别",
+      "pages": [
+        47
+      ],
+      "questionIds": [
+        "SPEC-023"
+      ]
+    },
+    {
+      "topic": "氧化物边细结构、同元素不同价态/键合与局部空态",
+      "pages": [
+        48
+      ],
+      "questionIds": [
+        "SPEC-024"
+      ]
+    },
+    {
+      "topic": "低损失带隙、价带到导带及EDS组分/EELS性质联合分析",
+      "pages": [
+        49
+      ],
+      "questionIds": [
+        "SPEC-025"
+      ]
+    },
+    {
+      "topic": "EDS/EELS成本、自动化、适用元素与对准/处理取舍",
+      "pages": [
+        50
+      ],
+      "questionIds": [
+        "SPEC-026"
+      ]
+    },
+    {
+      "topic": "Tutorial Q4：EDXRF与EDS激发源、样品约束与现场应用",
+      "pages": [
+        18,
+        52
+      ],
+      "questionIds": [
+        "SPEC-027"
+      ]
+    },
+    {
+      "topic": "Tutorial Q5：STM激发能量不足、探测与激发作用不同",
+      "pages": [
+        51,
+        52
+      ],
+      "questionIds": [
+        "SPEC-028"
+      ]
+    },
+    {
+      "topic": "联合显微与谱学的测量—信息匹配；STEM局域化与能量/空间分辨率",
+      "pages": [
+        14,
+        17,
+        34,
+        47,
+        48,
+        51
+      ],
+      "questionIds": [
+        "SPEC-029"
+      ]
+    },
+    {
+      "topic": "缺失谱线的多原因排查，避免由非检测直接推出不存在",
+      "pages": [
+        22,
+        24,
+        25,
+        42
+      ],
+      "questionIds": [
+        "SPEC-030"
+      ]
+    }
+  ],
+  "excludedPages": [
+    {
+      "pages": [
+        1
+      ],
+      "reason": "封面，无科学教学内容。"
+    },
+    {
+      "pages": [
+        6
+      ],
+      "reason": "课堂提问二维码。"
+    },
+    {
+      "pages": [
+        12
+      ],
+      "reason": "课程时间表。"
+    },
+    {
+      "pages": [
+        29
+      ],
+      "reason": "休息及课堂演示提示；映射原理与应用已由第17及38–39页对应题覆盖。"
+    }
+  ],
+  "coveredElsewhere": [
+    {
+      "pages": [
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "module": "TEM",
+      "reason": "TEM复习及TEM教程，已交由TEM模块覆盖：BF/DF/HRTEM、电子衍射与d=nλL/R、fcc标定、截面氧化层、晶态/非晶态图、薄样品分辨率、FIB定位及DIC/HRTEM相位对比。此谱学精简版不重复出题；总库覆盖须联合coverage/tem.json核查。"
+    }
+  ],
+  "tutorialCoverage": [
+    {
+      "tutorial": "Electron Spectroscopy Tutorial Q2",
+      "questionIds": [
+        "SPEC-019"
+      ],
+      "originalPages": [
+        52
+      ],
+      "solutionFile": "Aberration-corrected STEM",
+      "solutionPages": [
+        6
+      ],
+      "logic": "提高束能 → 更可能激发较深核心能级，同时电子传播更广 → 可测谱线增加但局部采样范围可能变大 → 按目标谱线与空间尺度共同选束能。"
+    },
+    {
+      "tutorial": "Electron Spectroscopy Tutorial Q1",
+      "questionIds": [
+        "SPEC-020"
+      ],
+      "originalPages": [
+        52
+      ],
+      "solutionFile": "Aberration-corrected STEM",
+      "solutionPages": [
+        5
+      ],
+      "logic": "EELS要测穿过样品的电子 → 样品必须足够透射并有下方光路 → TEM/STEM符合条件 → 不能仅在常规厚样品SEM上加一个X射线式探测器替代。"
+    },
+    {
+      "tutorial": "Electron Spectroscopy Tutorial Q3",
+      "questionIds": [
+        "SPEC-022"
+      ],
+      "originalPages": [
+        52
+      ],
+      "solutionFile": "Aberration-corrected STEM",
+      "solutionPages": [
+        7
+      ],
+      "logic": "EDS：离散壳层间弛豫 → 近对称特征线；EELS：核心电子进入一系列空态 → 能损分布与态密度相关 → 形成非对称边。"
+    },
+    {
+      "tutorial": "Electron Spectroscopy Tutorial Q4",
+      "questionIds": [
+        "SPEC-027"
+      ],
+      "originalPages": [
+        52
+      ],
+      "solutionFile": "Aberration-corrected STEM",
+      "solutionPages": [
+        8
+      ],
+      "logic": "测量相同类型特征X射线 ≠ 激发方式和样品条件相同 → 检查电子束损伤、真空及现场限制 → 在适当场景选EDXRF而非EDS。"
+    },
+    {
+      "tutorial": "Electron Spectroscopy Tutorial Q5",
+      "questionIds": [
+        "SPEC-028"
+      ],
+      "originalPages": [
+        52
+      ],
+      "solutionFile": "Aberration-corrected STEM",
+      "solutionPages": [
+        9
+      ],
+      "logic": "特征X射线需要内层空穴 → 普通STM电子能量不足 → 不产生所需激发 → 只加探测器或只增加电子数不能补足这一条件。"
+    }
+  ],
+  "notes": [
+    "30题均用英文题干及四个独立英文选项；解析中文逐项说明，并附重点英文词和因果逻辑链。",
+    "不考数值记忆、组分表具体数值、谱线能量、逃逸偏移、时间占比或比值计算；保留支撑实际应用的定性关系与物理机制。",
+    "谱学主体科学页13–28及30–52均有实际题目覆盖；TEM复习页由TEM模块共同负责，未把行政页当科学考点。",
+    "原末页五道Tutorial均有单独主转换题，source同时指向原题与后续STEM PDF pp.5–9给出的老师解答。",
+    "比较EDS/WDS/EELS时分别评估信号来源、谱分辨率、空间定位、样品几何和实用代价，避免用名义分辨率替代方法选择。",
+    "没有加入本课未提供的WDS气体计数器或特定线宽/峰尾理论。"
+  ],
+  "visualChecks": [
+    {
+      "pages": [
+        8
+      ],
+      "checked": "逐图核对B4C从晶态到非晶态，清晰衍射斑点转为弥散散射。"
+    },
+    {
+      "pages": [
+        16
+      ],
+      "checked": "核对相互作用图的BSE/SE/X射线/透射弹性与非弹性电子及样品电流信号标注。"
+    },
+    {
+      "pages": [
+        19,
+        20,
+        22,
+        23,
+        24
+      ],
+      "checked": "核对Kα/Kβ能级箭头；PtSe2谱Se/Pt/Cr/Fe/Cu标签；Mn肩峰；连续本底与吸收；Fe-L与Fe-K荧光产额比较。"
+    },
+    {
+      "pages": [
+        25,
+        26,
+        27,
+        28
+      ],
+      "checked": "核对相互作用体积示意、二元/三元公式及Ti–V–Al–Fe亮暗晶粒表；V13.8/2.87、Fe1.61/0.07、Ti81.2/90.7、Al3.46/6.42均为atomic%。"
+    },
+    {
+      "pages": [
+        30,
+        31,
+        32,
+        33
+      ],
+      "checked": "核对SDD中心阳极/FET/漂移环及入射光路、60–70%有效读出时间、薄窗与两类冷却装置及SEM双探测器照片。"
+    },
+    {
+      "pages": [
+        34,
+        35,
+        36,
+        37
+      ],
+      "checked": "核对EDS/WDS对照表、Ag/Cd近邻峰、Rowland圆与布拉格条件、多晶体通道及MoS2重叠峰图。"
+    },
+    {
+      "pages": [
+        38,
+        39
+      ],
+      "checked": "核对谱像数据立方体第三轴为能量/波长而不是深度；核对纸张C/O/Ca图、纤维素与CaCO3说明。"
+    },
+    {
+      "pages": [
+        40,
+        41,
+        42
+      ],
+      "checked": "核对MgO和峰束流依赖、Si逃逸峰1.74keV间隔及10.55→8.81keV示意；核对钴3/5/10keV截断与K峰激发。"
+    },
+    {
+      "pages": [
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ],
+      "checked": "核对EELS作用表、核层到导带空态图、Be电离边与本底、NiO谱比较、Ti/Mn/Fe氧化物细结构及EDS-Cd/EELS-Eg联合曲线；ZnO/CdZnO小图标签/箭头配对不清，不出材料对应精确带隙数值题。"
+    },
+    {
+      "file": "Aberration-corrected STEM",
+      "pages": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "checked": "核对后续复习及Electron Spectroscopy末页五道教程题解答的提取文本；题目source同时标出本课及后续STEM的实际PDF页码。"
+    }
+  ]
+}

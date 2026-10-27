@@ -1,0 +1,622 @@
+{
+  "version": 1,
+  "title": "Aberration-corrected STEM · 原理与应用",
+  "questions": [
+    {
+      "id": "STEM-001",
+      "chapter": "STEM · Resolution & lenses",
+      "type": "multiple",
+      "prompt": "An electron beam has a very short wavelength, but the microscope does not resolve details as small as that wavelength. Which explanations are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A short wavelength is helpful, but lens aberrations can restrict the usable numerical aperture."
+        },
+        {
+          "id": "B",
+          "text": "The measured resolution must equal the wavelength once the display magnification is sufficiently high."
+        },
+        {
+          "id": "C",
+          "text": "A larger usable convergence angle can reduce diffraction-related probe broadening."
+        },
+        {
+          "id": "D",
+          "text": "Increasing electron kinetic energy lengthens the electron wavelength."
+        }
+      ],
+      "answers": [
+        "A",
+        "C"
+      ],
+      "explanation": "A 对：电子透镜像差可限制实际能使用的会聚角，短波长本身不是充分条件。B 错：显示放大不能恢复没有分辨出的细节。C 对：可用会聚角增大，可减轻衍射造成的展宽。D 错：提高电子动能会缩短而非加长波长，但实际分辨率还受电子光学条件限制。\n\n重点词：wavelength（波长）；usable aperture（可用孔径）；resolution（分辨能力）\n逻辑链：短波长提供潜力 → 像差限制可用会聚角并展宽探针 → 实际分辨能力不能只看波长。",
+      "source": {
+        "file": "Aberration-corrected STEM",
+        "page": "PDF pp. 13, 14"
+      },
+      "difficulty": "进阶"
+    },
+    {
+      "id": "STEM-002",
+      "chapter": "STEM · Resolution & lenses",
+      "type": "multiple",
+      "prompt": "Which statements correctly explain how an electron lens focuses and magnifies?",
+      "options": [
+        {
+          "id": "A",
+          "text": "An electron lens can focus a beam and change image magnification; magnification is not itself a guarantee of finer resolution."
+        },
+        {
+          "id": "B",
+          "text": "A glass lens can replace a magnetic electron lens because fast electrons pass through glass like visible light."
+        },
+        {
+          "id": "C",
+          "text": "The strength of a magnetic lens is fixed at manufacture and cannot be changed electrically."
+        },
+        {
+          "id": "D",
+          "text": "Magnetic fields deflect fast electrons, and changing the coil current changes lens strength."
+        }
+      ],
+      "answers": [
+        "A",
+        "D"
+      ],
+      "explanation": "A 对：聚焦和放大的基本概念也适用于电子透镜，但把图像变大不等于获得更多真实细节。B 错：玻璃会阻挡、散射电子，不是电子透镜的透明材料。C 错：磁透镜的线圈电流可调，聚焦强度并非制造后固定。D 对：磁场改变电子轨迹，线圈电流使聚焦条件可调。\n\n重点词：magnetic lens（磁透镜）；coil current（线圈电流）；magnification（放大倍数）\n逻辑链：调节线圈电流 → 磁场及电子轨迹改变 → 聚焦与放大可调，但显示放大不等于真实分辨改善。",
+      "source": {
+        "file": "Aberration-corrected STEM",
+        "page": "PDF pp. 15, 16"
+      },
+      "difficulty": "进阶"
+    },
+    {
+      "id": "STEM-003",
+      "chapter": "STEM · Aberration diagnosis",
+      "type": "multiple",
+      "prompt": "Changing focus reverses an image elongation between two perpendicular directions. Which interpretations and actions are appropriate?",
+      "options": [
+        {
+          "id": "A",
+          "text": "This is the expected signature of axial coma, so beam tilt alone is the required correction."
+        },
+        {
+          "id": "B",
+          "text": "The lens can have different focal lengths in perpendicular directions."
+        },
+        {
+          "id": "C",
+          "text": "A quadrupole stigmator can reshape an oval electron beam towards a circular beam."
+        },
+        {
+          "id": "D",
+          "text": "Changing only the acceleration voltage guarantees removal of the elongation."
+        }
+      ],
+      "answers": [
+        "B",
+        "C"
+      ],
+      "explanation": "A 错：随欠焦/过焦转向的垂直拉伸是像散，不是边缘彗星状拖尾的彗差。B 对：不同方向焦距不同解释这种焦点相关变形。C 对：四极像散校正器通过定向磁场重塑束形。D 错：改束能不代替像散校正；仍应先识别像差并调stigmator。\n\n重点词：astigmatism（像散）；underfocus/overfocus（欠焦/过焦）；stigmator（像散校正器）\n逻辑链：不同方向焦距不一致 → 调焦时拉伸方向改变 → 调节stigmator以修正束形。",
+      "source": {
+        "file": "Aberration-corrected STEM",
+        "page": "PDF pp. 18, 19, 20"
+      },
+      "difficulty": "进阶"
+    },
+    {
+      "id": "STEM-004",
+      "chapter": "STEM · Aberration diagnosis",
+      "type": "multiple",
+      "prompt": "Which statements distinguish axial coma from chromatic aberration?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Comet-like tails near the image edge can be reduced by aligning the beam more parallel to the optical axis."
+        },
+        {
+          "id": "B",
+          "text": "Chromatic aberration arises because electrons with different energies are not focused in exactly the same way."
+        },
+        {
+          "id": "C",
+          "text": "The relatively narrow electron-energy distribution discussed in the lecture reduces the importance of chromatic aberration."
+        },
+        {
+          "id": "D",
+          "text": "Making the beam monochromatic also necessarily removes spherical aberration."
+        }
+      ],
+      "answers": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explanation": "A 对：彗星状拖尾对应轴向彗差，束倾斜对准有助于减轻。B 对：色差是不同能量对应不同聚焦条件；光学镜片的彩边是同类概念的类比。C 对：较窄的电子能量分布可减轻色差影响。D 错：单色性不等于无球差，球差还取决于电子离光轴的远近。\n\n重点词：axial coma（轴向彗差）；chromatic aberration（色差）；energy spread（能量分布宽度）\n逻辑链：先按现象区分来源 → 彗差检查束倾斜，色差检查能量分布 → 选择对应校正方法。",
+      "source": {
+        "file": "Aberration-corrected STEM",
+        "page": "PDF pp. 21, 22, 23, 24"
+      },
+      "difficulty": "进阶"
+    },
+    {
+      "id": "STEM-005",
+      "chapter": "STEM · Aberration diagnosis",
+      "type": "multiple",
+      "prompt": "A round electron lens gives a blurred probe even when all electrons have nearly the same energy. Which explanations are justified?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The outer rays can be focused more strongly than near-axis rays."
+        },
+        {
+          "id": "B",
+          "text": "Spherical aberration is caused only by energy spread, so the stated observation is impossible."
+        },
+        {
+          "id": "C",
+          "text": "Optical systems can use aspherical or suitable convex–concave glass elements, while the ordinary round electron lenses discussed act as simple convex lenses."
+        },
+        {
+          "id": "D",
+          "text": "An ordinary circular aperture reshapes the electron beam in exactly the same way as a multipole corrector."
+        }
+      ],
+      "answers": [
+        "A",
+        "C"
+      ],
+      "explanation": "A 对：课件球差示意中远轴射线焦点更靠近透镜，造成探针展宽。B 错：把色差和球差混淆。C 对：这是光学与普通圆形磁透镜在球差控制方面的差别。D 错：限孔靠挡去严重离焦的外侧电子；多极校正靠磁场重塑束形，两者机制不同。\n\n重点词：spherical aberration（球差）；off-axis rays（远轴射线）；aspherical lens（非球面透镜）\n逻辑链：远轴与近轴电子聚焦不同 → 束斑模糊 → 需控制径向聚焦差异，而非只改善单色性。",
+      "source": {
+        "file": "Aberration-corrected STEM",
+        "page": "PDF pp. 25, 26, 27"
+      },
+      "difficulty": "进阶"
+    },
+    {
+      "id": "STEM-006",
+      "chapter": "STEM · Aperture trade-off",
+      "type": "multiple",
+      "prompt": "An uncorrected STEM gives broad probes with both very small and very large apertures. Which conclusions follow?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The smallest aperture must give the narrowest probe because it removes every wave effect."
+        },
+        {
+          "id": "B",
+          "text": "Small apertures reduce high-angle spherical-aberration contributions but increase diffraction broadening and discard electrons."
+        },
+        {
+          "id": "C",
+          "text": "Large apertures can admit strongly aberrated outer rays; a medium aperture can minimize the total broadening."
+        },
+        {
+          "id": "D",
+          "text": "Choosing the aperture requires a compromise between probe broadening and the available beam current."
+        }
+      ],
+      "answers": [
+        "B",
+        "C",
+        "D"
+      ],
+      "explanation": "A 错：电子始终有波动性，小孔反而增加衍射。B 对：小孔挡掉高角度电子，可减少球差贡献，同时损失束流并加强衍射展宽。C 对：大孔会放入较强像差的外侧电子，中等孔径可使总展宽较小。D 对：不能只追求一个指标，既要考虑细节分辨，也要考虑有多少电子提供信号。\n\n重点词：aperture（孔径）；diffraction broadening（衍射展宽）；beam current（束流）\n逻辑链：缩小孔径 → 外侧球差贡献下降，但衍射增强且电子减少 → 在分辨与信号之间找合理折中。",
+      "source": {
+        "file": "Aberration-corrected STEM",
+        "page": "PDF pp. 27, 28, 29, 31"
+      },
+      "difficulty": "进阶"
+    },
+    {
+      "id": "STEM-007",
+      "chapter": "STEM · STEM detectors",
+      "type": "multiple",
+      "prompt": "Which descriptions of STEM image acquisition are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A focused probe is raster-scanned; the detected signal at each position contributes an image pixel."
+        },
+        {
+          "id": "B",
+          "text": "BF and ADF signals cannot be recorded from the same scan because only one transmitted electron signal exists."
+        },
+        {
+          "id": "C",
+          "text": "A BF detector accepts central transmitted electrons, including the direct beam and low-angle scattering in the illustrated geometry."
+        },
+        {
+          "id": "D",
+          "text": "An ADF detector is an X-ray detector placed above the specimen."
+        }
+      ],
+      "answers": [
+        "A",
+        "C"
+      ],
+      "explanation": "A 对：STEM与SEM一样逐点扫描形成像素。B 错：BF与ADF接受透射束中不同角度部分，可同步采集；课件MgO/Au例子就是同区互补图。C 对：BF接受中心直透及小角散射。D 错：ADF是样品下方环形电子探测器，不是上方X射线检测。\n\n重点词：raster scan（光栅扫描）；bright field（明场）；annular dark field（环形暗场）\n逻辑链：逐点扫描 → 探测器按散射角接收不同电子 → 同一区域可同时形成互补图像。",
+      "source": {
+        "file": "Aberration-corrected STEM",
+        "page": "PDF pp. 29, 30, 40"
+      },
+      "difficulty": "进阶"
+    },
+    {
+      "id": "STEM-008",
+      "chapter": "STEM · STEM detectors",
+      "type": "multiple",
+      "prompt": "Which statements about annular dark-field detector selection are supported?",
+      "options": [
+        {
+          "id": "A",
+          "text": "HAADF, MAADF and LAADF select high-, medium- and low-angle ranges of transmitted scattered electrons."
+        },
+        {
+          "id": "B",
+          "text": "LAADF can be useful for light elements because these scatter electrons relatively weakly."
+        },
+        {
+          "id": "C",
+          "text": "A bright atom must have the same brightness ordering in BF, LAADF and HAADF regardless of specimen structure."
+        },
+        {
+          "id": "D",
+          "text": "Changing the accepted scattering angles is equivalent to measuring an EDS spectrum at each pixel."
+        }
+      ],
+      "answers": [
+        "A",
+        "B"
+      ],
+      "explanation": "A 对：三种ADF模式按接受角度范围命名。B 对：课件指出轻元素散射较弱，低角接收可能有利。C 错：模式、接受角和结构都会影响对比，不能使用跨模式的通用亮度规则。D 错：角度选择仍是电子强度成像；EDS谱是特征X射线的能量分布。\n\n重点词：scattering angle（散射角）；HAADF（高角环形暗场）；LAADF（低角环形暗场）\n逻辑链：元素与结构影响散射 → 接受角度决定收集哪部分信号 → 对比需要结合模式解释。",
+      "source": {
+        "file": "Aberration-corrected STEM",
+        "page": "PDF pp. 29, 39, 40"
+      },
+      "difficulty": "进阶"
+    },
+    {
+      "id": "STEM-009",
+      "chapter": "STEM · Ronchigram & alignment",
+      "type": "multiple",
+      "prompt": "During STEM alignment, a Ronchigram can be used because",
+      "options": [
+        {
+          "id": "A",
+          "text": "It is necessarily a sharp Bragg-spot pattern from a perfect single crystal."
+        },
+        {
+          "id": "B",
+          "text": "A highly converged beam on an amorphous specimen region reveals lens-aberration signatures."
+        },
+        {
+          "id": "C",
+          "text": "Its center and edge always have identical magnification, independent of focus."
+        },
+        {
+          "id": "D",
+          "text": "Its focus-dependent appearance can reveal coma, astigmatism and three-fold astigmatism; correction can enlarge the usable in-focus region."
+        }
+      ],
+      "answers": [
+        "B",
+        "D"
+      ],
+      "explanation": "A 错：课件使用非晶区，而非要求完美单晶衍射。B 对：Ronchigram用于直接观察透镜像差。C 错：课件明确中心放大更高，形状也依赖调焦。D 对：视频示意这些像差，校正后可用聚焦区域扩大，从而容许更大孔径。\n\n重点词：Ronchigram（像差对准图）；amorphous region（非晶区域）；alignment（对准）\n逻辑链：会聚束照射非晶区 → 图样显露焦点与像差特征 → 对准后扩大可用聚焦区域。",
+      "source": {
+        "file": "Aberration-corrected STEM",
+        "page": "PDF pp. 32, 33, 34"
+      },
+      "difficulty": "进阶"
+    },
+    {
+      "id": "STEM-010",
+      "chapter": "STEM · Multipoles",
+      "type": "multiple",
+      "prompt": "Why are multipole elements useful for controlling an electron beam?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Magnetic fields can exert direction-dependent forces that reshape the beam."
+        },
+        {
+          "id": "B",
+          "text": "The stigmator is an example of using such forces to correct an oval beam."
+        },
+        {
+          "id": "C",
+          "text": "They work only by absorbing outer electrons, just as a circular aperture does."
+        },
+        {
+          "id": "D",
+          "text": "A multipole corrector and a small aperture are interchangeable without changing beam shape or current."
+        }
+      ],
+      "answers": [
+        "A",
+        "B"
+      ],
+      "explanation": "A 对：多极磁场的方向性使不同位置的电子受到不同作用，可以重塑束形。B 对：像散校正器是这种思想的实际例子。C 错：多极元件通过磁场和洛伦兹力调轨迹，不是只吸收电子。D 错：挡束与改变聚焦轨迹的机制不同，能利用的束流也不同。\n\n重点词：multipole（多极元件）；Lorentz force（洛伦兹力）；beam shaping（束形调控）\n逻辑链：方向性磁场 → 电子轨迹被有选择地改变 → 束形可被校正；这不同于单纯挡束。",
+      "source": {
+        "file": "Aberration-corrected STEM",
+        "page": "PDF pp. 19, 34, 35"
+      },
+      "difficulty": "进阶"
+    },
+    {
+      "id": "STEM-011",
+      "chapter": "STEM · Aberration correction",
+      "type": "multiple",
+      "prompt": "An aberration corrector differs from merely closing the objective aperture because",
+      "options": [
+        {
+          "id": "A",
+          "text": "A stack of multipole elements reshapes the beam to compensate lens aberrations."
+        },
+        {
+          "id": "B",
+          "text": "The corrector and ordinary magnetic lens together act effectively like an aspherical lens."
+        },
+        {
+          "id": "C",
+          "text": "The main effect is to discard every high-angle electron while leaving all optical forces unchanged."
+        },
+        {
+          "id": "D",
+          "text": "Correction can make a larger numerical aperture useful rather than requiring every outer ray to be blocked."
+        }
+      ],
+      "answers": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explanation": "A、B 对：多级多极透镜联合作用补偿像差，获得等效非球面聚焦。C 错：这混淆了校正与单纯挡束。D 对：校正使更多角度成分也能充分聚焦，因而可扩大可用NA。\n\n重点词：aberration corrector（像差校正器）；numerical aperture（数值孔径）；aspherical focusing（等效非球面聚焦）\n逻辑链：多极元件补偿像差 → 更多高角度电子可正确聚焦 → 更大孔径变得可用。",
+      "source": {
+        "file": "Aberration-corrected STEM",
+        "page": "PDF pp. 34, 35, 36"
+      },
+      "difficulty": "进阶"
+    },
+    {
+      "id": "STEM-012",
+      "chapter": "STEM · Aberration correction",
+      "type": "multiple",
+      "prompt": "At fixed acceleration voltage, spherical-aberration correction lowers the aberration curve in a probe-size graph. Which predictions are reasonable?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The diffraction contribution must disappear because the electrons are no longer waves."
+        },
+        {
+          "id": "B",
+          "text": "The optimum aperture must stay at the same value because the wavelength has not changed."
+        },
+        {
+          "id": "C",
+          "text": "A larger useful aperture can form a smaller probe while passing more beam electrons."
+        },
+        {
+          "id": "D",
+          "text": "Improved probe localization and higher usable current can support high-resolution, faster imaging and spectroscopy."
+        }
+      ],
+      "answers": [
+        "C",
+        "D"
+      ],
+      "explanation": "A 错：课件标明衍射物理仍与原来相同。B 错：总展宽由衍射和球差共同决定，球差曲线降低会改变最佳折中点，通常移向更大孔径。C、D 对：这解释为什么在波长不变时仍可同时得到更小且更亮的探针。\n\n重点词：probe localization（探针局域性）；useful current（可用束流）；spectroscopy（谱学）\n逻辑链：球差贡献减小 → 可采用更大有效孔径 → 探针可同时更小且具有更多电子信号。",
+      "source": {
+        "file": "Aberration-corrected STEM",
+        "page": "PDF pp. 31, 37, 38, 44"
+      },
+      "difficulty": "进阶"
+    },
+    {
+      "id": "STEM-013",
+      "chapter": "STEM · Atomic imaging & mapping",
+      "type": "multiple",
+      "prompt": "A thin material and supported nanoparticles are imaged with different STEM detectors. Which interpretations are justified?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A change in layer thickness can change an atomic-resolution image even without introducing a new element."
+        },
+        {
+          "id": "B",
+          "text": "BF and ADF images of the same nanoparticles can show complementary contrast."
+        },
+        {
+          "id": "C",
+          "text": "A contrast change between regions proves a different element, even if layer number or detector mode also changes."
+        },
+        {
+          "id": "D",
+          "text": "Identifying the detector geometry and specimen structure is necessary before treating bright or dark features as a chemical fingerprint."
+        }
+      ],
+      "answers": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explanation": "A 对：课件的单层/双层例子说明，结构厚度本身也影响图像，不能把所有亮度差都归因于元素不同。B 对：BF和ADF接收不同散射角的电子，可提供互补图像。C 错：模式与结构也是变量，亮度变化不是元素改变的唯一证据。D 对：应先确认探测器和样品结构，再决定能从对比中推断什么。\n\n重点词：contrast（对比）；layer thickness（层厚）；complementary information（互补信息）\n逻辑链：探测模式和层厚改变散射对比 → 图像亮度不只由元素身份决定 → 先排除结构/模式差异，再解释化学差异。",
+      "source": {
+        "file": "Aberration-corrected STEM",
+        "page": "PDF pp. 12, 30, 39, 40"
+      },
+      "difficulty": "进阶"
+    },
+    {
+      "id": "STEM-014",
+      "chapter": "STEM · Atomic imaging & mapping",
+      "type": "multiple",
+      "prompt": "A STEM experiment saves an EDS or EELS spectrum at every scan point. Which statements about this spectrum-imaging dataset are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only a single image intensity for the whole specimen remains after acquisition."
+        },
+        {
+          "id": "B",
+          "text": "Element-related maps can be extracted from the stored spectra while retaining their scan-position information."
+        },
+        {
+          "id": "C",
+          "text": "The beam must remain fixed at one point throughout the map."
+        },
+        {
+          "id": "D",
+          "text": "The dataset is identical to an ordinary ADF intensity image, so energy-resolved detection is unnecessary."
+        }
+      ],
+      "answers": [
+        "B"
+      ],
+      "explanation": "A 错：逐点保存的是能谱，不是全图仅一个数。B 对：谱与位置关联使采集后可提取元素分布等信息。C 错：必须扫描才能建立空间对应。D 错：普通ADF强度图不等于逐像素能谱，不能提供同样的元素能量信息。\n\n重点词：spectrum imaging（谱像）；scan position（扫描位置）；elemental map（元素分布图）\n逻辑链：每个位置记录能谱 → 保留能量与空间信息 → 可再提取元素或其他谱学分布。",
+      "source": {
+        "file": "Aberration-corrected STEM",
+        "page": "PDF pp. 41"
+      },
+      "difficulty": "进阶"
+    },
+    {
+      "id": "STEM-015",
+      "chapter": "STEM · Atomic imaging & mapping",
+      "type": "multiple",
+      "prompt": "Which statements correctly connect aberration-corrected STEM with local chemical analysis?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Structural HAADF images can be combined with EDS maps at a grain boundary."
+        },
+        {
+          "id": "B",
+          "text": "EELS spectrum imaging can distinguish elemental distributions across a layered structure."
+        },
+        {
+          "id": "C",
+          "text": "A small probe with higher useful current is valuable for localized spectra, but elemental identification still requires the relevant chemical signal."
+        },
+        {
+          "id": "D",
+          "text": "An aligned Ronchigram by itself replaces both EDS and EELS for elemental identification."
+        }
+      ],
+      "answers": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explanation": "A 对：课件用结构图与晶界EDS元素图联合展示局部结构—化学联系。B 对：逐点EELS谱可提取不同元素通道的空间分布。C 对：小探针增强定位，较高可用束流有助于收集谱学信号；元素身份仍需对应化学信号。D 错：Ronchigram用于电子光学对准，不能代替元素谱。\n\n重点词：chemical signal（化学信号）；grain boundary（晶界）；element-specific mapping（元素特异成像）\n逻辑链：小探针定位 + 足够信号 → 逐点EDS/EELS → 将局部化学与结构图联系。",
+      "source": {
+        "file": "Aberration-corrected STEM",
+        "page": "PDF pp. 37, 41, 42, 43, 44"
+      },
+      "difficulty": "进阶"
+    },
+    {
+      "id": "STEM-016",
+      "chapter": "STEM · Integrated diagnosis",
+      "type": "multiple",
+      "prompt": "A narrow-energy electron beam still gives perpendicular focus-dependent streaks and a broad probe at large aperture. Which proposed actions are physically justified?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Treat the perpendicular streaks as astigmatism and adjust the stigmator."
+        },
+        {
+          "id": "B",
+          "text": "Assume monochromaticity removes spherical aberration, so a larger aperture is always safe."
+        },
+        {
+          "id": "C",
+          "text": "If spherical aberration is the large-aperture limitation, apply an appropriate multipole corrector before relying on a larger useful aperture."
+        },
+        {
+          "id": "D",
+          "text": "Increase only display magnification to remove both physical probe broadening and lens aberrations."
+        }
+      ],
+      "answers": [
+        "A",
+        "C"
+      ],
+      "explanation": "A 对：像散是方向相关焦距差异，应调stigmator。B 错：窄能量分布主要减轻色差，不能独自消除球差。C 对：多极球差校正可放宽大孔径限制，之后才可重新选择最佳孔径。D 错：显示放大不改变真实束斑、波长或像差；必须先分清限制来源。\n\n重点词：diagnosis（诊断）；monochromaticity（单色性）；physical resolution（实际分辨能力）\n逻辑链：先判断像散、球差或色差 → 使用对应电子光学控制 → 真实细节恢复依赖物理束斑，而非显示缩放。",
+      "source": {
+        "file": "Aberration-corrected STEM",
+        "page": "PDF pp. 19, 20, 21, 24, 25, 31, 37"
+      },
+      "difficulty": "进阶"
+    },
+    {
+      "id": "STEM-017",
+      "chapter": "STEM · Aberration diagnosis",
+      "type": "multiple",
+      "prompt": "Small features develop comet-like tails near the edge of the field. Which actions or interpretations are appropriate?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Check beam alignment and reduce beam tilt relative to the optical axis."
+        },
+        {
+          "id": "B",
+          "text": "Treat every such tail as a new elongated particle without checking the electron optics."
+        },
+        {
+          "id": "C",
+          "text": "Use the alignment information to distinguish an imaging distortion from genuine specimen structure."
+        },
+        {
+          "id": "D",
+          "text": "Apply a conductive coating as the direct optical correction for axial coma."
+        }
+      ],
+      "answers": [
+        "A",
+        "C"
+      ],
+      "explanation": "A 对：课件将这种拖尾与轴向彗差联系，并通过束倾斜对准减轻。B 错：应先排查可随对准改变的成像失真，不能直接当作样品形状。C 对：这正是对准和Ronchigram检查的实用意义。D 错：导电镀层针对充电，不是修正透镜彗差的直接操作。\n\n重点词：comet-like tail（彗星状拖尾）；beam tilt（束倾斜）；image artefact（成像伪影）\n逻辑链：图像边缘拖尾 → 考虑轴向彗差并检查束倾斜 → 校正后再判断是否为真实形貌。",
+      "source": {
+        "file": "Aberration-corrected STEM",
+        "page": "PDF pp. 21, 32, 33"
+      },
+      "difficulty": "进阶"
+    },
+    {
+      "id": "STEM-018",
+      "chapter": "STEM · Integrated diagnosis",
+      "type": "multiple",
+      "prompt": "An instrument has spherical-aberration correction, but a broader electron-energy distribution still degrades focus. Which conclusions are justified?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Correcting spherical aberration does not automatically remove energy-dependent focusing differences."
+        },
+        {
+          "id": "B",
+          "text": "A narrower energy distribution can reduce the chromatic contribution."
+        },
+        {
+          "id": "C",
+          "text": "The blur proves that spherical and chromatic aberrations are the same physical effect."
+        },
+        {
+          "id": "D",
+          "text": "Increasing display magnification is sufficient to restore the missing fine detail."
+        }
+      ],
+      "answers": [
+        "A",
+        "B"
+      ],
+      "explanation": "A 对：球差关注近轴/远轴轨迹，色差关注不同能量的聚焦，二者不等同。B 对：能量分布变窄，可减少不同能量的焦点差异。C 错：像差可以并存，不能因都表现为模糊就混为一个机制。D 错：显示放大不会改变真实聚焦和探针展宽。\n\n重点词：chromatic contribution（色差贡献）；energy distribution（能量分布）；spherical correction（球差校正）\n逻辑链：能量分布变宽 → 不同能量电子的聚焦位置更分散 → 即使已校正球差，也可能仍需控制色差。",
+      "source": {
+        "file": "Aberration-corrected STEM",
+        "page": "PDF pp. 24, 25, 36, 37"
+      },
+      "difficulty": "进阶"
+    }
+  ]
+}

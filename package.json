@@ -1,0 +1,12 @@
+{
+  "name": "mle5216-practice",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "MLE5216 选择题练习 · 为 yyw 准备",
+  "scripts": {
+    "dev": "python3 -m http.server 5173 --bind 127.0.0.1",
+    "build": "node scripts/build.mjs",
+    "test": "node --test"
+  }
+}

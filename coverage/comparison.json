@@ -1,0 +1,222 @@
+{
+  "file": "跨课件比较",
+  "questionCount": 20,
+  "pageNumbering": "PDF文件页序；STEM=Aberration-corrected STEM，Spectroscopy=Electron Spectroscopy。",
+  "topics": [
+    {
+      "topic": "按湿态、埋藏层、便携和电子束敏感性选择技术",
+      "pages": [
+        "SEM PDF pp.45–47",
+        "TEM PDF p.21",
+        "STEM PDF p.8",
+        "Spectroscopy PDF p.14"
+      ],
+      "questionIds": [
+        "CMP-001"
+      ]
+    },
+    {
+      "topic": "同一样品的表面形貌、成分、晶格三类问题",
+      "pages": [
+        "SEM PDF p.39",
+        "TEM PDF pp.39,54",
+        "Spectroscopy PDF pp.14,17"
+      ],
+      "questionIds": [
+        "CMP-002"
+      ]
+    },
+    {
+      "topic": "化学组成、带隙和价态的互补局域谱",
+      "pages": [
+        "STEM PDF pp.4,41",
+        "Spectroscopy PDF pp.48–50"
+      ],
+      "questionIds": [
+        "CMP-003"
+      ]
+    },
+    {
+      "topic": "空间分辨与谱分辨率不可混淆",
+      "pages": [
+        "STEM PDF pp.37,41",
+        "Spectroscopy PDF pp.34,37"
+      ],
+      "questionIds": [
+        "CMP-004"
+      ]
+    },
+    {
+      "topic": "不同亮暗模式下的推断边界",
+      "pages": [
+        "TEM PDF pp.47,50–53",
+        "STEM PDF pp.29,40"
+      ],
+      "questionIds": [
+        "CMP-005"
+      ]
+    },
+    {
+      "topic": "高谱分辨不等于原始峰高直接定量",
+      "pages": [
+        "Spectroscopy PDF pp.24–26,47,50",
+        "STEM PDF pp.2,7"
+      ],
+      "questionIds": [
+        "CMP-006"
+      ]
+    },
+    {
+      "topic": "束能激发阈值、空间展宽与计数堆积的不同补救",
+      "pages": [
+        "SEM PDF p.37",
+        "TEM PDF p.8",
+        "Spectroscopy PDF pp.40,42"
+      ],
+      "questionIds": [
+        "CMP-007"
+      ]
+    },
+    {
+      "topic": "导电性、电子透明、选点及湿态制样目标分离",
+      "pages": [
+        "TEM PDF pp.19–21",
+        "SEM PDF pp.23–24,44–47"
+      ],
+      "questionIds": [
+        "CMP-008"
+      ]
+    },
+    {
+      "topic": "透射能量损失与X射线激发通道的几何检查",
+      "pages": [
+        "Spectroscopy PDF p.43",
+        "STEM PDF pp.5,9,41"
+      ],
+      "questionIds": [
+        "CMP-009"
+      ]
+    },
+    {
+      "topic": "样品充电和电子光学像差的诊断与控制",
+      "pages": [
+        "SEM PDF pp.23,46",
+        "STEM PDF pp.16,19–20",
+        "TEM PDF p.8"
+      ],
+      "questionIds": [
+        "CMP-010"
+      ]
+    },
+    {
+      "topic": "Wet and uncoatable samples",
+      "pages": [
+        "SEM PDF pp. 45,46,47",
+        "TEM PDF pp. 7"
+      ],
+      "questionIds": [
+        "CMP-011"
+      ]
+    },
+    {
+      "topic": "Off-site elemental analysis",
+      "pages": [
+        "Aberration-corrected STEM PDF pp. 8",
+        "Electron Spectroscopy PDF pp. 52"
+      ],
+      "questionIds": [
+        "CMP-012"
+      ]
+    },
+    {
+      "topic": "Crystal structure and elemental identity",
+      "pages": [
+        "TEM PDF pp. 35,41,46,55",
+        "Electron Spectroscopy PDF pp. 17,38"
+      ],
+      "questionIds": [
+        "CMP-013"
+      ]
+    },
+    {
+      "topic": "Origins of detected signals",
+      "pages": [
+        "SEM PDF pp. 39,40",
+        "Electron Spectroscopy PDF pp. 43,44,45"
+      ],
+      "questionIds": [
+        "CMP-014"
+      ]
+    },
+    {
+      "topic": "Scattering and excitation mechanisms",
+      "pages": [
+        "SEM PDF pp. 40",
+        "TEM PDF pp. 27,28,29",
+        "Electron Spectroscopy PDF pp. 18,44,45"
+      ],
+      "questionIds": [
+        "CMP-015"
+      ]
+    },
+    {
+      "topic": "Absence of an elemental signal",
+      "pages": [
+        "Electron Spectroscopy PDF pp. 22,25,40,42,52",
+        "Aberration-corrected STEM PDF pp. 6"
+      ],
+      "questionIds": [
+        "CMP-016"
+      ]
+    },
+    {
+      "topic": "Brightness is mode-dependent",
+      "pages": [
+        "SEM PDF pp. 39,40,41",
+        "TEM PDF pp. 47,50,53"
+      ],
+      "questionIds": [
+        "CMP-017"
+      ]
+    },
+    {
+      "topic": "Shared phase-contrast logic",
+      "pages": [
+        "TEM PDF pp. 27,28,52,55",
+        "Electron Spectroscopy PDF pp. 11"
+      ],
+      "questionIds": [
+        "CMP-018"
+      ]
+    },
+    {
+      "topic": "Intensity image versus spectrum image",
+      "pages": [
+        "Aberration-corrected STEM PDF pp. 41,42,43",
+        "Electron Spectroscopy PDF pp. 38,39,49"
+      ],
+      "questionIds": [
+        "CMP-019"
+      ]
+    },
+    {
+      "topic": "Changing the appropriate control",
+      "pages": [
+        "SEM PDF pp. 21,22,36,37",
+        "Aberration-corrected STEM PDF pp. 31,37"
+      ],
+      "questionIds": [
+        "CMP-020"
+      ]
+    }
+  ],
+  "reviewNotes": [
+    "由32题整合为10题；英文题干及选项、中文逐项解析。",
+    "保留多条件设备选择、信号解释、谱与空间分辨、激发/计数权衡、制样及伪影诊断，减少简单重复记忆。",
+    "每道题的跨课件来源均在题内列出，覆盖表仅映射实际出现的判断。"
+  ],
+  "notes": [
+    "以不同设备可测信息、共同物理机制和适用条件为主，避免具体数值与特定样品读数记忆。",
+    "每题中文逐项解析含重点英文词和逻辑链，示例场景是依据课件机制设计的应用题。"
+  ]
+}

@@ -1,0 +1,277 @@
+{
+  "file": "Aberration-corrected STEM",
+  "pdfPages": 45,
+  "questionCount": 18,
+  "pageNumbering": "PDF文件页序；课件页脚有跳号，总页数标为47",
+  "topics": [
+    {
+      "topic": "短波长、束能、Rayleigh关系、NA及实际像差限制",
+      "pages": [
+        13,
+        14
+      ],
+      "questionIds": [
+        "STEM-001"
+      ]
+    },
+    {
+      "topic": "透镜的聚焦与放大、磁场偏转、玻璃阻挡电子及线圈电流调节",
+      "pages": [
+        15,
+        16
+      ],
+      "questionIds": [
+        "STEM-002"
+      ]
+    },
+    {
+      "topic": "像散的方向焦距、欠焦过焦拉伸与四极stigmator",
+      "pages": [
+        18,
+        19,
+        20
+      ],
+      "questionIds": [
+        "STEM-003",
+        "STEM-016"
+      ]
+    },
+    {
+      "topic": "轴向彗差的拖尾、中心边缘差异与束倾斜对准",
+      "pages": [
+        21
+      ],
+      "questionIds": [
+        "STEM-004"
+      ]
+    },
+    {
+      "topic": "色差、光学彩边、电子能量分布与单色性",
+      "pages": [
+        22,
+        23,
+        24
+      ],
+      "questionIds": [
+        "STEM-004",
+        "STEM-016"
+      ]
+    },
+    {
+      "topic": "球差的径向焦距差异、圆电子透镜与非球面玻璃光学",
+      "pages": [
+        17,
+        18,
+        25,
+        26,
+        27
+      ],
+      "questionIds": [
+        "STEM-005"
+      ]
+    },
+    {
+      "topic": "限孔减少远轴球差及束流代价、小孔衍射、总展宽最佳折中",
+      "pages": [
+        27,
+        28,
+        29,
+        31
+      ],
+      "questionIds": [
+        "STEM-006",
+        "STEM-012"
+      ]
+    },
+    {
+      "topic": "STEM逐点扫描与普通约0.2nm示例的适用限定",
+      "pages": [
+        29
+      ],
+      "questionIds": [
+        "STEM-006",
+        "STEM-007"
+      ]
+    },
+    {
+      "topic": "BF/ADF几何、直透与小角高角电子、同步互补采集",
+      "pages": [
+        29,
+        30,
+        40
+      ],
+      "questionIds": [
+        "STEM-007",
+        "STEM-008",
+        "STEM-013"
+      ]
+    },
+    {
+      "topic": "HAADF/MAADF/LAADF接受角与轻元素弱散射",
+      "pages": [
+        39,
+        40
+      ],
+      "questionIds": [
+        "STEM-008"
+      ]
+    },
+    {
+      "topic": "Ronchigram定义、非晶区、会聚、调焦、放大不均与像差诊断",
+      "pages": [
+        32,
+        33
+      ],
+      "questionIds": [
+        "STEM-009"
+      ]
+    },
+    {
+      "topic": "Ronchigram可用区域扩展及更大孔径",
+      "pages": [
+        34
+      ],
+      "questionIds": [
+        "STEM-009",
+        "STEM-011"
+      ]
+    },
+    {
+      "topic": "多极元件通过方向性磁场及洛伦兹力重塑束形，与限孔挡束不同",
+      "pages": [
+        19,
+        34,
+        35
+      ],
+      "questionIds": [
+        "STEM-010"
+      ]
+    },
+    {
+      "topic": "串联多极元件与等效非球面校正器",
+      "pages": [
+        34,
+        35,
+        36
+      ],
+      "questionIds": [
+        "STEM-011"
+      ]
+    },
+    {
+      "topic": "校正前后展宽曲线、衍射保留、最佳孔径、较小较亮探针与快谱学",
+      "pages": [
+        31,
+        37,
+        38,
+        44
+      ],
+      "questionIds": [
+        "STEM-012",
+        "STEM-015"
+      ]
+    },
+    {
+      "topic": "原子分辨2D材料、纳米颗粒、WS₂单/双层与模式相关对比",
+      "pages": [
+        12,
+        30,
+        39,
+        40
+      ],
+      "questionIds": [
+        "STEM-013"
+      ]
+    },
+    {
+      "topic": "谱像保存逐点EDS/EELS谱及后提取元素图",
+      "pages": [
+        41
+      ],
+      "questionIds": [
+        "STEM-014"
+      ]
+    },
+    {
+      "topic": "原子分辨STEM-EDS晶界图、STEM-EELS多层氧化物图",
+      "pages": [
+        42,
+        43,
+        44
+      ],
+      "questionIds": [
+        "STEM-015"
+      ]
+    },
+    {
+      "topic": "区分色差像散球差、基于限制选操作、放大与真实分辨率",
+      "pages": [
+        19,
+        20,
+        21,
+        24,
+        25,
+        31,
+        37
+      ],
+      "questionIds": [
+        "STEM-016"
+      ]
+    },
+    {
+      "topic": "实际像差诊断：彗差与束倾斜",
+      "pages": [
+        21,
+        32,
+        33
+      ],
+      "questionIds": [
+        "STEM-017"
+      ]
+    },
+    {
+      "topic": "实际像差诊断：球差和色差的不同控制",
+      "pages": [
+        24,
+        25,
+        36,
+        37
+      ],
+      "questionIds": [
+        "STEM-018"
+      ]
+    }
+  ],
+  "coveredElsewhere": [
+    {
+      "pages": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "module": "Electron Spectroscopy及综合比较",
+      "reason": "这些页复习EDS/WDS/EELS、五个能谱教程与答案；相关知识统一在能谱和跨设备模块出题，避免重复题量。"
+    }
+  ],
+  "excludedPages": [
+    {
+      "pages": [
+        1,
+        10,
+        11,
+        45
+      ],
+      "reason": "封面、课表、目录及后续课堂/考试安排，不作为独立科学考点。"
+    }
+  ],
+  "notes": [
+    "按原理、逻辑理解及应用范围重写；数值例题转为定性判断，不考设备参数、束形方向数或特定样品读数。",
+    "复习的谱学Tutorial与其他模块关联，避免重复事实题。",
+    "全部解析包含重点英文词和针对本题的因果逻辑链。"
+  ]
+}
