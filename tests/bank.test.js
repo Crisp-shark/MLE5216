@@ -39,6 +39,13 @@ test('all fifteen teacher tutorials remain explicitly marked and available for f
   assert.deepEqual([...tags].sort(), expected.sort());
 });
 
+test('the additional practice set contains twenty new questions without replacing tutorial labels', () => {
+  const bank = validateBank(read('data/questions.json'));
+  const added = bank.questions.filter(question => question.batch);
+  assert.equal(added.length, 20);
+  assert.ok(added.every(question => !question.tutorial));
+});
+
 test('the directly opened entry embeds its data and runtime without external module imports', () => {
   const html = readFileSync(new URL('../index.html', import.meta.url), 'utf8');
   assert.match(html, /id="inline-banks"/);

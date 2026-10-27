@@ -203,6 +203,8 @@ function renderHome() {
   const left = el('div', {}, el('section', { class: 'feature-card' }, el('p', { class: 'eyebrow' }, 'ONE QUESTION AT A TIME'), el('h2', {}, '把知识，练成底气。'), el('p', {}, '按自己的节奏练习。每次提交后，看看解析，也看看背后的知识点。'), button(['开始练习', el('span', { class: 'button-arrow', 'aria-hidden': true }, '→')], 'primary', () => startSession('practice')), featureArt()), resumeCard());
   const tutorials = tutorialQuestions();
   if (tutorials.length) left.append(el('section', { class: 'tutorial-banner' }, el('div', {}, el('strong', {}, '先想透老师的 Tutorial'), el('p', {}, `${tutorials.length} 道重点转化题 · 核心原理 → 因果逻辑 → 应用范围`)), button('进入重点练习 →', 'secondary', () => navigate('tutorial'))));
+  const added = bank.questions.filter(question => question.batch);
+  if (added.length) left.append(el('section', { class: 'tutorial-banner' }, el('div', {}, el('strong', {}, `${added.length} 道新增应用题`), el('p', {}, '保留原题库 · 用新情境练习原理与设备选择')), button('练习新增题 →', 'secondary', () => startSession('practice', added.map(question => question.id)))));
   left.append(el('div', { class: 'section-title' }, el('h2', {}, '按课件，逐个掌握'), el('span', {}, '英文题目 · 中文解析')));
   const chapterList = el('div', { class: 'chapter-list' });
   const chapters = [...new Set(bank.questions.map(question => question.chapter))];
@@ -349,6 +351,7 @@ function renderQuiz() {
     options.append(el('label', { class: `option${selected ? ' selected' : ''}${right ? ' correct' : ''}${wrong ? ' incorrect' : ''}` }, input, el('span', { class: 'option-letter', 'aria-hidden': true }, option.id), el('span', { class: 'option-text' }, el('span', { class: 'sr-only' }, `${option.id}：`), option.text), right || wrong ? el('span', { class: 'option-result', 'aria-hidden': true }, right ? '✓' : '×') : null));
   });
   if (question.tutorial) card.insertBefore(el('div', { class: 'tutorial-label' }, question.tutorial), card.querySelector('#question-title'));
+  if (question.batch) card.insertBefore(el('div', { class: 'tutorial-label' }, question.batch), card.querySelector('#question-title'));
   card.append(options);
   if (graded) card.append(explanation(question, session.answers[question.id]));
   const previous = button('← 上一题', 'secondary', () => changeQuestion(-1), { disabled: session.index === 0 });

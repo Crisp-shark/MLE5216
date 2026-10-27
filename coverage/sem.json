@@ -2,7 +2,7 @@
   "file": "SEM",
   "totalPdfPages": 50,
   "pageNumbering": "All numeric references use 1-based PDF ordinal pages. PDF p44 footer says48/50; PDF pp45–48 footers say44–47/50.",
-  "questionCount": 28,
+  "questionCount": 32,
   "questionStyle": "Four independent English statements, select all correct, no number-of-correct-options hint; plausible mechanism or scope misconceptions.",
   "curation": "28 principle- and application-led English questions. Numerical recall, case-value memorization and arithmetic are removed; Chinese explanations include per-option judgments, key English vocabulary and an explicit causal chain.",
   "coverageMethod": "Each inventory item names an actually tested proposition. testedBy stores exact option text, so it remains valid after publication rearranges option letters. A false proposition tests the corresponding misconception, corrected in its explanation.",
@@ -1020,6 +1020,125 @@
           "optionText": "Charging, contamination and beam damage are different mechanisms and may need different remedies."
         }
       ]
+    },
+    {
+      "topic": "Application: rough-surface focus range versus signal sampling depth and display magnification",
+      "pages": [
+        21,
+        38,
+        43
+      ],
+      "questionIds": [
+        "SEM-029"
+      ],
+      "testedBy": [
+        {
+          "questionId": "SEM-029",
+          "optionText": "A smaller convergence angle can increase the range of specimen heights that remain in focus."
+        },
+        {
+          "questionId": "SEM-029",
+          "optionText": "A larger depth of field proves that the detected electrons come from deeper inside the specimen."
+        },
+        {
+          "questionId": "SEM-029",
+          "optionText": "Changing from SE to BSE detection automatically brings all specimen heights into focus."
+        },
+        {
+          "questionId": "SEM-029",
+          "optionText": "Increasing displayed magnification alone extends the physical range that remains in focus."
+        }
+      ]
+    },
+    {
+      "topic": "Application: material-dependent interaction volumes and backscattering at equal beam energy",
+      "pages": [
+        37,
+        40
+      ],
+      "questionIds": [
+        "SEM-030"
+      ],
+      "testedBy": [
+        {
+          "questionId": "SEM-030",
+          "optionText": "Equal accelerating voltage guarantees the same interaction volume in every specimen material."
+        },
+        {
+          "questionId": "SEM-030",
+          "optionText": "Stronger deflection by nuclei with more protons can make the interaction volume smaller."
+        },
+        {
+          "questionId": "SEM-030",
+          "optionText": "A material-dependent change in electron spreading can occur without a change in lens alignment."
+        },
+        {
+          "questionId": "SEM-030",
+          "optionText": "A larger nuclear charge can influence both the interaction volume and the amount of backscattering."
+        }
+      ]
+    },
+    {
+      "topic": "Application: charge drainage versus gas-ion neutralization, coating constraints and chemical-information limits",
+      "pages": [
+        23,
+        24,
+        45,
+        46,
+        47,
+        49
+      ],
+      "questionIds": [
+        "SEM-031"
+      ],
+      "testedBy": [
+        {
+          "questionId": "SEM-031",
+          "optionText": "A suitable coating connected to ground can provide a route for accumulated charge to leave."
+        },
+        {
+          "questionId": "SEM-031",
+          "optionText": "In ESEM, positive gas ions can neutralize negative charge on the irradiated surface."
+        },
+        {
+          "questionId": "SEM-031",
+          "optionText": "Suitable ESEM conditions can be useful when the original surface must not receive a conductive coating."
+        },
+        {
+          "questionId": "SEM-031",
+          "optionText": "Suppressing charging by either approach does not turn an intensity image into complete chemical characterization."
+        }
+      ]
+    },
+    {
+      "topic": "Application: a missing SE feature, finite signal sampling and choosing cross-sectional TEM for buried structure",
+      "pages": [
+        38,
+        39,
+        40,
+        49
+      ],
+      "questionIds": [
+        "SEM-032"
+      ],
+      "testedBy": [
+        {
+          "questionId": "SEM-032",
+          "optionText": "Its absence from the SE image proves that no such feature exists anywhere in the bulk specimen."
+        },
+        {
+          "questionId": "SEM-032",
+          "optionText": "BSE can sample deeper than SE, but this does not guarantee access to a feature at any possible depth."
+        },
+        {
+          "questionId": "SEM-032",
+          "optionText": "Increasing display magnification makes the SE signal directly sample the buried feature."
+        },
+        {
+          "questionId": "SEM-032",
+          "optionText": "If the task requires a cross-sectional view of a buried layer, an appropriately prepared TEM specimen can address that different information need."
+        }
+      ]
     }
   ],
   "excludedPages": [
@@ -1089,6 +1208,25 @@
         9
       ],
       "reason": "Explicit answers to the five SEM tutorials: edge brightness, resolution-energy balance, ESEM versus optical microscopy, current versus energy, and BSE chemical contrast."
+    },
+    {
+      "semPages": [
+        38,
+        39,
+        40,
+        49
+      ],
+      "temPages": [
+        15,
+        16,
+        18,
+        19,
+        20
+      ],
+      "questionIds": [
+        "SEM-032"
+      ],
+      "reason": "Surface-sensitive SEM evidence compared with transmission and cross-sectional imaging requirements."
     }
   ],
   "tutorialCoverage": {
@@ -1153,5 +1291,17 @@
       "SEM-022"
     ]
   },
-  "tutorialPriority": "Each of the five teacher SEM tutorials has one explicitly tagged conversion; applications revisit the same reasoning without numerical recall."
+  "tutorialPriority": "Each of the five teacher SEM tutorials has one explicitly tagged conversion; applications revisit the same reasoning without numerical recall.",
+  "newQuestionBatches": [
+    {
+      "name": "Application extension after initial upload",
+      "questionIds": [
+        "SEM-029",
+        "SEM-030",
+        "SEM-031",
+        "SEM-032"
+      ],
+      "purpose": "New reasoning contexts without numerical recall; original 28 questions and primary Tutorial tags retained."
+    }
+  ]
 }

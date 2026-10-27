@@ -1,7 +1,7 @@
 {
   "file": "Aberration-corrected STEM",
   "pdfPages": 45,
-  "questionCount": 18,
+  "questionCount": 22,
   "pageNumbering": "PDF文件页序；课件页脚有跳号，总页数标为47",
   "topics": [
     {
@@ -239,6 +239,127 @@
       ],
       "questionIds": [
         "STEM-018"
+      ]
+    },
+    {
+      "topic": "同束能比较不同电子光学条件：实际分辨率不由波长单独决定",
+      "pages": [
+        14,
+        31,
+        36,
+        37
+      ],
+      "questionIds": [
+        "STEM-019"
+      ],
+      "testedBy": [
+        {
+          "questionId": "STEM-019",
+          "optionText": "The difference can arise from improved electron optics rather than a shorter electron wavelength."
+        },
+        {
+          "questionId": "STEM-019",
+          "optionText": "Equal beam energy requires equal practical spatial resolution, regardless of lens quality."
+        },
+        {
+          "questionId": "STEM-019",
+          "optionText": "Correction can make more of the aperture useful, allowing better localization and more beam electrons."
+        },
+        {
+          "questionId": "STEM-019",
+          "optionText": "The brighter probe means an EDS detector must also have better energy resolution."
+        }
+      ]
+    },
+    {
+      "topic": "在原子成像或谱像前选择合适区域进行Ronchigram对准",
+      "pages": [
+        32,
+        33,
+        34,
+        41
+      ],
+      "questionIds": [
+        "STEM-020"
+      ],
+      "testedBy": [
+        {
+          "questionId": "STEM-020",
+          "optionText": "Use a suitable amorphous region under a strongly convergent beam to inspect the Ronchigram."
+        },
+        {
+          "questionId": "STEM-020",
+          "optionText": "Require sharp Bragg spots from a perfect crystal as the only possible Ronchigram."
+        },
+        {
+          "questionId": "STEM-020",
+          "optionText": "Look for focus-dependent aberration signatures before attributing every distorted feature to the specimen."
+        },
+        {
+          "questionId": "STEM-020",
+          "optionText": "Use a conductive coating as a complete substitute for electron-optical alignment."
+        }
+      ]
+    },
+    {
+      "topic": "弱散射原子在不同接受角下的可见性与阴性判断",
+      "pages": [
+        29,
+        30,
+        40,
+        42,
+        43
+      ],
+      "questionIds": [
+        "STEM-021"
+      ],
+      "testedBy": [
+        {
+          "questionId": "STEM-021",
+          "optionText": "The HAADF result alone proves that the feature is absent."
+        },
+        {
+          "questionId": "STEM-021",
+          "optionText": "Detector acceptance can change the visibility of the same specimen feature."
+        },
+        {
+          "questionId": "STEM-021",
+          "optionText": "Lower-angle collection can be useful for weakly scattering light elements."
+        },
+        {
+          "questionId": "STEM-021",
+          "optionText": "Element-specific spectroscopy can help when brightness alone does not establish chemical identity."
+        }
+      ]
+    },
+    {
+      "topic": "快速局域谱像中同时考虑定位、可用束流和实际谱学采集",
+      "pages": [
+        31,
+        37,
+        41,
+        44
+      ],
+      "questionIds": [
+        "STEM-022"
+      ],
+      "testedBy": [
+        {
+          "questionId": "STEM-022",
+          "optionText": "Use a well-corrected localized probe and enough useful beam current to collect spectra."
+        },
+        {
+          "questionId": "STEM-022",
+          "optionText": "Increase displayed magnification alone and assume that the excitation region becomes smaller."
+        },
+        {
+          "questionId": "STEM-022",
+          "optionText": "Record the relevant EDS or EELS signal at the scan positions instead of relying only on an intensity image."
+        },
+        {
+          "questionId": "STEM-022",
+          "optionText": "Choose the smallest aperture without considering diffraction or the loss of electrons."
+        }
       ]
     }
   ],

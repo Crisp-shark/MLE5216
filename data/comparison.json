@@ -692,6 +692,147 @@
         "page": "SEM pp.20,21,22,36,37,50; STEM pp.31,37"
       },
       "difficulty": "进阶"
+    },
+    {
+      "id": "CMP-021",
+      "chapter": "综合比较 · New applications",
+      "type": "multiple",
+      "prompt": "EDS, WDS and EELS can all respond to core excitation. Which comparisons are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "EDS and WDS can detect the same characteristic X-rays while resolving nearby lines differently."
+        },
+        {
+          "id": "B",
+          "text": "Improving WDS line separation makes its measured quantity identical to a transmitted-electron energy-loss spectrum."
+        },
+        {
+          "id": "C",
+          "text": "An EELS ionization edge can have a different shape because it samples excitation into available electronic states."
+        },
+        {
+          "id": "D",
+          "text": "A shared initial core excitation requires every detector to record the same symmetric spectral feature."
+        }
+      ],
+      "answers": [
+        "A",
+        "C"
+      ],
+      "explanation": "A 对：EDS/WDS检测特征X射线，分光方式和谱分辨能力不同。B 错：分峰改善不把光子谱变成电子能损谱。C 对：EELS涉及电子进入可用空态，边形可含电子态信息。D 错：相同初始激发可以对应不同后续被测过程，老师Tutorial要求解释的正是这一差别。\n\n重点词：characteristic line（特征线）；energy loss（能量损失）；available states（可用态）\n逻辑链：相同核心激发 → 区分随后测发射光子还是束电子能损 → 再解释谱形及信息，不能只按共同起点类比所有结果。",
+      "source": {
+        "file": "Electron Spectroscopy; Aberration-corrected STEM",
+        "page": "Spectroscopy pp.18–19,34–35,45–46; STEM p.7"
+      },
+      "difficulty": "进阶",
+      "batch": "新增应用题"
+    },
+    {
+      "id": "CMP-022",
+      "chapter": "综合比较 · New applications",
+      "type": "multiple",
+      "prompt": "DIC and HRTEM share phase-contrast logic, but a thin interface is buried under another layer. Which arguments guide method selection?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The common interference principle guarantees that the two instruments can examine the same geometry without different preparation."
+        },
+        {
+          "id": "B",
+          "text": "A suitable cross-section can make the buried interface accessible to transmission imaging."
+        },
+        {
+          "id": "C",
+          "text": "HRTEM can provide fine structural detail when a suitable electron-transparent specimen contains the interface."
+        },
+        {
+          "id": "D",
+          "text": "An elemental spectrum alone necessarily provides the geometric thickness of the buried interface."
+        }
+      ],
+      "answers": [
+        "B",
+        "C"
+      ],
+      "explanation": "A 错：共通的相位—干涉原理不等于相同信号路径和制样要求。B 对：老师的埋藏氧化层Tutorial关键是让截面包含目标界面。C 对：足够薄且包含目标的样品配合HRTEM可回答细结构问题。D 错：元素信息与界面几何厚度并非同一物理量。\n\n重点词：buried interface（埋藏界面）；cross-section（截面）；phase contrast（相位对比）\n逻辑链：先定位目标界面及所需信息 → 选择能暴露目标的几何与制样 → 再利用相位对比获得结构，而非只凭共同原理选设备。",
+      "source": {
+        "file": "TEM; Electron Spectroscopy",
+        "page": "TEM pp.15,20–21,27,52–55; Spectroscopy pp.7,11"
+      },
+      "difficulty": "进阶",
+      "batch": "新增应用题"
+    },
+    {
+      "id": "CMP-023",
+      "chapter": "综合比较 · New applications",
+      "type": "multiple",
+      "prompt": "A specimen changes during repeated electron-microscope observations. Which interpretations remain valid across the lecture examples?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A time sequence automatically proves that the beam has no influence on the observed process."
+        },
+        {
+          "id": "B",
+          "text": "ESEM charge neutralization prevents every possible type of beam-induced change."
+        },
+        {
+          "id": "C",
+          "text": "A change in morphology or diffraction can require checking whether irradiation altered the specimen."
+        },
+        {
+          "id": "D",
+          "text": "Beam-induced deposition, damage or loss of crystalline order can affect what is measured."
+        }
+      ],
+      "answers": [
+        "C",
+        "D"
+      ],
+      "explanation": "A 错：连续观察本身也意味着持续照射，不能自动排除测量干扰。B 错：中和电荷只处理一个机制，不取消加热、损伤或束致反应。C 对：SEM伪影、ESEM反应序列与TEM照射非晶化都提醒要检查测量是否改变样品。D 对：这些变化会影响后续图像或结构判断，不应不加区分地当作初始状态。\n\n重点词：irradiation（照射）；beam-induced change（束致变化）；initial state（初始状态）\n逻辑链：重复测量同时带来电子照射 → 可能改变表面、化学过程或有序性 → 解释动态前先区分原有过程与束引入的变化。",
+      "source": {
+        "file": "SEM; TEM",
+        "page": "SEM pp.44,48; TEM p.41"
+      },
+      "difficulty": "进阶",
+      "batch": "新增应用题"
+    },
+    {
+      "id": "CMP-024",
+      "chapter": "综合比较 · New applications",
+      "type": "multiple",
+      "prompt": "A non-conductive specimen is coated before SEM-EDS analysis. Which considerations follow from the preparation and spectroscopy principles?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The coating may help provide a conductive path and reduce charging."
+        },
+        {
+          "id": "B",
+          "text": "The coating is material exposed to the beam and may contribute characteristic X-ray signals of its own."
+        },
+        {
+          "id": "C",
+          "text": "Preventing charging makes all detected characteristic lines originate only from the original specimen."
+        },
+        {
+          "id": "D",
+          "text": "Coating choice and the desired chemical information should be considered together."
+        }
+      ],
+      "answers": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explanation": "A 对：合适导电层与接地路径有助于电荷泄放。B 对：由镀层作为样品表面材料以及EDS原子激发发射原理联合推得，镀层也可能贡献信号；不是只要仪器稳定便能忽略。C 错：解决充电不等于排除了镀层或其他材料的化学贡献。D 对：制样满足成像条件的同时，也要考虑它是否影响待回答的化学问题。\n\n重点词：conductive coating（导电镀层）；characteristic X-ray（特征X射线）；signal contribution（信号贡献）\n逻辑链：为抑制充电而加入导电材料 → 新材料也处于电子束作用下 → 解释元素谱时必须同时考虑原样品与制样引入的贡献。",
+      "source": {
+        "file": "SEM; Electron Spectroscopy",
+        "page": "SEM pp.23–24,33; Spectroscopy pp.18–19,25"
+      },
+      "difficulty": "进阶",
+      "batch": "新增应用题"
     }
   ]
 }

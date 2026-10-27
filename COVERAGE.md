@@ -1,6 +1,6 @@
 # MLE5216 知识点覆盖表
 
-共 126 道不定项选择题。题干和选项仅英文；中文解析包含逐项理由、重点英文词和逻辑链。
+共 146 道不定项选择题。题干和选项仅英文；中文解析包含逐项理由、重点英文词和逻辑链。
 
 范围为用户提供的 SEM（50页）、TEM（55页）、Electron Spectroscopy（52页）和 Aberration-corrected STEM（45个PDF页，共202页）。以 PDF 文件页序定位；部分课件页脚有跳号或错位。
 
@@ -32,7 +32,7 @@ SEM PDF第4–13页的上次期中题用于学习题风格：A–D逐项判断�
 | Electron Spectroscopy Tutorial Q4 | SPEC-027 | Electron Spectroscopy · PDF pp. 18, 51–52; STEM PDF p. 8 |
 | Electron Spectroscopy Tutorial Q5 | SPEC-028 | Electron Spectroscopy · PDF pp. 51–52; STEM PDF p. 9 |
 
-## MLE5216 · SEM 精编练习（28题）
+## MLE5216 · SEM 精编练习（32题）
 
 | 知识点 | PDF页序 | 题号 |
 | --- | --- | --- |
@@ -80,10 +80,14 @@ SEM PDF第4–13页的上次期中题用于学习题风格：A–D逐项判断�
 | Application: reducing current versus slower acquisition, useful signal and specimen damage | 22, 44, 50 | SEM-026 |
 | Tutorial application: task-dependent ESEM versus light microscopy for wet, insulating and uncoatable samples | 45, 46, 47, 50 | SEM-027 |
 | Mechanism-based diagnosis: conductive treatment does not remove contamination or all beam damage | 23, 24, 33, 44 | SEM-028 |
+| Application: rough-surface focus range versus signal sampling depth and display magnification | 21, 38, 43 | SEM-029 |
+| Application: material-dependent interaction volumes and backscattering at equal beam energy | 37, 40 | SEM-030 |
+| Application: charge drainage versus gas-ion neutralization, coating constraints and chemical-information limits | 23, 24, 45, 46, 47, 49 | SEM-031 |
+| Application: a missing SE feature, finite signal sampling and choosing cross-sectional TEM for buried structure | 38, 39, 40, 49 | SEM-032 |
 
 详见 [原始覆盖索引](coverage/sem.json)，包含排除页及核对说明。
 
-## MLE5216 · TEM 原理与应用练习（30题）
+## MLE5216 · TEM 原理与应用练习（34题）
 
 | 知识点 | PDF页序 | 题号 |
 | --- | --- | --- |
@@ -133,10 +137,14 @@ SEM PDF第4–13页的上次期中题用于学习题风格：A–D逐项判断�
 | 高强度不等于唯一元素指纹，需要互补模式约束解释 | 47, 49, 50, 51, 53 | TEM-025, TEM-029 |
 | 专用样品杆支持受控加热/电应力原位动态 | 15, 22 | TEM-001, TEM-030 |
 | 原位变化与离焦/照射影响的区分 | 41, 53, 54 | TEM-015, TEM-023, TEM-030 |
+| 混合区域的衍射归属；选区光阑选位置与物镜光阑选束的区别 | 35, 39, 40, 41, 42, 43, 44 | TEM-031 |
+| 表面纹理与埋藏界面的互补测量；按信息需求选择SEM/TEM及FIB | 2, 3, 15, 16, 17, 18, 20, 21, 54, 55 | TEM-032 |
+| 从加速不稳定诊断时间相干问题；区分空间相干、束流和选区作用 | 24, 25, 26, 42, 43, 44 | TEM-033 |
+| BF概览正常而DF偏弱时的采集与结构判断；选择性、信号和观察时间取舍 | 41, 48, 50, 51 | TEM-034 |
 
 详见 [原始覆盖索引](coverage/tem.json)，包含排除页及核对说明。
 
-## MLE5216 · Electron Spectroscopy 原理与应用（30题）
+## MLE5216 · Electron Spectroscopy 原理与应用（34题）
 
 | 知识点 | PDF页序 | 题号 |
 | --- | --- | --- |
@@ -170,6 +178,10 @@ SEM PDF第4–13页的上次期中题用于学习题风格：A–D逐项判断�
 | Tutorial Q5：STM激发能量不足、探测与激发作用不同 | 51, 52 | SPEC-028 |
 | 联合显微与谱学的测量—信息匹配；STEM局域化与能量/空间分辨率 | 14, 17, 34, 47, 48, 51 | SPEC-029 |
 | 缺失谱线的多原因排查，避免由非检测直接推出不存在 | 22, 24, 25, 42 | SPEC-030 |
+| 新题：束能改变后的基体信号增强，区分采样体积与真实成分变化 | 25, 34, 35, 36, 37 | SPEC-031 |
+| 新题：元素身份相同而化学态可能不同，利用EELS边细结构选择后续测量 | 44, 45, 46, 47, 48 | SPEC-032 |
+| 新题：EDXRF与EDS相同特征线的共同发射逻辑及不同激发/适用条件 | 18, 24, 25, 52 | SPEC-033 |
+| 新题：通过事件机制区分计数率相关求和峰与硅探测器逃逸峰 | 31, 40, 41 | SPEC-034 |
 
 复习内容复用其他模块：
 
@@ -177,7 +189,7 @@ SEM PDF第4–13页的上次期中题用于学习题风格：A–D逐项判断�
 
 详见 [原始覆盖索引](coverage/spectroscopy.json)，包含排除页及核对说明。
 
-## Aberration-corrected STEM · 原理与应用（18题）
+## Aberration-corrected STEM · 原理与应用（22题）
 
 | 知识点 | PDF页序 | 题号 |
 | --- | --- | --- |
@@ -202,6 +214,10 @@ SEM PDF第4–13页的上次期中题用于学习题风格：A–D逐项判断�
 | 区分色差像散球差、基于限制选操作、放大与真实分辨率 | 19, 20, 21, 24, 25, 31, 37 | STEM-016 |
 | 实际像差诊断：彗差与束倾斜 | 21, 32, 33 | STEM-017 |
 | 实际像差诊断：球差和色差的不同控制 | 24, 25, 36, 37 | STEM-018 |
+| 同束能比较不同电子光学条件：实际分辨率不由波长单独决定 | 14, 31, 36, 37 | STEM-019 |
+| 在原子成像或谱像前选择合适区域进行Ronchigram对准 | 32, 33, 34, 41 | STEM-020 |
+| 弱散射原子在不同接受角下的可见性与阴性判断 | 29, 30, 40, 42, 43 | STEM-021 |
+| 快速局域谱像中同时考虑定位、可用束流和实际谱学采集 | 31, 37, 41, 44 | STEM-022 |
 
 复习内容复用其他模块：
 
@@ -209,7 +225,7 @@ SEM PDF第4–13页的上次期中题用于学习题风格：A–D逐项判断�
 
 详见 [原始覆盖索引](coverage/stem.json)，包含排除页及核对说明。
 
-## 跨设备比较 · 原理、关联与应用（20题）
+## 跨设备比较 · 原理、关联与应用（24题）
 
 | 知识点 | PDF页序 | 题号 |
 | --- | --- | --- |
@@ -233,5 +249,9 @@ SEM PDF第4–13页的上次期中题用于学习题风格：A–D逐项判断�
 | Shared phase-contrast logic | TEM PDF pp. 27,28,52,55, Electron Spectroscopy PDF pp. 11 | CMP-018 |
 | Intensity image versus spectrum image | Aberration-corrected STEM PDF pp. 41,42,43, Electron Spectroscopy PDF pp. 38,39,49 | CMP-019 |
 | Changing the appropriate control | SEM PDF pp. 21,22,36,37, Aberration-corrected STEM PDF pp. 31,37 | CMP-020 |
+| EDS/WDS同类发射信号与EELS不同测量量；峰分辨和峰形来源 | Spectroscopy PDF pp. 18–19,34–35,45–46, STEM PDF p.7 | CMP-021 |
+| DIC/HRTEM共通相位原理与埋藏界面的信号路径限制 | TEM PDF pp. 15,20–21,27,52–55, Spectroscopy PDF pp.7,11 | CMP-022 |
+| 环境/透射电子观察中区分真实动态与束致变化 | SEM PDF pp. 44,48, TEM PDF p.41 | CMP-023 |
+| SEM导电镀层与EDS分析对象的联系：样品准备也可能影响化学信号 | SEM PDF pp. 23–24,33, Spectroscopy PDF pp. 18–19,25 | CMP-024 |
 
 详见 [原始覆盖索引](coverage/comparison.json)，包含排除页及核对说明。

@@ -969,6 +969,148 @@
       "difficulty": "进阶"
     },
     {
+      "id": "SEM-029",
+      "chapter": "SEM",
+      "type": "multiple",
+      "prompt": "A rough fracture surface has high and low regions that cannot all be kept sharp. Which response addresses this imaging requirement?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A larger depth of field proves that the detected electrons come from deeper inside the specimen."
+        },
+        {
+          "id": "B",
+          "text": "Increasing displayed magnification alone extends the physical range that remains in focus."
+        },
+        {
+          "id": "C",
+          "text": "A smaller convergence angle can increase the range of specimen heights that remain in focus."
+        },
+        {
+          "id": "D",
+          "text": "Changing from SE to BSE detection automatically brings all specimen heights into focus."
+        }
+      ],
+      "answers": [
+        "C"
+      ],
+      "explanation": "C（正确）：课件把较小孔径/会聚角与较大景深联系起来，这直接针对粗糙表面不同高度是否同时清晰。A（错误）：景深描述离焦容许的高度范围，不等于电子的穿透或信号采样深度。D（错误）：SE/BSE选择改变收集的信号，不自动代替电子光学聚焦条件。B（错误）：显示放大不改变实际景深。\n\n重点词：depth of field（景深）；convergence angle（会聚角）；sampling depth（采样深度）。\n逻辑链：表面高度起伏 → 不同部位偏离最佳焦平面 → 通过合适的会聚角扩大清晰高度范围，而不是把景深误当成穿透深度。",
+      "source": {
+        "file": "SEM",
+        "page": "PDF pp. 21, 38, 43"
+      },
+      "difficulty": "进阶",
+      "batch": "新增应用题"
+    },
+    {
+      "id": "SEM-030",
+      "chapter": "SEM",
+      "type": "multiple",
+      "prompt": "Bulk specimens with different compositions are imaged at the same beam energy. Which interpretations of their signals are justified?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Equal accelerating voltage guarantees the same interaction volume in every specimen material."
+        },
+        {
+          "id": "B",
+          "text": "A larger nuclear charge can influence both the interaction volume and the amount of backscattering."
+        },
+        {
+          "id": "C",
+          "text": "A material-dependent change in electron spreading can occur without a change in lens alignment."
+        },
+        {
+          "id": "D",
+          "text": "Stronger deflection by nuclei with more protons can make the interaction volume smaller."
+        }
+      ],
+      "answers": [
+        "B",
+        "C",
+        "D"
+      ],
+      "explanation": "A（错误）：相互作用体积不仅取决于束能，还取决于样品材料，不能由电压相同推出采样区域相同。D（正确）：课件指出较重元素的核质子更多，对快电子偏转较强，可形成较小相互作用体积。C（正确）：材料本身已是散射差异的原因，不必先假定仪器失准。B（正确）：核电荷既影响轨迹展宽，也影响返回的BSE比例；这是材料与成分相关反差的联系。\n\n重点词：nuclear charge（核电荷）；electron deflection（电子偏转）；interaction volume（相互作用体积）。\n逻辑链：材料组成改变 → 电子与原子核相互作用不同 → 轨迹分布及背散射信号可改变，即使束能和仪器对准保持不变。",
+      "source": {
+        "file": "SEM",
+        "page": "PDF pp. 37, 40"
+      },
+      "difficulty": "进阶",
+      "batch": "新增应用题"
+    },
+    {
+      "id": "SEM-031",
+      "chapter": "SEM",
+      "type": "multiple",
+      "prompt": "A conductive coating and an ESEM gas environment are considered for an insulating surface. Which comparisons are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "In ESEM, positive gas ions can neutralize negative charge on the irradiated surface."
+        },
+        {
+          "id": "B",
+          "text": "Suppressing charging by either approach does not turn an intensity image into complete chemical characterization."
+        },
+        {
+          "id": "C",
+          "text": "Suitable ESEM conditions can be useful when the original surface must not receive a conductive coating."
+        },
+        {
+          "id": "D",
+          "text": "A suitable coating connected to ground can provide a route for accumulated charge to leave."
+        }
+      ],
+      "answers": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explanation": "D（正确）：镀层与接地连接提供电荷泄放路径，关键是建立导电联系。A（正确）：ESEM通过电子电离气体产生正离子，吸引至负电样品表面以中和电荷。C（正确）：老师给出不能镀膜的样品作为ESEM应用，方法选择取决于原始表面是否允许改动。B（正确）：解决充电是改善成像条件，完整化学表征仍需相应能谱信息。\n\n重点词：conductive path（导电路径）；gas-ion neutralization（气体离子中和）；chemical characterization（化学表征）。\n逻辑链：先识别负电荷积累 → 选择导电泄放或正离子中和 → 获得较稳定图像；再按信息需求决定是否另做化学谱学。",
+      "source": {
+        "file": "SEM",
+        "page": "PDF pp. 23–24, 45–47, 49"
+      },
+      "difficulty": "进阶",
+      "batch": "新增应用题"
+    },
+    {
+      "id": "SEM-032",
+      "chapter": "SEM",
+      "type": "multiple",
+      "prompt": "A suspected buried feature is not visible in a surface SE image. Which conclusions or next steps are justified?",
+      "options": [
+        {
+          "id": "A",
+          "text": "If the task requires a cross-sectional view of a buried layer, an appropriately prepared TEM specimen can address that different information need."
+        },
+        {
+          "id": "B",
+          "text": "BSE can sample deeper than SE, but this does not guarantee access to a feature at any possible depth."
+        },
+        {
+          "id": "C",
+          "text": "Increasing display magnification makes the SE signal directly sample the buried feature."
+        },
+        {
+          "id": "D",
+          "text": "Its absence from the SE image proves that no such feature exists anywhere in the bulk specimen."
+        }
+      ],
+      "answers": [
+        "A",
+        "B"
+      ],
+      "explanation": "D（错误）：SE主要反映近表面浅层；一种信号中看不见，不能直接推出整个块体中不存在。B（正确）：BSE通常比低能SE的采样区域更深，但仍有有限的相互作用和信号形成区域，不是任意深度的探针。C（错误）：显示放大不改变信号产生和逃逸的物理区域。A（正确）：TEM可通过合适薄截面观察内部层结构，须按埋藏结构这一信息需求选择制样与透射几何。\n\n重点词：surface sensitivity（表面敏感性）；buried feature（埋藏特征）；cross-sectional TEM（截面透射电镜）。\n逻辑链：先判断目标是否处于当前信号可采样的区域 → 阴性图像不能越过方法边界作结论 → 必要时更换采样几何并制备合适截面。",
+      "source": {
+        "file": "SEM; TEM",
+        "page": "SEM PDF pp. 38–40,49; TEM PDF pp. 15–20"
+      },
+      "difficulty": "进阶",
+      "batch": "新增应用题"
+    },
+    {
       "id": "TEM-001",
       "chapter": "TEM · Principles & applications",
       "type": "multiple",
@@ -2002,6 +2144,148 @@
         "page": "PDF pp.15,22,41,53–54"
       },
       "difficulty": "进阶"
+    },
+    {
+      "id": "TEM-031",
+      "chapter": "TEM · Tutorial applications",
+      "type": "multiple",
+      "prompt": "A diffraction pattern is collected from a precipitate together with surrounding matrix. Which steps help establish which structure the pattern represents?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A pattern with many spots proves that the precipitate itself contains many crystal orientations, even when matrix is included."
+        },
+        {
+          "id": "B",
+          "text": "Selecting a diffraction spot with the objective aperture automatically restricts the contributing specimen to the precipitate."
+        },
+        {
+          "id": "C",
+          "text": "Restrict the contributing specimen region with the selected-area aperture when the geometry allows."
+        },
+        {
+          "id": "D",
+          "text": "Check the sampled region before assigning every observed reflection to the precipitate."
+        }
+      ],
+      "answers": [
+        "C",
+        "D"
+      ],
+      "explanation": "C 对：选区光阑限制参与衍射的样品区域，可以帮助减少周围基体的贡献；是否能完全隔离目标仍受实际几何限制。\nB 错：物镜光阑选择衍射束，决定哪些束参与成像，不等于选择样品中的位置。\nD 对：图样必须与被取样的区域对应，混合区域可能同时包含不同结构的贡献。\nA 错：当基体也参与时，不能把所有斑点和取向都归给析出物本身。\n\n重点词：selected-area aperture（选区光阑）；objective aperture（物镜光阑）；sampling region（取样区域）。\n逻辑链：先确认哪些样品区域贡献信号 → 再把反射与局部结构关联 → 避免把混合图样误判成单个目标的结构。",
+      "source": {
+        "file": "TEM",
+        "page": "PDF pp. 35, 39–44"
+      },
+      "difficulty": "进阶",
+      "batch": "新增应用题"
+    },
+    {
+      "id": "TEM-032",
+      "chapter": "TEM · Tutorial applications",
+      "type": "multiple",
+      "prompt": "A failed device requires both exposed-surface texture and the structure of a particular buried interface to be examined. Which plan is justified?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Use suitable SE-SEM imaging to examine surface morphology."
+        },
+        {
+          "id": "B",
+          "text": "Site-specific FIB preparation is useful when the cross-section must contain the selected failure location."
+        },
+        {
+          "id": "C",
+          "text": "The higher resolution of TEM makes its transmission image a direct replacement for any surface-topography measurement."
+        },
+        {
+          "id": "D",
+          "text": "Use a suitable electron-transparent cross-section to examine the buried interface in TEM."
+        }
+      ],
+      "answers": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explanation": "A 对：SE形貌对比适合回答暴露表面的纹理问题。\nD 对：TEM看穿薄样品，截面可使埋藏界面进入观察方向，回答内部结构问题。\nC 错：分辨率高不表示信息类型相同；透射投影不直接等价于表面高度或形貌图。\nB 对：老师Tutorial强调，FIB的价值在于让薄片包含指定的局部目标，而非因为任何TEM样品都必须使用FIB。\n\n重点词：surface topography（表面形貌）；cross-section（截面）；site-specific preparation（位点特异制样）。\n逻辑链：把表面与埋藏结构分成不同信息需求 → 分别匹配SE形貌信号和TEM透射截面 → 需要指定局部区域时再采用FIB。",
+      "source": {
+        "file": "TEM",
+        "page": "PDF pp. 2–3, 15–18, 20–21, 54–55"
+      },
+      "difficulty": "进阶",
+      "batch": "新增应用题"
+    },
+    {
+      "id": "TEM-033",
+      "chapter": "TEM · Tutorial applications",
+      "type": "multiple",
+      "prompt": "A small electron source provides good directional coherence, but the acceleration conditions become unstable during phase imaging. Which conclusion is justified?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Changes in acceleration potential affect only electron delivery rate and not the electron energies."
+        },
+        {
+          "id": "B",
+          "text": "Variations in electron energy can impair temporal coherence even when directional coherence remains good."
+        },
+        {
+          "id": "C",
+          "text": "Good spatial coherence guarantees that temporal coherence remains unaffected."
+        },
+        {
+          "id": "D",
+          "text": "The selected-area aperture selects electron energies and therefore removes the acceleration instability."
+        }
+      ],
+      "answers": [
+        "B"
+      ],
+      "explanation": "C 错：空间相干性与时间相干性是不同条件，不能由前者自动保证后者。\nB 对：固定加速条件帮助保持电子能量与波的时间相干；能量变化仍可能影响相位成像，即使电子方向较一致。\nA 错：加速电势影响单个电子的动能，不能把它仅当成控制电子数目的束流。\nD 错：选区光阑限制样品区域，不是能量选择器，也不会修复加速条件不稳定。\n\n重点词：spatial coherence（空间相干性）；temporal coherence（时间相干性）；acceleration stability（加速稳定性）。\n逻辑链：小源有利于方向一致，加速稳定有利于能量一致 → 两种相干条件应分别判断 → 相位成像不能只检查一个条件。",
+      "source": {
+        "file": "TEM",
+        "page": "PDF pp. 24–26, 42–44"
+      },
+      "difficulty": "进阶",
+      "batch": "新增应用题"
+    },
+    {
+      "id": "TEM-034",
+      "chapter": "TEM · Tutorial applications",
+      "type": "multiple",
+      "prompt": "A useful BF overview is obtained, but selecting a DF reflection gives a weak image. Which assessments are reasonable?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A longer acquisition may help collect the DF signal, provided specimen changes during observation are considered."
+        },
+        {
+          "id": "B",
+          "text": "Weakness or darkness under one selected reflection does not by itself establish that the target crystal phase is absent."
+        },
+        {
+          "id": "C",
+          "text": "Returning to BF can help verify the specimen area and shape without giving exactly the same reflection-selective information as DF."
+        },
+        {
+          "id": "D",
+          "text": "Collecting only a fraction of the transmitted electrons can make DF intrinsically weaker than the overview."
+        }
+      ],
+      "answers": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explanation": "D 对：DF只接受所选衍射束的一部分电子，信号弱可来自收集条件，而非仪器或样品一定出了问题。\nA 对：课件将较长采集列为弱DF信号的代价；同时应注意照射和观察时间可能带来的样品变化。\nC 对：BF适合概览、尺寸与形状，DF则提供反射选择下的晶体学对比，两者可互补使用。\nB 对：同一晶相的不同取向不一定都满足当前选定反射，单张弱或暗的DF像不足以证明该相不存在。\n\n重点词：signal collection（信号收集）；selected reflection（选定反射）；acquisition trade-off（采集取舍）。\n逻辑链：选束提高选择性但减少被收集电子 → 需要在信号、采集时间与样品稳定性之间取舍 → 先检查成像条件，再判断结构是否存在。",
+      "source": {
+        "file": "TEM",
+        "page": "PDF pp. 41, 48, 50–51"
+      },
+      "difficulty": "进阶",
+      "batch": "新增应用题"
     },
     {
       "id": "SPEC-001",
@@ -3040,6 +3324,148 @@
       "difficulty": "进阶"
     },
     {
+      "id": "SPEC-031",
+      "chapter": "Electron Spectroscopy",
+      "type": "multiple",
+      "prompt": "The beam remains on a small particle in a different matrix. A matrix-element EDS line becomes stronger at higher beam energy. Which interpretation is justified?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Switching to narrower WDS peaks alone removes any matrix contribution caused by lateral electron spreading."
+        },
+        {
+          "id": "B",
+          "text": "A larger X-ray-generation region may sample more of the surrounding matrix."
+        },
+        {
+          "id": "C",
+          "text": "Keeping the surface beam position fixed guarantees an unchanged chemical sampling volume."
+        },
+        {
+          "id": "D",
+          "text": "The intensity change proves that matrix atoms have diffused into the particle."
+        }
+      ],
+      "answers": [
+        "B"
+      ],
+      "explanation": "B（正确）：提高束能可使电子在块体中的相互作用区域变大，来自邻近基体的X射线贡献因此可能增加。D（错误）：信号增强还可由采样区域改变解释，不能仅凭此证明发生了原子扩散或真实成分变化。C（错误）：固定表面落点不代表电子在样品内部的散射范围不变。A（错误）：WDS主要改善谱线的能量分离，不能仅靠峰变窄就消除空间采样混合。\n\n重点词：interaction volume（相互作用体积）；sampling region（采样区域）；matrix contribution（基体贡献）。\n逻辑链：束能提高 → X射线产生区域可能横向扩展 → 邻近基体贡献增加；先排查采样效应，再推断真实成分变化。",
+      "source": {
+        "file": "Electron Spectroscopy; Aberration-corrected STEM",
+        "page": "Spectroscopy PDF pp.25,34–37; STEM PDF p.6"
+      },
+      "difficulty": "进阶",
+      "batch": "新增应用题"
+    },
+    {
+      "id": "SPEC-032",
+      "chapter": "Electron Spectroscopy",
+      "type": "multiple",
+      "prompt": "Two regions show the same elements in EDS, but their bonding or ionic states may differ. Which follow-up reasoning is appropriate?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The same element can show different EELS edge shapes when its local available electronic states differ."
+        },
+        {
+          "id": "B",
+          "text": "Compare the core-loss EELS edge fine structures for information about the local chemical states."
+        },
+        {
+          "id": "C",
+          "text": "Any change in EELS edge shape must indicate an additional element rather than a changed chemical environment."
+        },
+        {
+          "id": "D",
+          "text": "Matching elemental identities in EDS guarantees identical ionic states in both regions."
+        }
+      ],
+      "answers": [
+        "A",
+        "B"
+      ],
+      "explanation": "D（错误）：元素身份与离子价态不是同一个信息层次，相同元素可处于不同局部化学环境。B（正确）：核心损失EELS的边细结构能够提供元素身份之外的价态或键合信息。A（正确）：课件将边形与局部可用电子态联系，同一元素在不同价态下可有不同细结构。C（错误）：边形改变也可能来自同一元素的化学环境变化，不能直接当作新增元素。\n\n重点词：elemental identity（元素身份）；edge fine structure（边细结构）；chemical state（化学状态）。\n逻辑链：EDS确认有哪些元素 → 化学态问题仍可能未解决 → 检查EELS边细结构与局部可用态的变化。",
+      "source": {
+        "file": "Electron Spectroscopy; Aberration-corrected STEM",
+        "page": "Spectroscopy PDF pp.44–48; STEM PDF pp.3,7"
+      },
+      "difficulty": "进阶",
+      "batch": "新增应用题"
+    },
+    {
+      "id": "SPEC-033",
+      "chapter": "Electron Spectroscopy",
+      "type": "multiple",
+      "prompt": "The same specimen is examined by EDXRF and electron-beam EDS. Which comparisons are physically justified?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Agreement of characteristic line positions does not require the two methods to use the same incident beam."
+        },
+        {
+          "id": "B",
+          "text": "Vacuum, specimen-damage and portability constraints still matter when choosing between methods that detect similar characteristic X-rays."
+        },
+        {
+          "id": "C",
+          "text": "Raw photon intensities should not be assumed directly comparable when excitation and measurement conditions differ."
+        },
+        {
+          "id": "D",
+          "text": "The same characteristic transition can give the same photon energy even when the incident excitation differs."
+        }
+      ],
+      "answers": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explanation": "D（正确）：特征X射线由原子能级间跃迁产生，课件说明X射线或高能电子激发都可产生相同的特征线。A（正确）：发射线位置一致不等于激发源相同；EDXRF用入射X射线，EDS用电子束。C（正确）：激发、吸收和收集条件都影响测到的强度，不能由线位置相同就把原始峰高直接等同。B（正确）：老师Tutorial强调，便携、所需真空和电子束敏感性可决定何时选EDXRF。\n\n重点词：excitation（激发）；characteristic emission（特征发射）；measurement conditions（测量条件）。\n逻辑链：不同激发方式可产生相同核心空穴 → 相同特征跃迁可给出相同线位置 → 但强度解释与适用条件仍需分别判断。",
+      "source": {
+        "file": "Electron Spectroscopy; Aberration-corrected STEM",
+        "page": "Spectroscopy PDF pp.18,24–25,52; STEM PDF p.8"
+      },
+      "difficulty": "进阶",
+      "batch": "新增应用题"
+    },
+    {
+      "id": "SPEC-034",
+      "chapter": "Electron Spectroscopy",
+      "type": "multiple",
+      "prompt": "An extra EDS feature is strongly count-rate dependent, and a possible silicon-detector escape feature is also present. Which distinctions are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Neither a count-rate-related sum feature nor a detector escape feature should automatically be assigned to a new specimen element."
+        },
+        {
+          "id": "B",
+          "text": "Reducing the photon arrival rate can reduce the probability that separate photon pulses overlap."
+        },
+        {
+          "id": "C",
+          "text": "A sum feature is produced when part of a single photon event escapes from the detector."
+        },
+        {
+          "id": "D",
+          "text": "A detector escape event can record less deposited energy without combining separate sample photons."
+        }
+      ],
+      "answers": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explanation": "B（正确）：到达率下降使相近时间内的独立事件更少重叠，可减轻脉冲堆积和求和峰。C（错误）：这描述的是能量逃逸机制；求和峰来自不同光子事件被合并计数。D（正确）：逃逸峰中，一次入射事件的部分能量以探测器内部产生的X射线逃出，记录的沉积能量因此降低。A（正确）：两类特征都可能由检测过程产生，应先检查仪器伪峰再作元素赋值。\n\n重点词：pulse pile-up（脉冲堆积）；sum peak（求和峰）；escape peak（逃逸峰）。\n逻辑链：先区分多个事件叠加与单事件能量逃逸 → 用计数率变化及谱形关系检查机制 → 避免把探测器伪峰当作样品新元素。",
+      "source": {
+        "file": "Electron Spectroscopy",
+        "page": "PDF pp.31,40–41"
+      },
+      "difficulty": "进阶",
+      "batch": "新增应用题"
+    },
+    {
       "id": "STEM-001",
       "chapter": "STEM · Resolution & lenses",
       "type": "multiple",
@@ -3654,6 +4080,147 @@
         "page": "PDF pp. 24, 25, 36, 37"
       },
       "difficulty": "进阶"
+    },
+    {
+      "id": "STEM-019",
+      "chapter": "STEM · New applications",
+      "type": "multiple",
+      "prompt": "Two STEM instruments use the same beam energy, but one forms a smaller and brighter probe after aberration correction. Which conclusions are justified?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The difference can arise from improved electron optics rather than a shorter electron wavelength."
+        },
+        {
+          "id": "B",
+          "text": "Correction can make more of the aperture useful, allowing better localization and more beam electrons."
+        },
+        {
+          "id": "C",
+          "text": "The brighter probe means an EDS detector must also have better energy resolution."
+        },
+        {
+          "id": "D",
+          "text": "Equal beam energy requires equal practical spatial resolution, regardless of lens quality."
+        }
+      ],
+      "answers": [
+        "A",
+        "B"
+      ],
+      "explanation": "A 对：束能相同不代表透镜像差和可用孔径相同；这里不必用波长差解释。D 错：实际分辨率还受像差、孔径和束斑影响。B 对：球差校正可让更多高角电子正确聚焦，实现更小且更亮的探针。C 错：探针空间性能和X射线探测器的能量分辨率是不同维度。\n\n重点词：electron optics（电子光学）；usable aperture（可用孔径）；probe localization（探针局域性）\n逻辑链：束能保持相同 → 比较像差和可用孔径 → 仍可解释探针尺寸及束流的变化，而不能自动推断谱分辨率变化。",
+      "source": {
+        "file": "Aberration-corrected STEM",
+        "page": "PDF pp. 14,31,36–37"
+      },
+      "difficulty": "进阶",
+      "batch": "新增应用题"
+    },
+    {
+      "id": "STEM-020",
+      "chapter": "STEM · New applications",
+      "type": "multiple",
+      "prompt": "A specimen has crystalline and amorphous regions. Before recording a highly localized STEM map, which alignment plan follows the lecture?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Use a conductive coating as a complete substitute for electron-optical alignment."
+        },
+        {
+          "id": "B",
+          "text": "Look for focus-dependent aberration signatures before attributing every distorted feature to the specimen."
+        },
+        {
+          "id": "C",
+          "text": "Use a suitable amorphous region under a strongly convergent beam to inspect the Ronchigram."
+        },
+        {
+          "id": "D",
+          "text": "Require sharp Bragg spots from a perfect crystal as the only possible Ronchigram."
+        }
+      ],
+      "answers": [
+        "B",
+        "C"
+      ],
+      "explanation": "C 对：课件的Ronchigram使用会聚束照射非晶区来显示电子光学像差。D 错：这不是要求完美单晶衍射斑点的测量。B 对：先校正成像系统，才能减少把光学失真误当真实结构或定位信息的风险。A 错：导电层帮助处理充电，不代替透镜与束形对准。\n\n重点词：amorphous region（非晶区）；Ronchigram（像差对准图）；alignment（对准）\n逻辑链：选择合适的非晶区域 → 用Ronchigram识别调焦及像差特征 → 校正后再对目标区域做局域成像或谱像。",
+      "source": {
+        "file": "Aberration-corrected STEM",
+        "page": "PDF pp. 32–34,41"
+      },
+      "difficulty": "进阶",
+      "batch": "新增应用题"
+    },
+    {
+      "id": "STEM-021",
+      "chapter": "STEM · New applications",
+      "type": "multiple",
+      "prompt": "A weakly scattering atomic feature is difficult to see in HAADF but is clearer in a lower-angle or BF image. Which interpretations are appropriate?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Element-specific spectroscopy can help when brightness alone does not establish chemical identity."
+        },
+        {
+          "id": "B",
+          "text": "Detector acceptance can change the visibility of the same specimen feature."
+        },
+        {
+          "id": "C",
+          "text": "The HAADF result alone proves that the feature is absent."
+        },
+        {
+          "id": "D",
+          "text": "Lower-angle collection can be useful for weakly scattering light elements."
+        }
+      ],
+      "answers": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explanation": "C 错：未在某一通道看清并不等于结构不存在。B 对：不同探测器接受不同角度的电子，导致可见性不同。D 对：课件明确说明轻元素散射较弱，低角暗场可有帮助。A 对：不能跨模式把亮度直接当唯一元素标签，必要时用EDS/EELS补充。\n\n重点词：detector acceptance（探测接受范围）；weak scattering（弱散射）；element-specific signal（元素特异信号）\n逻辑链：结构产生不同角度的散射 → 各探测通道接收不同部分 → 某通道信号弱时，应先检查方法敏感性而非直接判定不存在。",
+      "source": {
+        "file": "Aberration-corrected STEM",
+        "page": "PDF pp. 29–30,40,42–43"
+      },
+      "difficulty": "进阶",
+      "batch": "新增应用题"
+    },
+    {
+      "id": "STEM-022",
+      "chapter": "STEM · New applications",
+      "type": "multiple",
+      "prompt": "A laboratory wants finer and faster local spectrum imaging. Which proposed improvements address the physical requirements?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Use a well-corrected localized probe and enough useful beam current to collect spectra."
+        },
+        {
+          "id": "B",
+          "text": "Increase displayed magnification alone and assume that the excitation region becomes smaller."
+        },
+        {
+          "id": "C",
+          "text": "Record the relevant EDS or EELS signal at the scan positions instead of relying only on an intensity image."
+        },
+        {
+          "id": "D",
+          "text": "Choose the smallest aperture without considering diffraction or the loss of electrons."
+        }
+      ],
+      "answers": [
+        "A",
+        "C"
+      ],
+      "explanation": "A 对：更小的探针改善定位，足够可用束流支持谱学计数；像差校正有助于同时满足。B 错：显示缩放不是实际束斑控制。C 对：元素或能量信息需要相应谱学测量，普通强度图不能自动恢复。D 错：小孔会损失电子并加强衍射，不能只看孔径小这一项。\n\n重点词：spectrum imaging（谱像）；useful current（可用束流）；signal counts（信号计数）\n逻辑链：先满足真实空间定位 → 再保证足够的谱学信号并逐点记录 → 才能支持更精细、较快的局域分析。",
+      "source": {
+        "file": "Aberration-corrected STEM",
+        "page": "PDF pp. 31,37,41,44"
+      },
+      "difficulty": "进阶",
+      "batch": "新增应用题"
     },
     {
       "id": "CMP-001",
@@ -4345,6 +4912,147 @@
         "page": "SEM pp.20,21,22,36,37,50; STEM pp.31,37"
       },
       "difficulty": "进阶"
+    },
+    {
+      "id": "CMP-021",
+      "chapter": "综合比较 · New applications",
+      "type": "multiple",
+      "prompt": "EDS, WDS and EELS can all respond to core excitation. Which comparisons are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "An EELS ionization edge can have a different shape because it samples excitation into available electronic states."
+        },
+        {
+          "id": "B",
+          "text": "Improving WDS line separation makes its measured quantity identical to a transmitted-electron energy-loss spectrum."
+        },
+        {
+          "id": "C",
+          "text": "EDS and WDS can detect the same characteristic X-rays while resolving nearby lines differently."
+        },
+        {
+          "id": "D",
+          "text": "A shared initial core excitation requires every detector to record the same symmetric spectral feature."
+        }
+      ],
+      "answers": [
+        "A",
+        "C"
+      ],
+      "explanation": "C 对：EDS/WDS检测特征X射线，分光方式和谱分辨能力不同。B 错：分峰改善不把光子谱变成电子能损谱。A 对：EELS涉及电子进入可用空态，边形可含电子态信息。D 错：相同初始激发可以对应不同后续被测过程，老师Tutorial要求解释的正是这一差别。\n\n重点词：characteristic line（特征线）；energy loss（能量损失）；available states（可用态）\n逻辑链：相同核心激发 → 区分随后测发射光子还是束电子能损 → 再解释谱形及信息，不能只按共同起点类比所有结果。",
+      "source": {
+        "file": "Electron Spectroscopy; Aberration-corrected STEM",
+        "page": "Spectroscopy pp.18–19,34–35,45–46; STEM p.7"
+      },
+      "difficulty": "进阶",
+      "batch": "新增应用题"
+    },
+    {
+      "id": "CMP-022",
+      "chapter": "综合比较 · New applications",
+      "type": "multiple",
+      "prompt": "DIC and HRTEM share phase-contrast logic, but a thin interface is buried under another layer. Which arguments guide method selection?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A suitable cross-section can make the buried interface accessible to transmission imaging."
+        },
+        {
+          "id": "B",
+          "text": "An elemental spectrum alone necessarily provides the geometric thickness of the buried interface."
+        },
+        {
+          "id": "C",
+          "text": "The common interference principle guarantees that the two instruments can examine the same geometry without different preparation."
+        },
+        {
+          "id": "D",
+          "text": "HRTEM can provide fine structural detail when a suitable electron-transparent specimen contains the interface."
+        }
+      ],
+      "answers": [
+        "A",
+        "D"
+      ],
+      "explanation": "C 错：共通的相位—干涉原理不等于相同信号路径和制样要求。A 对：老师的埋藏氧化层Tutorial关键是让截面包含目标界面。D 对：足够薄且包含目标的样品配合HRTEM可回答细结构问题。B 错：元素信息与界面几何厚度并非同一物理量。\n\n重点词：buried interface（埋藏界面）；cross-section（截面）；phase contrast（相位对比）\n逻辑链：先定位目标界面及所需信息 → 选择能暴露目标的几何与制样 → 再利用相位对比获得结构，而非只凭共同原理选设备。",
+      "source": {
+        "file": "TEM; Electron Spectroscopy",
+        "page": "TEM pp.15,20–21,27,52–55; Spectroscopy pp.7,11"
+      },
+      "difficulty": "进阶",
+      "batch": "新增应用题"
+    },
+    {
+      "id": "CMP-023",
+      "chapter": "综合比较 · New applications",
+      "type": "multiple",
+      "prompt": "A specimen changes during repeated electron-microscope observations. Which interpretations remain valid across the lecture examples?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A time sequence automatically proves that the beam has no influence on the observed process."
+        },
+        {
+          "id": "B",
+          "text": "ESEM charge neutralization prevents every possible type of beam-induced change."
+        },
+        {
+          "id": "C",
+          "text": "Beam-induced deposition, damage or loss of crystalline order can affect what is measured."
+        },
+        {
+          "id": "D",
+          "text": "A change in morphology or diffraction can require checking whether irradiation altered the specimen."
+        }
+      ],
+      "answers": [
+        "C",
+        "D"
+      ],
+      "explanation": "A 错：连续观察本身也意味着持续照射，不能自动排除测量干扰。B 错：中和电荷只处理一个机制，不取消加热、损伤或束致反应。D 对：SEM伪影、ESEM反应序列与TEM照射非晶化都提醒要检查测量是否改变样品。C 对：这些变化会影响后续图像或结构判断，不应不加区分地当作初始状态。\n\n重点词：irradiation（照射）；beam-induced change（束致变化）；initial state（初始状态）\n逻辑链：重复测量同时带来电子照射 → 可能改变表面、化学过程或有序性 → 解释动态前先区分原有过程与束引入的变化。",
+      "source": {
+        "file": "SEM; TEM",
+        "page": "SEM pp.44,48; TEM p.41"
+      },
+      "difficulty": "进阶",
+      "batch": "新增应用题"
+    },
+    {
+      "id": "CMP-024",
+      "chapter": "综合比较 · New applications",
+      "type": "multiple",
+      "prompt": "A non-conductive specimen is coated before SEM-EDS analysis. Which considerations follow from the preparation and spectroscopy principles?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Preventing charging makes all detected characteristic lines originate only from the original specimen."
+        },
+        {
+          "id": "B",
+          "text": "The coating may help provide a conductive path and reduce charging."
+        },
+        {
+          "id": "C",
+          "text": "Coating choice and the desired chemical information should be considered together."
+        },
+        {
+          "id": "D",
+          "text": "The coating is material exposed to the beam and may contribute characteristic X-ray signals of its own."
+        }
+      ],
+      "answers": [
+        "B",
+        "C",
+        "D"
+      ],
+      "explanation": "B 对：合适导电层与接地路径有助于电荷泄放。D 对：由镀层作为样品表面材料以及EDS原子激发发射原理联合推得，镀层也可能贡献信号；不是只要仪器稳定便能忽略。A 错：解决充电不等于排除了镀层或其他材料的化学贡献。C 对：制样满足成像条件的同时，也要考虑它是否影响待回答的化学问题。\n\n重点词：conductive coating（导电镀层）；characteristic X-ray（特征X射线）；signal contribution（信号贡献）\n逻辑链：为抑制充电而加入导电材料 → 新材料也处于电子束作用下 → 解释元素谱时必须同时考虑原样品与制样引入的贡献。",
+      "source": {
+        "file": "SEM; Electron Spectroscopy",
+        "page": "SEM pp.23–24,33; Spectroscopy pp.18–19,25"
+      },
+      "difficulty": "进阶",
+      "batch": "新增应用题"
     }
   ]
 }

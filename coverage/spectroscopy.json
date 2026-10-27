@@ -1,7 +1,7 @@
 {
   "file": "Electron Spectroscopy",
   "pdfPages": 52,
-  "questionCount": 30,
+  "questionCount": 34,
   "pageNumbering": "PDF文件页序，从1开始",
   "questionStyle": "English stem and four independent English statements; variable undisclosed correct count; Chinese explanation with key terms and causal chain.",
   "topics": [
@@ -308,6 +308,127 @@
       ],
       "questionIds": [
         "SPEC-030"
+      ]
+    },
+    {
+      "topic": "新题：束能改变后的基体信号增强，区分采样体积与真实成分变化",
+      "pages": [
+        25,
+        34,
+        35,
+        36,
+        37
+      ],
+      "questionIds": [
+        "SPEC-031"
+      ],
+      "testedBy": [
+        {
+          "questionId": "SPEC-031",
+          "optionText": "A larger X-ray-generation region may sample more of the surrounding matrix."
+        },
+        {
+          "questionId": "SPEC-031",
+          "optionText": "The intensity change proves that matrix atoms have diffused into the particle."
+        },
+        {
+          "questionId": "SPEC-031",
+          "optionText": "Keeping the surface beam position fixed guarantees an unchanged chemical sampling volume."
+        },
+        {
+          "questionId": "SPEC-031",
+          "optionText": "Switching to narrower WDS peaks alone removes any matrix contribution caused by lateral electron spreading."
+        }
+      ]
+    },
+    {
+      "topic": "新题：元素身份相同而化学态可能不同，利用EELS边细结构选择后续测量",
+      "pages": [
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "questionIds": [
+        "SPEC-032"
+      ],
+      "testedBy": [
+        {
+          "questionId": "SPEC-032",
+          "optionText": "Matching elemental identities in EDS guarantees identical ionic states in both regions."
+        },
+        {
+          "questionId": "SPEC-032",
+          "optionText": "Compare the core-loss EELS edge fine structures for information about the local chemical states."
+        },
+        {
+          "questionId": "SPEC-032",
+          "optionText": "The same element can show different EELS edge shapes when its local available electronic states differ."
+        },
+        {
+          "questionId": "SPEC-032",
+          "optionText": "Any change in EELS edge shape must indicate an additional element rather than a changed chemical environment."
+        }
+      ]
+    },
+    {
+      "topic": "新题：EDXRF与EDS相同特征线的共同发射逻辑及不同激发/适用条件",
+      "pages": [
+        18,
+        24,
+        25,
+        52
+      ],
+      "questionIds": [
+        "SPEC-033"
+      ],
+      "testedBy": [
+        {
+          "questionId": "SPEC-033",
+          "optionText": "The same characteristic transition can give the same photon energy even when the incident excitation differs."
+        },
+        {
+          "questionId": "SPEC-033",
+          "optionText": "Agreement of characteristic line positions does not require the two methods to use the same incident beam."
+        },
+        {
+          "questionId": "SPEC-033",
+          "optionText": "Raw photon intensities should not be assumed directly comparable when excitation and measurement conditions differ."
+        },
+        {
+          "questionId": "SPEC-033",
+          "optionText": "Vacuum, specimen-damage and portability constraints still matter when choosing between methods that detect similar characteristic X-rays."
+        }
+      ]
+    },
+    {
+      "topic": "新题：通过事件机制区分计数率相关求和峰与硅探测器逃逸峰",
+      "pages": [
+        31,
+        40,
+        41
+      ],
+      "questionIds": [
+        "SPEC-034"
+      ],
+      "testedBy": [
+        {
+          "questionId": "SPEC-034",
+          "optionText": "Reducing the photon arrival rate can reduce the probability that separate photon pulses overlap."
+        },
+        {
+          "questionId": "SPEC-034",
+          "optionText": "A sum feature is produced when part of a single photon event escapes from the detector."
+        },
+        {
+          "questionId": "SPEC-034",
+          "optionText": "A detector escape event can record less deposited energy without combining separate sample photons."
+        },
+        {
+          "questionId": "SPEC-034",
+          "optionText": "Neither a count-rate-related sum feature nor a detector escape feature should automatically be assigned to a new specimen element."
+        }
       ]
     }
   ],

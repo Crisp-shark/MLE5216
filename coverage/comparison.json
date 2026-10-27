@@ -1,6 +1,6 @@
 {
   "file": "跨课件比较",
-  "questionCount": 20,
+  "questionCount": 24,
   "pageNumbering": "PDF文件页序；STEM=Aberration-corrected STEM，Spectroscopy=Electron Spectroscopy。",
   "topics": [
     {
@@ -207,6 +207,118 @@
       ],
       "questionIds": [
         "CMP-020"
+      ]
+    },
+    {
+      "topic": "EDS/WDS同类发射信号与EELS不同测量量；峰分辨和峰形来源",
+      "pages": [
+        "Spectroscopy PDF pp. 18–19,34–35,45–46",
+        "STEM PDF p.7"
+      ],
+      "questionIds": [
+        "CMP-021"
+      ],
+      "testedBy": [
+        {
+          "questionId": "CMP-021",
+          "optionText": "EDS and WDS can detect the same characteristic X-rays while resolving nearby lines differently."
+        },
+        {
+          "questionId": "CMP-021",
+          "optionText": "Improving WDS line separation makes its measured quantity identical to a transmitted-electron energy-loss spectrum."
+        },
+        {
+          "questionId": "CMP-021",
+          "optionText": "An EELS ionization edge can have a different shape because it samples excitation into available electronic states."
+        },
+        {
+          "questionId": "CMP-021",
+          "optionText": "A shared initial core excitation requires every detector to record the same symmetric spectral feature."
+        }
+      ]
+    },
+    {
+      "topic": "DIC/HRTEM共通相位原理与埋藏界面的信号路径限制",
+      "pages": [
+        "TEM PDF pp. 15,20–21,27,52–55",
+        "Spectroscopy PDF pp.7,11"
+      ],
+      "questionIds": [
+        "CMP-022"
+      ],
+      "testedBy": [
+        {
+          "questionId": "CMP-022",
+          "optionText": "The common interference principle guarantees that the two instruments can examine the same geometry without different preparation."
+        },
+        {
+          "questionId": "CMP-022",
+          "optionText": "A suitable cross-section can make the buried interface accessible to transmission imaging."
+        },
+        {
+          "questionId": "CMP-022",
+          "optionText": "HRTEM can provide fine structural detail when a suitable electron-transparent specimen contains the interface."
+        },
+        {
+          "questionId": "CMP-022",
+          "optionText": "An elemental spectrum alone necessarily provides the geometric thickness of the buried interface."
+        }
+      ]
+    },
+    {
+      "topic": "环境/透射电子观察中区分真实动态与束致变化",
+      "pages": [
+        "SEM PDF pp. 44,48",
+        "TEM PDF p.41"
+      ],
+      "questionIds": [
+        "CMP-023"
+      ],
+      "testedBy": [
+        {
+          "questionId": "CMP-023",
+          "optionText": "A time sequence automatically proves that the beam has no influence on the observed process."
+        },
+        {
+          "questionId": "CMP-023",
+          "optionText": "ESEM charge neutralization prevents every possible type of beam-induced change."
+        },
+        {
+          "questionId": "CMP-023",
+          "optionText": "A change in morphology or diffraction can require checking whether irradiation altered the specimen."
+        },
+        {
+          "questionId": "CMP-023",
+          "optionText": "Beam-induced deposition, damage or loss of crystalline order can affect what is measured."
+        }
+      ]
+    },
+    {
+      "topic": "SEM导电镀层与EDS分析对象的联系：样品准备也可能影响化学信号",
+      "pages": [
+        "SEM PDF pp. 23–24,33",
+        "Spectroscopy PDF pp. 18–19,25"
+      ],
+      "questionIds": [
+        "CMP-024"
+      ],
+      "testedBy": [
+        {
+          "questionId": "CMP-024",
+          "optionText": "The coating may help provide a conductive path and reduce charging."
+        },
+        {
+          "questionId": "CMP-024",
+          "optionText": "The coating is material exposed to the beam and may contribute characteristic X-ray signals of its own."
+        },
+        {
+          "questionId": "CMP-024",
+          "optionText": "Preventing charging makes all detected characteristic lines originate only from the original specimen."
+        },
+        {
+          "questionId": "CMP-024",
+          "optionText": "Coating choice and the desired chemical information should be considered together."
+        }
       ]
     }
   ],

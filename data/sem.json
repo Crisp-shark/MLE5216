@@ -967,6 +967,148 @@
         "page": "PDF pp. 23, 24, 33, 44"
       },
       "difficulty": "进阶"
+    },
+    {
+      "id": "SEM-029",
+      "chapter": "SEM",
+      "type": "multiple",
+      "prompt": "A rough fracture surface has high and low regions that cannot all be kept sharp. Which response addresses this imaging requirement?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A smaller convergence angle can increase the range of specimen heights that remain in focus."
+        },
+        {
+          "id": "B",
+          "text": "A larger depth of field proves that the detected electrons come from deeper inside the specimen."
+        },
+        {
+          "id": "C",
+          "text": "Changing from SE to BSE detection automatically brings all specimen heights into focus."
+        },
+        {
+          "id": "D",
+          "text": "Increasing displayed magnification alone extends the physical range that remains in focus."
+        }
+      ],
+      "answers": [
+        "A"
+      ],
+      "explanation": "A（正确）：课件把较小孔径/会聚角与较大景深联系起来，这直接针对粗糙表面不同高度是否同时清晰。B（错误）：景深描述离焦容许的高度范围，不等于电子的穿透或信号采样深度。C（错误）：SE/BSE选择改变收集的信号，不自动代替电子光学聚焦条件。D（错误）：显示放大不改变实际景深。\n\n重点词：depth of field（景深）；convergence angle（会聚角）；sampling depth（采样深度）。\n逻辑链：表面高度起伏 → 不同部位偏离最佳焦平面 → 通过合适的会聚角扩大清晰高度范围，而不是把景深误当成穿透深度。",
+      "source": {
+        "file": "SEM",
+        "page": "PDF pp. 21, 38, 43"
+      },
+      "difficulty": "进阶",
+      "batch": "新增应用题"
+    },
+    {
+      "id": "SEM-030",
+      "chapter": "SEM",
+      "type": "multiple",
+      "prompt": "Bulk specimens with different compositions are imaged at the same beam energy. Which interpretations of their signals are justified?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Equal accelerating voltage guarantees the same interaction volume in every specimen material."
+        },
+        {
+          "id": "B",
+          "text": "Stronger deflection by nuclei with more protons can make the interaction volume smaller."
+        },
+        {
+          "id": "C",
+          "text": "A material-dependent change in electron spreading can occur without a change in lens alignment."
+        },
+        {
+          "id": "D",
+          "text": "A larger nuclear charge can influence both the interaction volume and the amount of backscattering."
+        }
+      ],
+      "answers": [
+        "B",
+        "C",
+        "D"
+      ],
+      "explanation": "A（错误）：相互作用体积不仅取决于束能，还取决于样品材料，不能由电压相同推出采样区域相同。B（正确）：课件指出较重元素的核质子更多，对快电子偏转较强，可形成较小相互作用体积。C（正确）：材料本身已是散射差异的原因，不必先假定仪器失准。D（正确）：核电荷既影响轨迹展宽，也影响返回的BSE比例；这是材料与成分相关反差的联系。\n\n重点词：nuclear charge（核电荷）；electron deflection（电子偏转）；interaction volume（相互作用体积）。\n逻辑链：材料组成改变 → 电子与原子核相互作用不同 → 轨迹分布及背散射信号可改变，即使束能和仪器对准保持不变。",
+      "source": {
+        "file": "SEM",
+        "page": "PDF pp. 37, 40"
+      },
+      "difficulty": "进阶",
+      "batch": "新增应用题"
+    },
+    {
+      "id": "SEM-031",
+      "chapter": "SEM",
+      "type": "multiple",
+      "prompt": "A conductive coating and an ESEM gas environment are considered for an insulating surface. Which comparisons are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A suitable coating connected to ground can provide a route for accumulated charge to leave."
+        },
+        {
+          "id": "B",
+          "text": "In ESEM, positive gas ions can neutralize negative charge on the irradiated surface."
+        },
+        {
+          "id": "C",
+          "text": "Suitable ESEM conditions can be useful when the original surface must not receive a conductive coating."
+        },
+        {
+          "id": "D",
+          "text": "Suppressing charging by either approach does not turn an intensity image into complete chemical characterization."
+        }
+      ],
+      "answers": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explanation": "A（正确）：镀层与接地连接提供电荷泄放路径，关键是建立导电联系。B（正确）：ESEM通过电子电离气体产生正离子，吸引至负电样品表面以中和电荷。C（正确）：老师给出不能镀膜的样品作为ESEM应用，方法选择取决于原始表面是否允许改动。D（正确）：解决充电是改善成像条件，完整化学表征仍需相应能谱信息。\n\n重点词：conductive path（导电路径）；gas-ion neutralization（气体离子中和）；chemical characterization（化学表征）。\n逻辑链：先识别负电荷积累 → 选择导电泄放或正离子中和 → 获得较稳定图像；再按信息需求决定是否另做化学谱学。",
+      "source": {
+        "file": "SEM",
+        "page": "PDF pp. 23–24, 45–47, 49"
+      },
+      "difficulty": "进阶",
+      "batch": "新增应用题"
+    },
+    {
+      "id": "SEM-032",
+      "chapter": "SEM",
+      "type": "multiple",
+      "prompt": "A suspected buried feature is not visible in a surface SE image. Which conclusions or next steps are justified?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Its absence from the SE image proves that no such feature exists anywhere in the bulk specimen."
+        },
+        {
+          "id": "B",
+          "text": "BSE can sample deeper than SE, but this does not guarantee access to a feature at any possible depth."
+        },
+        {
+          "id": "C",
+          "text": "Increasing display magnification makes the SE signal directly sample the buried feature."
+        },
+        {
+          "id": "D",
+          "text": "If the task requires a cross-sectional view of a buried layer, an appropriately prepared TEM specimen can address that different information need."
+        }
+      ],
+      "answers": [
+        "B",
+        "D"
+      ],
+      "explanation": "A（错误）：SE主要反映近表面浅层；一种信号中看不见，不能直接推出整个块体中不存在。B（正确）：BSE通常比低能SE的采样区域更深，但仍有有限的相互作用和信号形成区域，不是任意深度的探针。C（错误）：显示放大不改变信号产生和逃逸的物理区域。D（正确）：TEM可通过合适薄截面观察内部层结构，须按埋藏结构这一信息需求选择制样与透射几何。\n\n重点词：surface sensitivity（表面敏感性）；buried feature（埋藏特征）；cross-sectional TEM（截面透射电镜）。\n逻辑链：先判断目标是否处于当前信号可采样的区域 → 阴性图像不能越过方法边界作结论 → 必要时更换采样几何并制备合适截面。",
+      "source": {
+        "file": "SEM; TEM",
+        "page": "SEM PDF pp. 38–40,49; TEM PDF pp. 15–20"
+      },
+      "difficulty": "进阶",
+      "batch": "新增应用题"
     }
   ]
 }

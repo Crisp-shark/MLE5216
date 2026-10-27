@@ -1,7 +1,7 @@
 {
   "lecture": "TEM",
   "pdfPages": 55,
-  "questionCount": 30,
+  "questionCount": 34,
   "questionStyle": "Teacher-style independent English statements; concept, causality, scope and application rather than numerical recall.",
   "topics": [
     {
@@ -490,6 +490,137 @@
         "TEM-023",
         "TEM-030"
       ]
+    },
+    {
+      "topic": "混合区域的衍射归属；选区光阑选位置与物镜光阑选束的区别",
+      "pages": [
+        35,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "questionIds": [
+        "TEM-031"
+      ],
+      "testedBy": [
+        {
+          "questionId": "TEM-031",
+          "optionText": "Restrict the contributing specimen region with the selected-area aperture when the geometry allows."
+        },
+        {
+          "questionId": "TEM-031",
+          "optionText": "Selecting a diffraction spot with the objective aperture automatically restricts the contributing specimen to the precipitate."
+        },
+        {
+          "questionId": "TEM-031",
+          "optionText": "Check the sampled region before assigning every observed reflection to the precipitate."
+        },
+        {
+          "questionId": "TEM-031",
+          "optionText": "A pattern with many spots proves that the precipitate itself contains many crystal orientations, even when matrix is included."
+        }
+      ]
+    },
+    {
+      "topic": "表面纹理与埋藏界面的互补测量；按信息需求选择SEM/TEM及FIB",
+      "pages": [
+        2,
+        3,
+        15,
+        16,
+        17,
+        18,
+        20,
+        21,
+        54,
+        55
+      ],
+      "questionIds": [
+        "TEM-032"
+      ],
+      "testedBy": [
+        {
+          "questionId": "TEM-032",
+          "optionText": "Use suitable SE-SEM imaging to examine surface morphology."
+        },
+        {
+          "questionId": "TEM-032",
+          "optionText": "Use a suitable electron-transparent cross-section to examine the buried interface in TEM."
+        },
+        {
+          "questionId": "TEM-032",
+          "optionText": "The higher resolution of TEM makes its transmission image a direct replacement for any surface-topography measurement."
+        },
+        {
+          "questionId": "TEM-032",
+          "optionText": "Site-specific FIB preparation is useful when the cross-section must contain the selected failure location."
+        }
+      ]
+    },
+    {
+      "topic": "从加速不稳定诊断时间相干问题；区分空间相干、束流和选区作用",
+      "pages": [
+        24,
+        25,
+        26,
+        42,
+        43,
+        44
+      ],
+      "questionIds": [
+        "TEM-033"
+      ],
+      "testedBy": [
+        {
+          "questionId": "TEM-033",
+          "optionText": "Good spatial coherence guarantees that temporal coherence remains unaffected."
+        },
+        {
+          "questionId": "TEM-033",
+          "optionText": "Variations in electron energy can impair temporal coherence even when directional coherence remains good."
+        },
+        {
+          "questionId": "TEM-033",
+          "optionText": "Changes in acceleration potential affect only electron delivery rate and not the electron energies."
+        },
+        {
+          "questionId": "TEM-033",
+          "optionText": "The selected-area aperture selects electron energies and therefore removes the acceleration instability."
+        }
+      ]
+    },
+    {
+      "topic": "BF概览正常而DF偏弱时的采集与结构判断；选择性、信号和观察时间取舍",
+      "pages": [
+        41,
+        48,
+        50,
+        51
+      ],
+      "questionIds": [
+        "TEM-034"
+      ],
+      "testedBy": [
+        {
+          "questionId": "TEM-034",
+          "optionText": "Collecting only a fraction of the transmitted electrons can make DF intrinsically weaker than the overview."
+        },
+        {
+          "questionId": "TEM-034",
+          "optionText": "A longer acquisition may help collect the DF signal, provided specimen changes during observation are considered."
+        },
+        {
+          "questionId": "TEM-034",
+          "optionText": "Returning to BF can help verify the specimen area and shape without giving exactly the same reflection-selective information as DF."
+        },
+        {
+          "questionId": "TEM-034",
+          "optionText": "Weakness or darkness under one selected reflection does not by itself establish that the target crystal phase is absent."
+        }
+      ]
     }
   ],
   "tutorialCoverage": [
@@ -558,6 +689,7 @@
     "重写为30题，不考精确尺寸、电压、波长、角度、采集时间、fcc/bcc序列或代数计算。",
     "保留Bragg、相机几何、晶面索引的物理逻辑，覆盖定量页中的核心概念。",
     "每题中文逐项解释，另附重点词和逻辑链；五个老师Tutorial各有唯一重点标记。",
-    "TEM Tutorial Q2原文要求衍射可测的两项结构性质；答案明确为间距、晶相及结晶状态，不窄化为只有取向。"
+    "TEM Tutorial Q2原文要求衍射可测的两项结构性质；答案明确为间距、晶相及结晶状态，不窄化为只有取向。",
+    "新增TEM-031至034：混合区域取样归属、表面/埋藏界面互补、相干条件诊断和暗场弱信号取舍；不增加Tutorial主标签或具体数值记忆。"
   ]
 }

@@ -75,7 +75,8 @@ export function validateBank(raw) {
       source = { file, page: typeof page === 'string' ? page.trim() : page };
     }
     const tutorial = question.tutorial == null ? null : string(question.tutorial, `${label}的 Tutorial 标记`, 150);
-    return { id, chapter, type, prompt, options, answers, explanation, source, difficulty, ...(tutorial ? { tutorial } : {}) };
+    const batch = question.batch == null ? null : string(question.batch, `${label}的练习分组`, 150);
+    return { id, chapter, type, prompt, options, answers, explanation, source, difficulty, ...(tutorial ? { tutorial } : {}), ...(batch ? { batch } : {}) };
   });
   return { version: 1, title, questions };
 }

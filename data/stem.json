@@ -617,6 +617,147 @@
         "page": "PDF pp. 24, 25, 36, 37"
       },
       "difficulty": "进阶"
+    },
+    {
+      "id": "STEM-019",
+      "chapter": "STEM · New applications",
+      "type": "multiple",
+      "prompt": "Two STEM instruments use the same beam energy, but one forms a smaller and brighter probe after aberration correction. Which conclusions are justified?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The difference can arise from improved electron optics rather than a shorter electron wavelength."
+        },
+        {
+          "id": "B",
+          "text": "Equal beam energy requires equal practical spatial resolution, regardless of lens quality."
+        },
+        {
+          "id": "C",
+          "text": "Correction can make more of the aperture useful, allowing better localization and more beam electrons."
+        },
+        {
+          "id": "D",
+          "text": "The brighter probe means an EDS detector must also have better energy resolution."
+        }
+      ],
+      "answers": [
+        "A",
+        "C"
+      ],
+      "explanation": "A 对：束能相同不代表透镜像差和可用孔径相同；这里不必用波长差解释。B 错：实际分辨率还受像差、孔径和束斑影响。C 对：球差校正可让更多高角电子正确聚焦，实现更小且更亮的探针。D 错：探针空间性能和X射线探测器的能量分辨率是不同维度。\n\n重点词：electron optics（电子光学）；usable aperture（可用孔径）；probe localization（探针局域性）\n逻辑链：束能保持相同 → 比较像差和可用孔径 → 仍可解释探针尺寸及束流的变化，而不能自动推断谱分辨率变化。",
+      "source": {
+        "file": "Aberration-corrected STEM",
+        "page": "PDF pp. 14,31,36–37"
+      },
+      "difficulty": "进阶",
+      "batch": "新增应用题"
+    },
+    {
+      "id": "STEM-020",
+      "chapter": "STEM · New applications",
+      "type": "multiple",
+      "prompt": "A specimen has crystalline and amorphous regions. Before recording a highly localized STEM map, which alignment plan follows the lecture?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Use a suitable amorphous region under a strongly convergent beam to inspect the Ronchigram."
+        },
+        {
+          "id": "B",
+          "text": "Require sharp Bragg spots from a perfect crystal as the only possible Ronchigram."
+        },
+        {
+          "id": "C",
+          "text": "Look for focus-dependent aberration signatures before attributing every distorted feature to the specimen."
+        },
+        {
+          "id": "D",
+          "text": "Use a conductive coating as a complete substitute for electron-optical alignment."
+        }
+      ],
+      "answers": [
+        "A",
+        "C"
+      ],
+      "explanation": "A 对：课件的Ronchigram使用会聚束照射非晶区来显示电子光学像差。B 错：这不是要求完美单晶衍射斑点的测量。C 对：先校正成像系统，才能减少把光学失真误当真实结构或定位信息的风险。D 错：导电层帮助处理充电，不代替透镜与束形对准。\n\n重点词：amorphous region（非晶区）；Ronchigram（像差对准图）；alignment（对准）\n逻辑链：选择合适的非晶区域 → 用Ronchigram识别调焦及像差特征 → 校正后再对目标区域做局域成像或谱像。",
+      "source": {
+        "file": "Aberration-corrected STEM",
+        "page": "PDF pp. 32–34,41"
+      },
+      "difficulty": "进阶",
+      "batch": "新增应用题"
+    },
+    {
+      "id": "STEM-021",
+      "chapter": "STEM · New applications",
+      "type": "multiple",
+      "prompt": "A weakly scattering atomic feature is difficult to see in HAADF but is clearer in a lower-angle or BF image. Which interpretations are appropriate?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The HAADF result alone proves that the feature is absent."
+        },
+        {
+          "id": "B",
+          "text": "Detector acceptance can change the visibility of the same specimen feature."
+        },
+        {
+          "id": "C",
+          "text": "Lower-angle collection can be useful for weakly scattering light elements."
+        },
+        {
+          "id": "D",
+          "text": "Element-specific spectroscopy can help when brightness alone does not establish chemical identity."
+        }
+      ],
+      "answers": [
+        "B",
+        "C",
+        "D"
+      ],
+      "explanation": "A 错：未在某一通道看清并不等于结构不存在。B 对：不同探测器接受不同角度的电子，导致可见性不同。C 对：课件明确说明轻元素散射较弱，低角暗场可有帮助。D 对：不能跨模式把亮度直接当唯一元素标签，必要时用EDS/EELS补充。\n\n重点词：detector acceptance（探测接受范围）；weak scattering（弱散射）；element-specific signal（元素特异信号）\n逻辑链：结构产生不同角度的散射 → 各探测通道接收不同部分 → 某通道信号弱时，应先检查方法敏感性而非直接判定不存在。",
+      "source": {
+        "file": "Aberration-corrected STEM",
+        "page": "PDF pp. 29–30,40,42–43"
+      },
+      "difficulty": "进阶",
+      "batch": "新增应用题"
+    },
+    {
+      "id": "STEM-022",
+      "chapter": "STEM · New applications",
+      "type": "multiple",
+      "prompt": "A laboratory wants finer and faster local spectrum imaging. Which proposed improvements address the physical requirements?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Use a well-corrected localized probe and enough useful beam current to collect spectra."
+        },
+        {
+          "id": "B",
+          "text": "Increase displayed magnification alone and assume that the excitation region becomes smaller."
+        },
+        {
+          "id": "C",
+          "text": "Record the relevant EDS or EELS signal at the scan positions instead of relying only on an intensity image."
+        },
+        {
+          "id": "D",
+          "text": "Choose the smallest aperture without considering diffraction or the loss of electrons."
+        }
+      ],
+      "answers": [
+        "A",
+        "C"
+      ],
+      "explanation": "A 对：更小的探针改善定位，足够可用束流支持谱学计数；像差校正有助于同时满足。B 错：显示缩放不是实际束斑控制。C 对：元素或能量信息需要相应谱学测量，普通强度图不能自动恢复。D 错：小孔会损失电子并加强衍射，不能只看孔径小这一项。\n\n重点词：spectrum imaging（谱像）；useful current（可用束流）；signal counts（信号计数）\n逻辑链：先满足真实空间定位 → 再保证足够的谱学信号并逐点记录 → 才能支持更精细、较快的局域分析。",
+      "source": {
+        "file": "Aberration-corrected STEM",
+        "page": "PDF pp. 31,37,41,44"
+      },
+      "difficulty": "进阶",
+      "batch": "新增应用题"
     }
   ]
 }

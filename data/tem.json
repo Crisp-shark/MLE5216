@@ -1036,6 +1036,148 @@
         "page": "PDF pp.15,22,41,53–54"
       },
       "difficulty": "进阶"
+    },
+    {
+      "id": "TEM-031",
+      "chapter": "TEM · Tutorial applications",
+      "type": "multiple",
+      "prompt": "A diffraction pattern is collected from a precipitate together with surrounding matrix. Which steps help establish which structure the pattern represents?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Restrict the contributing specimen region with the selected-area aperture when the geometry allows."
+        },
+        {
+          "id": "B",
+          "text": "Selecting a diffraction spot with the objective aperture automatically restricts the contributing specimen to the precipitate."
+        },
+        {
+          "id": "C",
+          "text": "Check the sampled region before assigning every observed reflection to the precipitate."
+        },
+        {
+          "id": "D",
+          "text": "A pattern with many spots proves that the precipitate itself contains many crystal orientations, even when matrix is included."
+        }
+      ],
+      "answers": [
+        "A",
+        "C"
+      ],
+      "explanation": "A 对：选区光阑限制参与衍射的样品区域，可以帮助减少周围基体的贡献；是否能完全隔离目标仍受实际几何限制。\nB 错：物镜光阑选择衍射束，决定哪些束参与成像，不等于选择样品中的位置。\nC 对：图样必须与被取样的区域对应，混合区域可能同时包含不同结构的贡献。\nD 错：当基体也参与时，不能把所有斑点和取向都归给析出物本身。\n\n重点词：selected-area aperture（选区光阑）；objective aperture（物镜光阑）；sampling region（取样区域）。\n逻辑链：先确认哪些样品区域贡献信号 → 再把反射与局部结构关联 → 避免把混合图样误判成单个目标的结构。",
+      "source": {
+        "file": "TEM",
+        "page": "PDF pp. 35, 39–44"
+      },
+      "difficulty": "进阶",
+      "batch": "新增应用题"
+    },
+    {
+      "id": "TEM-032",
+      "chapter": "TEM · Tutorial applications",
+      "type": "multiple",
+      "prompt": "A failed device requires both exposed-surface texture and the structure of a particular buried interface to be examined. Which plan is justified?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Use suitable SE-SEM imaging to examine surface morphology."
+        },
+        {
+          "id": "B",
+          "text": "Use a suitable electron-transparent cross-section to examine the buried interface in TEM."
+        },
+        {
+          "id": "C",
+          "text": "The higher resolution of TEM makes its transmission image a direct replacement for any surface-topography measurement."
+        },
+        {
+          "id": "D",
+          "text": "Site-specific FIB preparation is useful when the cross-section must contain the selected failure location."
+        }
+      ],
+      "answers": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explanation": "A 对：SE形貌对比适合回答暴露表面的纹理问题。\nB 对：TEM看穿薄样品，截面可使埋藏界面进入观察方向，回答内部结构问题。\nC 错：分辨率高不表示信息类型相同；透射投影不直接等价于表面高度或形貌图。\nD 对：老师Tutorial强调，FIB的价值在于让薄片包含指定的局部目标，而非因为任何TEM样品都必须使用FIB。\n\n重点词：surface topography（表面形貌）；cross-section（截面）；site-specific preparation（位点特异制样）。\n逻辑链：把表面与埋藏结构分成不同信息需求 → 分别匹配SE形貌信号和TEM透射截面 → 需要指定局部区域时再采用FIB。",
+      "source": {
+        "file": "TEM",
+        "page": "PDF pp. 2–3, 15–18, 20–21, 54–55"
+      },
+      "difficulty": "进阶",
+      "batch": "新增应用题"
+    },
+    {
+      "id": "TEM-033",
+      "chapter": "TEM · Tutorial applications",
+      "type": "multiple",
+      "prompt": "A small electron source provides good directional coherence, but the acceleration conditions become unstable during phase imaging. Which conclusion is justified?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Good spatial coherence guarantees that temporal coherence remains unaffected."
+        },
+        {
+          "id": "B",
+          "text": "Variations in electron energy can impair temporal coherence even when directional coherence remains good."
+        },
+        {
+          "id": "C",
+          "text": "Changes in acceleration potential affect only electron delivery rate and not the electron energies."
+        },
+        {
+          "id": "D",
+          "text": "The selected-area aperture selects electron energies and therefore removes the acceleration instability."
+        }
+      ],
+      "answers": [
+        "B"
+      ],
+      "explanation": "A 错：空间相干性与时间相干性是不同条件，不能由前者自动保证后者。\nB 对：固定加速条件帮助保持电子能量与波的时间相干；能量变化仍可能影响相位成像，即使电子方向较一致。\nC 错：加速电势影响单个电子的动能，不能把它仅当成控制电子数目的束流。\nD 错：选区光阑限制样品区域，不是能量选择器，也不会修复加速条件不稳定。\n\n重点词：spatial coherence（空间相干性）；temporal coherence（时间相干性）；acceleration stability（加速稳定性）。\n逻辑链：小源有利于方向一致，加速稳定有利于能量一致 → 两种相干条件应分别判断 → 相位成像不能只检查一个条件。",
+      "source": {
+        "file": "TEM",
+        "page": "PDF pp. 24–26, 42–44"
+      },
+      "difficulty": "进阶",
+      "batch": "新增应用题"
+    },
+    {
+      "id": "TEM-034",
+      "chapter": "TEM · Tutorial applications",
+      "type": "multiple",
+      "prompt": "A useful BF overview is obtained, but selecting a DF reflection gives a weak image. Which assessments are reasonable?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Collecting only a fraction of the transmitted electrons can make DF intrinsically weaker than the overview."
+        },
+        {
+          "id": "B",
+          "text": "A longer acquisition may help collect the DF signal, provided specimen changes during observation are considered."
+        },
+        {
+          "id": "C",
+          "text": "Returning to BF can help verify the specimen area and shape without giving exactly the same reflection-selective information as DF."
+        },
+        {
+          "id": "D",
+          "text": "Weakness or darkness under one selected reflection does not by itself establish that the target crystal phase is absent."
+        }
+      ],
+      "answers": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explanation": "A 对：DF只接受所选衍射束的一部分电子，信号弱可来自收集条件，而非仪器或样品一定出了问题。\nB 对：课件将较长采集列为弱DF信号的代价；同时应注意照射和观察时间可能带来的样品变化。\nC 对：BF适合概览、尺寸与形状，DF则提供反射选择下的晶体学对比，两者可互补使用。\nD 对：同一晶相的不同取向不一定都满足当前选定反射，单张弱或暗的DF像不足以证明该相不存在。\n\n重点词：signal collection（信号收集）；selected reflection（选定反射）；acquisition trade-off（采集取舍）。\n逻辑链：选束提高选择性但减少被收集电子 → 需要在信号、采集时间与样品稳定性之间取舍 → 先检查成像条件，再判断结构是否存在。",
+      "source": {
+        "file": "TEM",
+        "page": "PDF pp. 41, 48, 50–51"
+      },
+      "difficulty": "进阶",
+      "batch": "新增应用题"
     }
   ]
 }

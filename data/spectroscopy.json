@@ -1037,6 +1037,148 @@
         "page": "PDF pp. 22, 24, 25, 42"
       },
       "difficulty": "进阶"
+    },
+    {
+      "id": "SPEC-031",
+      "chapter": "Electron Spectroscopy",
+      "type": "multiple",
+      "prompt": "The beam remains on a small particle in a different matrix. A matrix-element EDS line becomes stronger at higher beam energy. Which interpretation is justified?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A larger X-ray-generation region may sample more of the surrounding matrix."
+        },
+        {
+          "id": "B",
+          "text": "The intensity change proves that matrix atoms have diffused into the particle."
+        },
+        {
+          "id": "C",
+          "text": "Keeping the surface beam position fixed guarantees an unchanged chemical sampling volume."
+        },
+        {
+          "id": "D",
+          "text": "Switching to narrower WDS peaks alone removes any matrix contribution caused by lateral electron spreading."
+        }
+      ],
+      "answers": [
+        "A"
+      ],
+      "explanation": "A（正确）：提高束能可使电子在块体中的相互作用区域变大，来自邻近基体的X射线贡献因此可能增加。B（错误）：信号增强还可由采样区域改变解释，不能仅凭此证明发生了原子扩散或真实成分变化。C（错误）：固定表面落点不代表电子在样品内部的散射范围不变。D（错误）：WDS主要改善谱线的能量分离，不能仅靠峰变窄就消除空间采样混合。\n\n重点词：interaction volume（相互作用体积）；sampling region（采样区域）；matrix contribution（基体贡献）。\n逻辑链：束能提高 → X射线产生区域可能横向扩展 → 邻近基体贡献增加；先排查采样效应，再推断真实成分变化。",
+      "source": {
+        "file": "Electron Spectroscopy; Aberration-corrected STEM",
+        "page": "Spectroscopy PDF pp.25,34–37; STEM PDF p.6"
+      },
+      "difficulty": "进阶",
+      "batch": "新增应用题"
+    },
+    {
+      "id": "SPEC-032",
+      "chapter": "Electron Spectroscopy",
+      "type": "multiple",
+      "prompt": "Two regions show the same elements in EDS, but their bonding or ionic states may differ. Which follow-up reasoning is appropriate?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Matching elemental identities in EDS guarantees identical ionic states in both regions."
+        },
+        {
+          "id": "B",
+          "text": "Compare the core-loss EELS edge fine structures for information about the local chemical states."
+        },
+        {
+          "id": "C",
+          "text": "The same element can show different EELS edge shapes when its local available electronic states differ."
+        },
+        {
+          "id": "D",
+          "text": "Any change in EELS edge shape must indicate an additional element rather than a changed chemical environment."
+        }
+      ],
+      "answers": [
+        "B",
+        "C"
+      ],
+      "explanation": "A（错误）：元素身份与离子价态不是同一个信息层次，相同元素可处于不同局部化学环境。B（正确）：核心损失EELS的边细结构能够提供元素身份之外的价态或键合信息。C（正确）：课件将边形与局部可用电子态联系，同一元素在不同价态下可有不同细结构。D（错误）：边形改变也可能来自同一元素的化学环境变化，不能直接当作新增元素。\n\n重点词：elemental identity（元素身份）；edge fine structure（边细结构）；chemical state（化学状态）。\n逻辑链：EDS确认有哪些元素 → 化学态问题仍可能未解决 → 检查EELS边细结构与局部可用态的变化。",
+      "source": {
+        "file": "Electron Spectroscopy; Aberration-corrected STEM",
+        "page": "Spectroscopy PDF pp.44–48; STEM PDF pp.3,7"
+      },
+      "difficulty": "进阶",
+      "batch": "新增应用题"
+    },
+    {
+      "id": "SPEC-033",
+      "chapter": "Electron Spectroscopy",
+      "type": "multiple",
+      "prompt": "The same specimen is examined by EDXRF and electron-beam EDS. Which comparisons are physically justified?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The same characteristic transition can give the same photon energy even when the incident excitation differs."
+        },
+        {
+          "id": "B",
+          "text": "Agreement of characteristic line positions does not require the two methods to use the same incident beam."
+        },
+        {
+          "id": "C",
+          "text": "Raw photon intensities should not be assumed directly comparable when excitation and measurement conditions differ."
+        },
+        {
+          "id": "D",
+          "text": "Vacuum, specimen-damage and portability constraints still matter when choosing between methods that detect similar characteristic X-rays."
+        }
+      ],
+      "answers": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explanation": "A（正确）：特征X射线由原子能级间跃迁产生，课件说明X射线或高能电子激发都可产生相同的特征线。B（正确）：发射线位置一致不等于激发源相同；EDXRF用入射X射线，EDS用电子束。C（正确）：激发、吸收和收集条件都影响测到的强度，不能由线位置相同就把原始峰高直接等同。D（正确）：老师Tutorial强调，便携、所需真空和电子束敏感性可决定何时选EDXRF。\n\n重点词：excitation（激发）；characteristic emission（特征发射）；measurement conditions（测量条件）。\n逻辑链：不同激发方式可产生相同核心空穴 → 相同特征跃迁可给出相同线位置 → 但强度解释与适用条件仍需分别判断。",
+      "source": {
+        "file": "Electron Spectroscopy; Aberration-corrected STEM",
+        "page": "Spectroscopy PDF pp.18,24–25,52; STEM PDF p.8"
+      },
+      "difficulty": "进阶",
+      "batch": "新增应用题"
+    },
+    {
+      "id": "SPEC-034",
+      "chapter": "Electron Spectroscopy",
+      "type": "multiple",
+      "prompt": "An extra EDS feature is strongly count-rate dependent, and a possible silicon-detector escape feature is also present. Which distinctions are correct?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Reducing the photon arrival rate can reduce the probability that separate photon pulses overlap."
+        },
+        {
+          "id": "B",
+          "text": "A sum feature is produced when part of a single photon event escapes from the detector."
+        },
+        {
+          "id": "C",
+          "text": "A detector escape event can record less deposited energy without combining separate sample photons."
+        },
+        {
+          "id": "D",
+          "text": "Neither a count-rate-related sum feature nor a detector escape feature should automatically be assigned to a new specimen element."
+        }
+      ],
+      "answers": [
+        "A",
+        "C",
+        "D"
+      ],
+      "explanation": "A（正确）：到达率下降使相近时间内的独立事件更少重叠，可减轻脉冲堆积和求和峰。B（错误）：这描述的是能量逃逸机制；求和峰来自不同光子事件被合并计数。C（正确）：逃逸峰中，一次入射事件的部分能量以探测器内部产生的X射线逃出，记录的沉积能量因此降低。D（正确）：两类特征都可能由检测过程产生，应先检查仪器伪峰再作元素赋值。\n\n重点词：pulse pile-up（脉冲堆积）；sum peak（求和峰）；escape peak（逃逸峰）。\n逻辑链：先区分多个事件叠加与单事件能量逃逸 → 用计数率变化及谱形关系检查机制 → 避免把探测器伪峰当作样品新元素。",
+      "source": {
+        "file": "Electron Spectroscopy",
+        "page": "PDF pp.31,40–41"
+      },
+      "difficulty": "进阶",
+      "batch": "新增应用题"
     }
   ]
 }
